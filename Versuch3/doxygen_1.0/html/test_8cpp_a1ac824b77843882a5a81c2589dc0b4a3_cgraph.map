@@ -1,0 +1,7 @@
+<map id="zugAusfuehrenTest" name="zugAusfuehrenTest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,139,57"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#ace1027b2745225e26a5ffb243cf24a15" title="Ausgabe des Spielfelds auf der Konsole." alt="" coords="190,5,292,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,31,174,26,175,31,139,37"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a7034afa60f015a8ab6c0b836d316d4a4" title="Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子" alt="" coords="187,56,295,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,51,171,56,171,62,139,57"/>
+</map>

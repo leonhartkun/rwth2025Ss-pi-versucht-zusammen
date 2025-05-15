@@ -1,0 +1,5 @@
+<map id="aufSpielfeldTest" name="aufSpielfeldTest">
+<area shape="rect" id="Node000001" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#a6ded08a0017d5e8a5909d8ce403058fa" title="Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind." alt="" coords="168,5,257,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,16,152,16,152,21,120,21"/>
+</map>

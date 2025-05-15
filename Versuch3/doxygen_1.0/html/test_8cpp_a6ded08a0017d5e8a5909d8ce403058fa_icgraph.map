@@ -1,0 +1,9 @@
+<map id="aufSpielfeld" name="aufSpielfeld">
+<area shape="rect" id="Node000001" title="Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind." alt="" coords="467,5,557,32"/>
+<area shape="rect" id="Node000002" href="$test_8cpp.html#abed33357222cced27f6a71dfcef7f0dc" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="305,5,419,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="452,21,420,21,420,16,452,16"/>
+<area shape="rect" id="Node000003" href="$test_8cpp.html#a9c8c940467219dd9a3a51312c61bcf83" title="Funktion, die alle Tests ausfuehrt." alt="" coords="103,5,257,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="289,21,257,21,257,16,289,16"/>
+<area shape="rect" id="Node000004" href="$othello_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

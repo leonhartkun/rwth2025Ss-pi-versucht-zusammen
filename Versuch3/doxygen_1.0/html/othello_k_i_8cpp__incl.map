@@ -1,0 +1,9 @@
+<map id="othelloKI.cpp" name="othelloKI.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="49,5,146,32"/>
+<area shape="rect" id="Node000002" href="$othello_k_i_8h.html" title=" " alt="" coords="5,80,89,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,34,66,69,62,66,87,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="113,80,184,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,31,133,66,129,69,104,34"/>
+<area shape="rect" id="Node000003" href="$config_8h.html" title=" " alt="" coords="13,155,81,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="50,107,50,139,44,139,44,107"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="zugAusfuehren" name="zugAusfuehren">
+<area shape="rect" id="Node000001" title="Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子" alt="" coords="486,56,595,83"/>
+<area shape="rect" id="Node000002" href="$othello_k_i_8cpp.html#a5e5980177c60019445f26e3e61b50c51" title=" " alt="" coords="323,5,420,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="478,54,418,35,419,30,480,49"/>
+<area shape="rect" id="Node000005" href="$othello_8cpp.html#ae44cf481fe71ebc30511c76190e6bc5d" title=" " alt="" coords="312,56,432,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="470,72,432,72,432,67,470,67"/>
+<area shape="rect" id="Node000006" href="$test_8cpp.html#a1ac824b77843882a5a81c2589dc0b4a3" title=" " alt="" coords="305,107,438,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="480,90,419,109,418,104,478,85"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a596345e24a803c4d6cc0880cdd9c6788" title=" " alt="" coords="149,56,211,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="309,38,212,64,210,59,307,33"/>
+<area shape="rect" id="Node000004" href="$othello_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,55,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,80,55,93,55,88,133,75"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="296,72,211,72,211,67,296,67"/>
+<area shape="rect" id="Node000007" href="$test_8cpp.html#a9c8c940467219dd9a3a51312c61bcf83" title="Funktion, die alle Tests ausfuehrt." alt="" coords="103,107,257,133"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="290,123,257,123,257,117,290,117"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="87,107,55,101,56,96,88,102"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ListenElement::getNext" name="ListenElement::getNext">
+<area shape="rect" id="Node000001" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das nächste Element zurück" alt="" coords="315,5,473,32"/>
+<area shape="rect" id="Node000002" href="$class_liste.html#a34bc1c9c56b6f484413043b5219eac3a" title="从前向后输出整个链表的学生信息 Gibt alle Studentendaten der Liste von vorne nach hinten aus" alt="" coords="103,5,267,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,21,268,21,268,16,300,16"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

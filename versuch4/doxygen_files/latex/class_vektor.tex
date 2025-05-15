@@ -1,0 +1,336 @@
+\doxysection{Vektor Class Reference}
+\hypertarget{class_vektor}{}\label{class_vektor}\index{Vektor@{Vektor}}
+
+
+Repräsentiert einen \doxylink{class_vektor}{Vektor} im dreidimensionalen Raum.  
+
+
+
+
+{\ttfamily \#include $<$Vektor.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vektor_a744b4980d331af082c08890ff2e4a857}{Vektor}} (double x, double y, double z)
+\begin{DoxyCompactList}\small\item\em Konstruktor mit x-\/, y-\/, z-\/\+Komponenten. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vektor_a66e8e932c4e2df23b5a1d4c4764ce9d2}{\texorpdfstring{$\sim$}{\string~}\+Vektor}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vektor_aa3c41759f0a472327a8970878234675a}{ausgabe}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Vektorkomponenten auf der Konsole aus. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vektor}{Vektor}} \mbox{\hyperlink{class_vektor_a9e095d5d627ad26c7c2d6f227567e731}{sub}} (const \mbox{\hyperlink{class_vektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Berechnet die Differenz zu einem anderen \doxylink{class_vektor}{Vektor}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_a7e0b4c5110595bc81c8824e735af99aa}{laenge}} () const
+\begin{DoxyCompactList}\small\item\em Berechnet die Länge (Betrag) des Vektors. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477}{skalar\+Prod}} (const \mbox{\hyperlink{class_vektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Berechnet das Skalarprodukt mit einem anderen \doxylink{class_vektor}{Vektor}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5}{winkel}} (const \mbox{\hyperlink{class_vektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Berechnet den Winkel (in Grad) zwischen zwei Vektoren. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b}{rotiere\+UmZ}} (const double rad)
+\begin{DoxyCompactList}\small\item\em Rotiert den \doxylink{class_vektor}{Vektor} um die Z-\/\+Achse. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_ad1864a78b96956dc7f504bba9b39af45}{getX}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die X-\/\+Komponente zurück. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_a93d6584667064c7e3abc9d42b529db93}{getY}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Y-\/\+Komponente zurück. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_vektor_aaef4681c5b2ce1348685eb4cd89bd9b2}{getZ}} () const
+\begin{DoxyCompactList}\small\item\em Gibt die Z-\/\+Komponente zurück. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Repräsentiert einen \doxylink{class_vektor}{Vektor} im dreidimensionalen Raum. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vektor_a744b4980d331af082c08890ff2e4a857}\index{Vektor@{Vektor}!Vektor@{Vektor}}
+\index{Vektor@{Vektor}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{Vektor()}{Vektor()}}
+{\footnotesize\ttfamily \label{class_vektor_a744b4980d331af082c08890ff2e4a857} 
+Vektor\+::\+Vektor (\begin{DoxyParamCaption}\item[{double}]{inX}{, }\item[{double}]{inY}{, }\item[{double}]{inZ}{}\end{DoxyParamCaption})}
+
+
+
+Konstruktor mit x-\/, y-\/, z-\/\+Komponenten. 
+
+Konstruktor\+: Initialisiert den \doxylink{class_vektor}{Vektor} mit x-\/, y-\/ und z-\/\+Komponenten.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X-\/\+Komponente \\
+\hline
+{\em y} & Y-\/\+Komponente \\
+\hline
+{\em z} & Z-\/\+Komponente\\
+\hline
+{\em inX} & X-\/\+Komponente \\
+\hline
+{\em inY} & Y-\/\+Komponente \\
+\hline
+{\em inZ} & Z-\/\+Komponente \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a66e8e932c4e2df23b5a1d4c4764ce9d2}\index{Vektor@{Vektor}!````~Vektor@{\texorpdfstring{$\sim$}{\string~}Vektor}}
+\index{````~Vektor@{\texorpdfstring{$\sim$}{\string~}Vektor}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Vektor()}{\string~Vektor()}}
+{\footnotesize\ttfamily \label{class_vektor_a66e8e932c4e2df23b5a1d4c4764ce9d2} 
+Vektor\+::\texorpdfstring{$\sim$}{\string~}\+Vektor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destruktor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vektor_aa3c41759f0a472327a8970878234675a}\index{Vektor@{Vektor}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily \label{class_vektor_aa3c41759f0a472327a8970878234675a} 
+void Vektor\+::ausgabe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gibt die Vektorkomponenten auf der Konsole aus. 
+
+Gibt die Komponenten des Vektors auf der Konsole aus. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{class_vektor_aa3c41759f0a472327a8970878234675a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_ad1864a78b96956dc7f504bba9b39af45}\index{Vektor@{Vektor}!getX@{getX}}
+\index{getX@{getX}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily \label{class_vektor_ad1864a78b96956dc7f504bba9b39af45} 
+double Vektor\+::getX (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gibt die X-\/\+Komponente zurück. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a93d6584667064c7e3abc9d42b529db93}\index{Vektor@{Vektor}!getY@{getY}}
+\index{getY@{getY}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily \label{class_vektor_a93d6584667064c7e3abc9d42b529db93} 
+double Vektor\+::getY (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gibt die Y-\/\+Komponente zurück. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_aaef4681c5b2ce1348685eb4cd89bd9b2}\index{Vektor@{Vektor}!getZ@{getZ}}
+\index{getZ@{getZ}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{getZ()}{getZ()}}
+{\footnotesize\ttfamily \label{class_vektor_aaef4681c5b2ce1348685eb4cd89bd9b2} 
+double Vektor\+::getZ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gibt die Z-\/\+Komponente zurück. 
+
+\Hypertarget{class_vektor_a7e0b4c5110595bc81c8824e735af99aa}\index{Vektor@{Vektor}!laenge@{laenge}}
+\index{laenge@{laenge}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{laenge()}{laenge()}}
+{\footnotesize\ttfamily \label{class_vektor_a7e0b4c5110595bc81c8824e735af99aa} 
+double Vektor\+::laenge (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Berechnet die Länge (Betrag) des Vektors. 
+
+Berechnet die Länge (Betrag) des Vektors und gibt diese auf der Konsole aus.
+
+\begin{DoxyReturn}{Returns}
+Länge des Vektors 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b}\index{Vektor@{Vektor}!rotiereUmZ@{rotiereUmZ}}
+\index{rotiereUmZ@{rotiereUmZ}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{rotiereUmZ()}{rotiereUmZ()}}
+{\footnotesize\ttfamily \label{class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b} 
+void Vektor\+::rotiere\+UmZ (\begin{DoxyParamCaption}\item[{const double}]{rad}{}\end{DoxyParamCaption})}
+
+
+
+Rotiert den \doxylink{class_vektor}{Vektor} um die Z-\/\+Achse. 
+
+Rotiert den \doxylink{class_vektor}{Vektor} um die Z-\/\+Achse im Uhrzeigersinn.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rad} & Winkel im Bogenmaß\\
+\hline
+{\em rad} & Rotationswinkel im Bogenmaß (Radian) \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477}\index{Vektor@{Vektor}!skalarProd@{skalarProd}}
+\index{skalarProd@{skalarProd}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{skalarProd()}{skalarProd()}}
+{\footnotesize\ttfamily \label{class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477} 
+double Vektor\+::skalar\+Prod (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vektor}{Vektor}} \&}]{input}{}\end{DoxyParamCaption}) const}
+
+
+
+Berechnet das Skalarprodukt mit einem anderen \doxylink{class_vektor}{Vektor}. 
+
+Berechnet das Skalarprodukt (inneres Produkt) mit einem anderen \doxylink{class_vektor}{Vektor}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der andere \doxylink{class_vektor}{Vektor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Skalarprodukt
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der andere \doxylink{class_vektor}{Vektor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Das Skalarprodukt 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a9e095d5d627ad26c7c2d6f227567e731}\index{Vektor@{Vektor}!sub@{sub}}
+\index{sub@{sub}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{sub()}{sub()}}
+{\footnotesize\ttfamily \label{class_vektor_a9e095d5d627ad26c7c2d6f227567e731} 
+\mbox{\hyperlink{class_vektor}{Vektor}} Vektor\+::sub (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vektor}{Vektor}} \&}]{input}{}\end{DoxyParamCaption}) const}
+
+
+
+Berechnet die Differenz zu einem anderen \doxylink{class_vektor}{Vektor}. 
+
+Berechnet die Differenz zwischen dem aktuellen \doxylink{class_vektor}{Vektor} und einem Eingabevektor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der andere \doxylink{class_vektor}{Vektor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ein neuer \doxylink{class_vektor}{Vektor} (this -\/ input)
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der \doxylink{class_vektor}{Vektor}, der abgezogen wird. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Neuer \doxylink{class_vektor}{Vektor} mit der Differenz 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5}\index{Vektor@{Vektor}!winkel@{winkel}}
+\index{winkel@{winkel}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{winkel()}{winkel()}}
+{\footnotesize\ttfamily \label{class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5} 
+double Vektor\+::winkel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vektor}{Vektor}} \&}]{input}{}\end{DoxyParamCaption}) const}
+
+
+
+Berechnet den Winkel (in Grad) zwischen zwei Vektoren. 
+
+Berechnet den Winkel (in Grad) zwischen diesem \doxylink{class_vektor}{Vektor} und einem anderen.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der andere \doxylink{class_vektor}{Vektor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Winkel in Grad
+\end{DoxyReturn}
+Gibt bei fehlerhaften Eingaben (z.\+ B. Nullvektor) 0 zurück. Es wird sichergestellt, dass der Wert für acos im gültigen Bereich liegt.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & Der andere \doxylink{class_vektor}{Vektor} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Winkel in Grad 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_vektor_8h}{Vektor.\+h}}\item 
+\mbox{\hyperlink{_vektor_8cpp}{Vektor.\+cpp}}\end{DoxyCompactItemize}

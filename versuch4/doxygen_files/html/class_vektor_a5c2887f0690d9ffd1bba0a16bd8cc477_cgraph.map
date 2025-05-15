@@ -1,0 +1,5 @@
+<map id="Vektor::skalarProd" name="Vektor::skalarProd">
+<area shape="rect" id="Node000001" title="Berechnet das Skalarprodukt mit einem anderen Vektor." alt="" coords="5,5,134,32"/>
+<area shape="rect" id="Node000002" href="$class_vektor.html#a744b4980d331af082c08890ff2e4a857" title="Konstruktor mit x&#45;, y&#45;, z&#45;Komponenten." alt="" coords="182,5,285,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,16,166,16,166,21,134,21"/>
+</map>

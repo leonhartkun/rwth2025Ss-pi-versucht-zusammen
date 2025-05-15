@@ -1,0 +1,335 @@
+\doxysection{othello.\+cpp File Reference}
+\hypertarget{othello_8cpp}{}\label{othello_8cpp}\index{othello.cpp@{othello.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include "{}config.\+h"{}}\newline
+{\ttfamily \#include "{}test.\+h"{}}\newline
+{\ttfamily \#include "{}othello\+KI.\+h"{}}\newline
+Include dependency graph for othello.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}~8
+\item 
+\#define \mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}~8
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc}{initialisiere\+Spielfeld}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funktion zur ersten Initialisierung eines neuen Spielfelds. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{othello_8cpp_ace1027b2745225e26a5ffb243cf24a15}{zeige\+Spielfeld}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ausgabe des Spielfelds auf der Konsole. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}{gewinner}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]})
+\begin{DoxyCompactList}\small\item\em Prueft, wer Gewinner ist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld}} (const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{othello_8cpp_a0f17ff75622987b979767417e76164a0}{zug\+Gueltig}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}{zug\+Ausfuehren}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{othello_8cpp_a8cf3121558de67463e88957becd116d1}{moegliche\+Zuege}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\begin{DoxyCompactList}\small\item\em Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d}{menschlicher\+Zug}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\item 
+void \mbox{\hyperlink{othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788}{spielen}} (const int spieler\+Typ\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}\index{othello.cpp@{othello.cpp}!GROESSE\_X@{GROESSE\_X}}
+\index{GROESSE\_X@{GROESSE\_X}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{GROESSE\_X}{GROESSE\_X}}
+{\footnotesize\ttfamily \label{othello_8cpp_a3322848d058541586acfd1cfaf34d1de} 
+\#define GROESSE\+\_\+X~8}
+
+\Hypertarget{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}\index{othello.cpp@{othello.cpp}!GROESSE\_Y@{GROESSE\_Y}}
+\index{GROESSE\_Y@{GROESSE\_Y}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{GROESSE\_Y}{GROESSE\_Y}}
+{\footnotesize\ttfamily \label{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b} 
+\#define GROESSE\+\_\+Y~8}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}\index{othello.cpp@{othello.cpp}!aufSpielfeld@{aufSpielfeld}}
+\index{aufSpielfeld@{aufSpielfeld}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{aufSpielfeld()}{aufSpielfeld()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa} 
+bool auf\+Spielfeld (\begin{DoxyParamCaption}\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})}
+
+
+
+Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posX} & Index fuer die Spalte \\
+\hline
+{\em posY} & Index fuer die Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn Spalte und Zeile innerhalb des Spielfelds sind, sonst false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}\index{othello.cpp@{othello.cpp}!gewinner@{gewinner}}
+\index{gewinner@{gewinner}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{gewinner()}{gewinner()}}
+{\footnotesize\ttfamily \label{othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e} 
+int gewinner (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}}\end{DoxyParamCaption})}
+
+
+
+Prueft, wer Gewinner ist. 
+
+Zaehlt alle Steine auf dem Feld
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Aktuelles Spielfeld, fuer das der Gewinner ermittelt wird \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+winner 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc}\index{othello.cpp@{othello.cpp}!initialisiereSpielfeld@{initialisiereSpielfeld}}
+\index{initialisiereSpielfeld@{initialisiereSpielfeld}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{initialisiereSpielfeld()}{initialisiereSpielfeld()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc} 
+void initialisiere\+Spielfeld (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}}\end{DoxyParamCaption})}
+
+
+
+Funktion zur ersten Initialisierung eines neuen Spielfelds. 
+
+Diese Funktion fuellt ein existierendes Spielfeld mit Nullen und erzeugt die Startaufstellung.
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Spielfeld, das initialisiert wird \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{othello.cpp@{othello.cpp}!main@{main}}
+\index{main@{main}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+main function\+: the begin of the programm, first run the test programm and then use the spiele function 主函数 程序的开始 先运行test.\+cpp然后使用"{}spiele"{}函数 \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d}\index{othello.cpp@{othello.cpp}!menschlicherZug@{menschlicherZug}}
+\index{menschlicherZug@{menschlicherZug}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{menschlicherZug()}{menschlicherZug()}}
+{\footnotesize\ttfamily \label{othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d} 
+bool menschlicher\+Zug (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der Spieler, fuer den die Zuege geprueft werden 当前玩家（1或2） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn der menschlicher zug gueltig sind, sonst false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_a8cf3121558de67463e88957becd116d1}\index{othello.cpp@{othello.cpp}!moeglicheZuege@{moeglicheZuege}}
+\index{moeglicheZuege@{moeglicheZuege}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{moeglicheZuege()}{moeglicheZuege()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a8cf3121558de67463e88957becd116d1} 
+int moegliche\+Zuege (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{}\end{DoxyParamCaption})}
+
+
+
+Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der Spieler, fuer den die Zuege geprueft werden 当前玩家（1或2） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Anzahl gueltiger Zuege 所有可落子的数量 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788}\index{othello.cpp@{othello.cpp}!spielen@{spielen}}
+\index{spielen@{spielen}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{spielen()}{spielen()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788} 
+void spielen (\begin{DoxyParamCaption}\item[{const int}]{spieler\+Typ}{\mbox{[}2\mbox{]}}\end{DoxyParamCaption})}
+
+um die Spiele zu laufen computer 2 computer or computer 2 mensch 运行程序 电脑对电脑或者人和电脑下
+
+
+\begin{DoxyParams}{Parameters}
+{\em spieler\+Typ} & MENSCH oder COMPUTER \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_ace1027b2745225e26a5ffb243cf24a15}\index{othello.cpp@{othello.cpp}!zeigeSpielfeld@{zeigeSpielfeld}}
+\index{zeigeSpielfeld@{zeigeSpielfeld}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{zeigeSpielfeld()}{zeigeSpielfeld()}}
+{\footnotesize\ttfamily \label{othello_8cpp_ace1027b2745225e26a5ffb243cf24a15} 
+void zeige\+Spielfeld (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}}\end{DoxyParamCaption})}
+
+
+
+Ausgabe des Spielfelds auf der Konsole. 
+
+Ausgabe des aktuellen Spielfelds, 0 bedeutet leeres Feld, 1 ist Spieler 1 und 2 ist Spieler2 Kreuze symbolisieren Spieler 1, waehrend Kreise Spieler 2 symbolisieren
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Spielfeld, das ausgeben wird \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}\index{othello.cpp@{othello.cpp}!zugAusfuehren@{zugAusfuehren}}
+\index{zugAusfuehren@{zugAusfuehren}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{zugAusfuehren()}{zugAusfuehren()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4} 
+void zug\+Ausfuehren (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})}
+
+
+
+Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler 当前玩家（1=黑, 2=白） \\
+\hline
+{\em posX} & Die aktuelle Spalte 落子列 \\
+\hline
+{\em posY} & Die aktuelle Zeile 落子行 \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_8cpp_a0f17ff75622987b979767417e76164a0}\index{othello.cpp@{othello.cpp}!zugGueltig@{zugGueltig}}
+\index{zugGueltig@{zugGueltig}!othello.cpp@{othello.cpp}}
+\doxysubsubsection{\texorpdfstring{zugGueltig()}{zugGueltig()}}
+{\footnotesize\ttfamily \label{othello_8cpp_a0f17ff75622987b979767417e76164a0} 
+bool zug\+Gueltig (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})}
+
+
+
+Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. 
+
+Ueberprueft, ob auf einem benachbarten Feld ein gegnerischer Stein liegt. Wenn ja, wird diese Richtung solange untersucht, bis ein eigener Stein gefunden wird. Wird vorher der Spielfeldrand erreicht oder ein leeres Feld gefunden, wird false zurueckgegeben, sonst true
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Zu ueberpruefende Spalte \\
+\hline
+{\em posY} & Zu ueberpruefende Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn zug gueltig sind, sonst false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph}
+\end{center}
+\end{figure}

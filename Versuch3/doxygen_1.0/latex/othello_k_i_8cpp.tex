@@ -1,0 +1,150 @@
+\doxysection{othello\+KI.\+cpp File Reference}
+\hypertarget{othello_k_i_8cpp}{}\label{othello_k_i_8cpp}\index{othelloKI.cpp@{othelloKI.cpp}}
+{\ttfamily \#include "{}othello\+KI.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for othello\+KI.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{othello_k_i_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1}{moegliche\+Zuege}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\begin{DoxyCompactList}\small\item\em Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}{zug\+Ausfuehren}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0}{zug\+Gueltig}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51}{computer\+Zug}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Praktikum Informatik 1
+
+Stellt eine KI fuer das Spiel Othello zur Verfuegung 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51}\index{othelloKI.cpp@{othelloKI.cpp}!computerZug@{computerZug}}
+\index{computerZug@{computerZug}!othelloKI.cpp@{othelloKI.cpp}}
+\doxysubsubsection{\texorpdfstring{computerZug()}{computerZug()}}
+{\footnotesize\ttfamily \label{othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51} 
+bool computer\+Zug (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{}\end{DoxyParamCaption})}
+
+KI selbst spielen 人工智能自动下棋
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & der jetztige spielfeld 目前的棋盘 \\
+\hline
+{\em aktueller\+Spieler} & aktueller\+Spieler 现在的棋手 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn die programm spielfeld fertige geschrieben hat, sonst false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1}\index{othelloKI.cpp@{othelloKI.cpp}!moeglicheZuege@{moeglicheZuege}}
+\index{moeglicheZuege@{moeglicheZuege}!othelloKI.cpp@{othelloKI.cpp}}
+\doxysubsubsection{\texorpdfstring{moeglicheZuege()}{moeglicheZuege()}}
+{\footnotesize\ttfamily \label{othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1} 
+int moegliche\+Zuege (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der Spieler, fuer den die Zuege geprueft werden 当前玩家（1或2） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Anzahl gueltiger Zuege 所有可落子的数量 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}\index{othelloKI.cpp@{othelloKI.cpp}!zugAusfuehren@{zugAusfuehren}}
+\index{zugAusfuehren@{zugAusfuehren}!othelloKI.cpp@{othelloKI.cpp}}
+\doxysubsubsection{\texorpdfstring{zugAusfuehren()}{zugAusfuehren()}}
+{\footnotesize\ttfamily \label{othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4} 
+void zug\+Ausfuehren (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler 当前玩家（1=黑, 2=白） \\
+\hline
+{\em posX} & Die aktuelle Spalte 落子列 \\
+\hline
+{\em posY} & Die aktuelle Zeile 落子行 \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0}\index{othelloKI.cpp@{othelloKI.cpp}!zugGueltig@{zugGueltig}}
+\index{zugGueltig@{zugGueltig}!othelloKI.cpp@{othelloKI.cpp}}
+\doxysubsubsection{\texorpdfstring{zugGueltig()}{zugGueltig()}}
+{\footnotesize\ttfamily \label{othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0} 
+bool zug\+Gueltig (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. 
+
+Ueberprueft, ob auf einem benachbarten Feld ein gegnerischer Stein liegt. Wenn ja, wird diese Richtung solange untersucht, bis ein eigener Stein gefunden wird. Wird vorher der Spielfeldrand erreicht oder ein leeres Feld gefunden, wird false zurueckgegeben, sonst true
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Zu ueberpruefende Spalte \\
+\hline
+{\em posY} & Zu ueberpruefende Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn zug gueltig sind, sonst false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph}
+\end{center}
+\end{figure}

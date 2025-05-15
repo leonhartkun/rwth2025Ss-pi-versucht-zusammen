@@ -1,0 +1,6 @@
+<map id="ListenElement::setNext" name="ListenElement::setNext">
+<area shape="rect" id="Node000001" title="设置指向下一个节点的指针 / Setzt den Zeiger auf das nächste Element" alt="" coords="5,29,164,56"/>
+<area shape="rect" id="Node000002" href="$class_listen_element.html#a18c45f3902f8b3aacd4e977fe0cc0f92" title="构造函数，初始化数据和指针 Konstruktor zur Initialisierung von Daten und Zeiger" alt="" coords="212,29,407,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,40,196,40,196,45,164,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="271,30,265,21,269,11,285,5,309,3,336,5,350,12,348,17,335,10,309,8,286,10,273,15,270,20,276,27"/>
+</map>

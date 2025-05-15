@@ -1,0 +1,442 @@
+\doxysection{test.\+cpp File Reference}
+\hypertarget{test_8cpp}{}\label{test_8cpp}\index{test.cpp@{test.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}config.\+h"{}}\newline
+{\ttfamily \#include "{}test.\+h"{}}\newline
+Include dependency graph for test.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{test_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{test_8cpp_ace1027b2745225e26a5ffb243cf24a15}{zeige\+Spielfeld}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ausgabe des Spielfelds auf der Konsole. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}{gewinner}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]})
+\begin{DoxyCompactList}\small\item\em Prueft, wer Gewinner ist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld}} (const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c}{zug\+Gueltig}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int player, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test_8cpp_a9a96d91998389b5b92ae11bee6382caa}{zug\+Ausfuehren}} (int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int player, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca}{moegliche\+Zuege}} (const int spielfeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int player)
+\begin{DoxyCompactList}\small\item\em Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f}{gewinner\+Test}} (const int eingabefeld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int richtig, const int test\+Nummer)
+\begin{DoxyCompactList}\small\item\em Funktion zum Testen der \doxylink{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}{gewinner()} Funktion. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_abed33357222cced27f6a71dfcef7f0dc}{auf\+Spielfeld\+Test}} (const int posX, const int posY, const bool richtig, const int test\+Nummer)
+\begin{DoxyCompactList}\small\item\em Funktion zum Testen der \doxylink{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld()} Funktion. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_a07b607020a2ae0bc390922f6b1010d7e}{zug\+Gueltig\+Test}} (const int eingabe\+Feld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int spieler, const int posX, const int posY, const bool richtig, const int test\+Nummer)
+\begin{DoxyCompactList}\small\item\em Funktion zum Testen der \doxylink{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld()} Funktion. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3}{zug\+Ausfuehren\+Test}} (int eingabe\+Feld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int ergebnis\+Feld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int spieler, const int posX, const int posY, const int test\+Nummer)
+\item 
+bool \mbox{\hyperlink{test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b}{moegliche\+Zuege\+Test}} (const int eingabe\+Feld\mbox{[}\mbox{\hyperlink{othello_8cpp_ade6a6629eef71d4b84aaf7471964042b}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{othello_8cpp_a3322848d058541586acfd1cfaf34d1de}{GROESSE\+\_\+X}}\mbox{]}, const int spieler, const int richtig, const int test\+Nummer)
+\item 
+bool \mbox{\hyperlink{test_8cpp_a9c8c940467219dd9a3a51312c61bcf83}{ganzen\+Test\+Ausfuehren}} ()
+\begin{DoxyCompactList}\small\item\em Funktion, die alle Tests ausfuehrt. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Praktikum Informatik 1 MMXXV
+
+Stellt Funktionen zum Testen der Spielfunktionen zur Verfuegung 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}\index{test.cpp@{test.cpp}!aufSpielfeld@{aufSpielfeld}}
+\index{aufSpielfeld@{aufSpielfeld}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{aufSpielfeld()}{aufSpielfeld()}}
+{\footnotesize\ttfamily \label{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa} 
+bool auf\+Spielfeld (\begin{DoxyParamCaption}\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posX} & Index fuer die Spalte \\
+\hline
+{\em posY} & Index fuer die Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn Spalte und Zeile innerhalb des Spielfelds sind, sonst false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_abed33357222cced27f6a71dfcef7f0dc}\index{test.cpp@{test.cpp}!aufSpielfeldTest@{aufSpielfeldTest}}
+\index{aufSpielfeldTest@{aufSpielfeldTest}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{aufSpielfeldTest()}{aufSpielfeldTest()}}
+{\footnotesize\ttfamily \label{test_8cpp_abed33357222cced27f6a71dfcef7f0dc} 
+bool auf\+Spielfeld\+Test (\begin{DoxyParamCaption}\item[{const int}]{posX}{, }\item[{const int}]{posY}{, }\item[{const bool}]{richtig}{, }\item[{const int}]{test\+Nummer}{}\end{DoxyParamCaption})}
+
+
+
+Funktion zum Testen der \doxylink{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld()} Funktion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posX} & Index Spalte \\
+\hline
+{\em posY} & Index Zeile \\
+\hline
+{\em richtig} & Das erwartete Ergebnis \\
+\hline
+{\em test\+Nummer} & Nummer des laufenden Tests \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn Test bestanden, ansonsten false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_a9c8c940467219dd9a3a51312c61bcf83}\index{test.cpp@{test.cpp}!ganzenTestAusfuehren@{ganzenTestAusfuehren}}
+\index{ganzenTestAusfuehren@{ganzenTestAusfuehren}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{ganzenTestAusfuehren()}{ganzenTestAusfuehren()}}
+{\footnotesize\ttfamily \label{test_8cpp_a9c8c940467219dd9a3a51312c61bcf83} 
+bool ganzen\+Test\+Ausfuehren (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Funktion, die alle Tests ausfuehrt. 
+
+\begin{DoxyReturn}{Returns}
+True, wenn alle Tests bestanden wurden, ansonsten false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}\index{test.cpp@{test.cpp}!gewinner@{gewinner}}
+\index{gewinner@{gewinner}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{gewinner()}{gewinner()}}
+{\footnotesize\ttfamily \label{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e} 
+int gewinner (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Prueft, wer Gewinner ist. 
+
+Zaehlt alle Steine auf dem Feld
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Aktuelles Spielfeld, fuer das der Gewinner ermittelt wird \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+winner 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f}\index{test.cpp@{test.cpp}!gewinnerTest@{gewinnerTest}}
+\index{gewinnerTest@{gewinnerTest}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{gewinnerTest()}{gewinnerTest()}}
+{\footnotesize\ttfamily \label{test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f} 
+bool gewinner\+Test (\begin{DoxyParamCaption}\item[{const int}]{eingabefeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{richtig}{, }\item[{const int}]{test\+Nummer}{}\end{DoxyParamCaption})}
+
+
+
+Funktion zum Testen der \doxylink{test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e}{gewinner()} Funktion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em eingabefeld} & Das zu testende Spielfeld. \\
+\hline
+{\em richtig} & Der erwartete Gewinner. \\
+\hline
+{\em test\+Nummer} & Nummer des laufenden Tests \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn der berechnete Gewinner und der erwartete Gewinner uebereinstimmen. False ansonsten. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca}\index{test.cpp@{test.cpp}!moeglicheZuege@{moeglicheZuege}}
+\index{moeglicheZuege@{moeglicheZuege}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{moeglicheZuege()}{moeglicheZuege()}}
+{\footnotesize\ttfamily \label{test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca} 
+int moegliche\+Zuege (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der Spieler, fuer den die Zuege geprueft werden 当前玩家（1或2） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Anzahl gueltiger Zuege 所有可落子的数量 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b}\index{test.cpp@{test.cpp}!moeglicheZuegeTest@{moeglicheZuegeTest}}
+\index{moeglicheZuegeTest@{moeglicheZuegeTest}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{moeglicheZuegeTest()}{moeglicheZuegeTest()}}
+{\footnotesize\ttfamily \label{test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b} 
+bool moegliche\+Zuege\+Test (\begin{DoxyParamCaption}\item[{const int}]{eingabe\+Feld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{spieler}{, }\item[{const int}]{richtig}{, }\item[{const int}]{test\+Nummer}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em eingabe\+Feld} & Das zu testende Spielfeld. \\
+\hline
+{\em spieler} & .Der aktuelle Spieler \\
+\hline
+{\em richtig} & Das erwartete Ergebnis \\
+\hline
+{\em test\+Nummer} & Nummer des laufenden Tests \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn Test bestanden, ansonsten false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_ace1027b2745225e26a5ffb243cf24a15}\index{test.cpp@{test.cpp}!zeigeSpielfeld@{zeigeSpielfeld}}
+\index{zeigeSpielfeld@{zeigeSpielfeld}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{zeigeSpielfeld()}{zeigeSpielfeld()}}
+{\footnotesize\ttfamily \label{test_8cpp_ace1027b2745225e26a5ffb243cf24a15} 
+void zeige\+Spielfeld (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ausgabe des Spielfelds auf der Konsole. 
+
+Ausgabe des aktuellen Spielfelds, 0 bedeutet leeres Feld, 1 ist Spieler 1 und 2 ist Spieler2 Kreuze symbolisieren Spieler 1, waehrend Kreise Spieler 2 symbolisieren
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Spielfeld, das ausgeben wird \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_a9a96d91998389b5b92ae11bee6382caa}\index{test.cpp@{test.cpp}!zugAusfuehren@{zugAusfuehren}}
+\index{zugAusfuehren@{zugAusfuehren}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{zugAusfuehren()}{zugAusfuehren()}}
+{\footnotesize\ttfamily \label{test_8cpp_a9a96d91998389b5b92ae11bee6382caa} 
+void zug\+Ausfuehren (\begin{DoxyParamCaption}\item[{int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld 当前棋盘 \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler 当前玩家（1=黑, 2=白） \\
+\hline
+{\em posX} & Die aktuelle Spalte 落子列 \\
+\hline
+{\em posY} & Die aktuelle Zeile 落子行 \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3}\index{test.cpp@{test.cpp}!zugAusfuehrenTest@{zugAusfuehrenTest}}
+\index{zugAusfuehrenTest@{zugAusfuehrenTest}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{zugAusfuehrenTest()}{zugAusfuehrenTest()}}
+{\footnotesize\ttfamily \label{test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3} 
+bool zug\+Ausfuehren\+Test (\begin{DoxyParamCaption}\item[{int}]{eingabe\+Feld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{ergebnis\+Feld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{, }\item[{const int}]{test\+Nummer}{}\end{DoxyParamCaption})}
+
+um Funktion zug\+Ausfuehren zu testen
+
+
+\begin{DoxyParams}{Parameters}
+{\em eingabe\+Feld} & Das zu testende Spielfeld. \\
+\hline
+{\em ergebnis\+Feld} & Das ergebnise(erwartet) Spielfeld \\
+\hline
+{\em spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Index Spalte \\
+\hline
+{\em posY} & Index Zeile \\
+\hline
+{\em test\+Nummer} & Nummer des laufenden Tests \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn Test bestanden, ansonsten false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c}\index{test.cpp@{test.cpp}!zugGueltig@{zugGueltig}}
+\index{zugGueltig@{zugGueltig}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{zugGueltig()}{zugGueltig()}}
+{\footnotesize\ttfamily \label{test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c} 
+bool zug\+Gueltig (\begin{DoxyParamCaption}\item[{const int}]{spielfeld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{aktueller\+Spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. 
+
+Ueberprueft, ob auf einem benachbarten Feld ein gegnerischer Stein liegt. Wenn ja, wird diese Richtung solange untersucht, bis ein eigener Stein gefunden wird. Wird vorher der Spielfeldrand erreicht oder ein leeres Feld gefunden, wird false zurueckgegeben, sonst true
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Zu ueberpruefende Spalte \\
+\hline
+{\em posY} & Zu ueberpruefende Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, wenn zug gueltig sind, sonst false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{test_8cpp_a07b607020a2ae0bc390922f6b1010d7e}\index{test.cpp@{test.cpp}!zugGueltigTest@{zugGueltigTest}}
+\index{zugGueltigTest@{zugGueltigTest}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{zugGueltigTest()}{zugGueltigTest()}}
+{\footnotesize\ttfamily \label{test_8cpp_a07b607020a2ae0bc390922f6b1010d7e} 
+bool zug\+Gueltig\+Test (\begin{DoxyParamCaption}\item[{const int}]{eingabe\+Feld}{\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]}, }\item[{const int}]{spieler}{, }\item[{const int}]{posX}{, }\item[{const int}]{posY}{, }\item[{const bool}]{richtig}{, }\item[{const int}]{test\+Nummer}{}\end{DoxyParamCaption})}
+
+
+
+Funktion zum Testen der \doxylink{test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa}{auf\+Spielfeld()} Funktion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em eingabe\+Feld} & Das zu testende Spielfeld. \\
+\hline
+{\em spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Index Spalte \\
+\hline
+{\em posY} & Index Zeile \\
+\hline
+{\em richtig} & Das erwartete Ergebnis \\
+\hline
+{\em test\+Nummer} & Nummer des laufenden Tests \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn Test bestanden, ansonsten false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph}
+\end{center}
+\end{figure}

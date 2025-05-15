@@ -1,0 +1,9 @@
+<map id="computerZug" name="computerZug">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,103,83"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#a8cf3121558de67463e88957becd116d1" title="Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量" alt="" coords="151,5,267,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,53,150,35,152,40,98,58"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a7034afa60f015a8ab6c0b836d316d4a4" title="Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子" alt="" coords="155,56,263,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,67,139,67,139,72,103,72"/>
+<area shape="rect" id="Node000004" href="$othello_8cpp.html#a0f17ff75622987b979767417e76164a0" title="Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist." alt="" coords="167,107,250,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="98,81,153,99,152,104,96,86"/>
+</map>

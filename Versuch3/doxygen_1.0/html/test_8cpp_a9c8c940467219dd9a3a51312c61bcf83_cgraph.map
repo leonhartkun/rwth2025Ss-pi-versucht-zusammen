@@ -1,0 +1,29 @@
+<map id="ganzenTestAusfuehren" name="ganzenTestAusfuehren">
+<area shape="rect" id="Node000001" title="Funktion, die alle Tests ausfuehrt." alt="" coords="5,107,160,133"/>
+<area shape="rect" id="Node000002" href="$test_8cpp.html#abed33357222cced27f6a71dfcef7f0dc" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="221,5,336,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,104,149,74,206,42,219,36,222,41,209,46,152,78,105,108"/>
+<area shape="rect" id="Node000004" href="$test_8cpp.html#abd7dc9f35ce7c4d7c9bb5c8075c9722f" title="Funktion zum Testen der gewinner() Funktion." alt="" coords="229,56,328,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,103,213,83,215,88,138,109"/>
+<area shape="rect" id="Node000007" href="$test_8cpp.html#aa97a66b2a8d5268d1ca0a2407fc1cf7b" title=" " alt="" coords="208,107,349,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="160,117,192,117,192,123,160,123"/>
+<area shape="rect" id="Node000010" href="$test_8cpp.html#a1ac824b77843882a5a81c2589dc0b4a3" title=" " alt="" coords="212,208,345,235"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="105,132,152,162,209,194,222,199,219,204,206,198,149,166,102,136"/>
+<area shape="rect" id="Node000012" href="$test_8cpp.html#a07b607020a2ae0bc390922f6b1010d7e" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="224,157,332,184"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="138,131,210,150,208,155,136,137"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a6ded08a0017d5e8a5909d8ce403058fa" title="Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind." alt="" coords="410,5,500,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,16,395,16,395,21,336,21"/>
+<area shape="rect" id="Node000005" href="$othello_8cpp.html#ab5b9afa274ecde39b15429f5fc77b59e" title="Prueft, wer Gewinner ist." alt="" coords="418,56,492,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="328,67,403,67,403,72,328,72"/>
+<area shape="rect" id="Node000006" href="$othello_8cpp.html#ace1027b2745225e26a5ffb243cf24a15" title="Ausgabe des Spielfelds auf der Konsole." alt="" coords="404,157,506,184"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="328,81,350,92,366,105,375,118,384,130,399,143,406,148,403,152,395,147,380,134,371,121,362,109,348,97,326,86"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="328,131,393,150,391,155,327,137"/>
+<area shape="rect" id="Node000008" href="$othello_8cpp.html#a8cf3121558de67463e88957becd116d1" title="Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量" alt="" coords="397,107,513,133"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="350,117,382,117,382,123,350,123"/>
+<area shape="rect" id="Node000009" href="$othello_8cpp.html#a0f17ff75622987b979767417e76164a0" title="Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist." alt="" coords="561,157,645,184"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="497,131,548,149,547,154,496,136"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="327,205,391,186,393,191,328,210"/>
+<area shape="rect" id="Node000011" href="$othello_8cpp.html#a7034afa60f015a8ab6c0b836d316d4a4" title="Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子" alt="" coords="401,259,509,285"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="328,233,393,251,391,257,327,238"/>
+<area shape="poly" id="edge14_Node000012_Node000006" title=" " alt="" coords="333,168,388,168,388,173,333,173"/>
+<area shape="poly" id="edge15_Node000012_Node000009" title=" " alt="" coords="333,182,397,193,455,198,513,193,547,186,548,191,514,199,455,203,397,199,332,187"/>
+</map>

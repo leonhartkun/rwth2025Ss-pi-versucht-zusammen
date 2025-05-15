@@ -1,0 +1,19 @@
+<map id="ListenElement::ListenElement" name="ListenElement::ListenElement">
+<area shape="rect" id="Node000001" title="构造函数，初始化数据和指针 Konstruktor zur Initialisierung von Daten und Zeiger" alt="" coords="521,81,717,108"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="658,69,644,62,619,60,595,62,583,67,580,72,585,79,581,82,574,73,579,63,594,57,619,55,646,57,660,64"/>
+<area shape="rect" id="Node000002" href="$class_listen_element.html#a34ecab2eb329046f12a0b724b2350c3a" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das nächste Element zurück" alt="" coords="315,5,473,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="564,78,472,47,438,35,440,30,474,41,566,73"/>
+<area shape="rect" id="Node000005" href="$class_listen_element.html#a34e925d310f27785c7227f76fb42549b" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das vorgänge Element zurück" alt="" coords="316,56,473,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="506,85,473,81,474,76,506,79"/>
+<area shape="rect" id="Node000006" href="$class_listen_element.html#a13756ed466d8364c0f43aa87e8b1a0c6" title="设置指向下一个节点的指针 / Setzt den Zeiger auf das nächste Element" alt="" coords="315,107,473,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="506,110,474,114,474,108,505,105"/>
+<area shape="rect" id="Node000007" href="$class_listen_element.html#a6cbd3a5732556c9ae027e2b6ac1b9fb8" title="设置指向上一个节点的指针" alt="" coords="316,157,473,184"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="566,116,474,148,440,159,438,154,472,143,564,111"/>
+<area shape="rect" id="Node000003" href="$class_liste.html#a34bc1c9c56b6f484413043b5219eac3a" title="从前向后输出整个链表的学生信息 Gibt alle Studentendaten der Liste von vorne nach hinten aus" alt="" coords="103,31,267,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,33,268,37,267,31,299,27"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,81,55,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="128,65,56,89,54,84,126,60"/>
+<area shape="rect" id="Node000008" href="$class_liste.html#a03a950dc8fb42a599196ce41330cf8cd" title="在链表末尾添加一个学生数据项 Fügt ein neues Studentenelement am Ende der Liste hinzu" alt="" coords="127,107,242,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="321,156,242,137,244,131,322,151"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="112,111,55,101,55,96,112,105"/>
+</map>

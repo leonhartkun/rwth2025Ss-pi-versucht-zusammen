@@ -1,0 +1,7 @@
+<map id="zugGueltigTest" name="zugGueltigTest">
+<area shape="rect" id="Node000001" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="5,31,114,57"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#ace1027b2745225e26a5ffb243cf24a15" title="Ausgabe des Spielfelds auf der Konsole." alt="" coords="162,5,264,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,32,146,27,147,32,114,38"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a0f17ff75622987b979767417e76164a0" title="Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist." alt="" coords="171,56,254,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,50,156,57,155,63,114,56"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Liste::dataFront" name="Liste::dataFront">
+<area shape="rect" id="Node000001" title="获取第一个元素中的学生数据（不删除） Gibt die Daten des ersten Elements zurück (ohne es zu löschen)" alt="" coords="103,5,215,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

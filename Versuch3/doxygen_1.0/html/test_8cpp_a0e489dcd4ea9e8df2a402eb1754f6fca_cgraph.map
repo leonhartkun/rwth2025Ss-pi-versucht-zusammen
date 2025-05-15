@@ -1,0 +1,5 @@
+<map id="moeglicheZuege" name="moeglicheZuege">
+<area shape="rect" id="Node000001" title="Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量" alt="" coords="5,5,122,32"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#a0f17ff75622987b979767417e76164a0" title="Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist." alt="" coords="170,5,253,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,16,154,16,154,21,122,21"/>
+</map>

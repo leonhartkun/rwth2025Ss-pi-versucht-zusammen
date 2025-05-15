@@ -1,0 +1,7 @@
+<map id="gewinnerTest" name="gewinnerTest">
+<area shape="rect" id="Node000001" title="Funktion zum Testen der gewinner() Funktion." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#ab5b9afa274ecde39b15429f5fc77b59e" title="Prueft, wer Gewinner ist." alt="" coords="166,5,240,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,33,151,25,152,30,104,38"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#ace1027b2745225e26a5ffb243cf24a15" title="Ausgabe des Spielfelds auf der Konsole." alt="" coords="152,56,254,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,50,137,55,136,61,103,55"/>
+</map>

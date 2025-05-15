@@ -1,0 +1,50 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,284,55,311"/>
+<area shape="rect" id="Node000002" href="$test_8cpp.html#a9c8c940467219dd9a3a51312c61bcf83" title="Funktion, die alle Tests ausfuehrt." alt="" coords="103,183,257,209"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="50,281,145,216,148,220,53,286"/>
+<area shape="rect" id="Node000007" href="$othello_8cpp.html#ace1027b2745225e26a5ffb243cf24a15" title="Ausgabe des Spielfelds auf der Konsole." alt="" coords="501,195,604,221"/>
+<area shape="poly" id="edge31_Node000001_Node000007" title=" " alt="" coords="33,282,56,228,76,196,101,169,150,133,195,113,243,102,305,92,377,78,409,80,447,92,476,110,501,132,538,180,534,183,498,136,473,114,445,97,408,85,377,84,305,97,244,108,197,118,153,137,104,173,80,200,61,230,38,284"/>
+<area shape="rect" id="Node000014" href="$othello_8cpp.html#a5c2aa50af4bb13bc589b835e1c1473bc" title="Funktion zur ersten Initialisierung eines neuen Spielfelds." alt="" coords="310,563,442,589"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="37,310,59,375,78,413,105,447,150,485,201,515,254,538,303,555,301,560,252,543,199,520,147,490,101,451,74,416,54,377,32,312"/>
+<area shape="rect" id="Node000015" href="$othello_8cpp.html#a596345e24a803c4d6cc0880cdd9c6788" title=" " alt="" coords="149,411,211,437"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="49,309,153,398,149,402,45,313"/>
+<area shape="rect" id="Node000003" href="$test_8cpp.html#abed33357222cced27f6a71dfcef7f0dc" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="318,5,433,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,180,346,41,350,45,198,184"/>
+<area shape="rect" id="Node000005" href="$test_8cpp.html#abd7dc9f35ce7c4d7c9bb5c8075c9722f" title="Funktion zum Testen der gewinner() Funktion." alt="" coords="326,157,425,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="257,183,311,176,311,182,258,189"/>
+<area shape="rect" id="Node000008" href="$test_8cpp.html#aa97a66b2a8d5268d1ca0a2407fc1cf7b" title=" " alt="" coords="305,309,446,336"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="204,208,342,298,339,303,201,212"/>
+<area shape="rect" id="Node000011" href="$test_8cpp.html#a1ac824b77843882a5a81c2589dc0b4a3" title=" " alt="" coords="309,208,442,235"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="258,203,294,208,293,213,257,209"/>
+<area shape="rect" id="Node000013" href="$test_8cpp.html#a07b607020a2ae0bc390922f6b1010d7e" title="Funktion zum Testen der aufSpielfeld() Funktion." alt="" coords="322,107,430,133"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="213,180,304,143,320,137,322,142,306,148,215,185"/>
+<area shape="rect" id="Node000004" href="$othello_8cpp.html#a6ded08a0017d5e8a5909d8ce403058fa" title="Ueberprueft fuer zwei Indizes, ob sie auf dem Spielfeld sind." alt="" coords="508,5,597,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="433,16,492,16,492,21,433,21"/>
+<area shape="rect" id="Node000006" href="$othello_8cpp.html#ab5b9afa274ecde39b15429f5fc77b59e" title="Prueft, wer Gewinner ist." alt="" coords="516,296,589,323"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="426,182,448,194,474,214,498,237,535,281,531,285,494,241,470,218,445,198,423,187"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="426,178,487,192,486,197,424,184"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="410,306,445,288,487,259,523,230,526,234,490,263,448,293,413,311"/>
+<area shape="rect" id="Node000009" href="$othello_8cpp.html#a8cf3121558de67463e88957becd116d1" title="Gibt die Anzahl aller moeglichen Zuege fuer den aktuellen Spieler zurueck 返回当前玩家所有合法落子数量" alt="" coords="494,461,611,488"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="394,334,526,449,522,453,391,338"/>
+<area shape="rect" id="Node000010" href="$othello_8cpp.html#a0f17ff75622987b979767417e76164a0" title="Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist." alt="" coords="659,436,742,463"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="611,462,643,456,644,462,612,467"/>
+<area shape="poly" id="edge12_Node000011_Node000007" title=" " alt="" coords="443,214,486,210,486,216,443,219"/>
+<area shape="rect" id="Node000012" href="$othello_8cpp.html#a7034afa60f015a8ab6c0b836d316d4a4" title="Funktion, die einen Zug ausfuehrt 执行玩家的一步落子，并翻转所有被夹住的对方棋子" alt="" coords="498,360,607,387"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="392,233,436,279,496,333,518,349,515,353,493,337,433,283,388,237"/>
+<area shape="poly" id="edge15_Node000013_Node000007" title=" " alt="" coords="420,131,448,143,519,183,516,188,445,148,418,136"/>
+<area shape="poly" id="edge16_Node000013_Node000010" title=" " alt="" coords="431,118,474,122,523,133,570,152,612,181,636,208,655,238,681,305,695,369,701,420,695,421,690,370,676,306,650,241,632,211,609,185,568,156,521,138,473,128,430,123"/>
+<area shape="poly" id="edge23_Node000015_Node000006" title=" " alt="" coords="211,413,315,385,446,345,501,326,502,331,447,351,317,390,212,419"/>
+<area shape="poly" id="edge30_Node000015_Node000007" title=" " alt="" coords="189,408,235,354,267,323,304,295,341,275,372,264,446,244,499,225,500,230,447,249,374,270,343,280,306,300,271,327,239,358,193,412"/>
+<area shape="poly" id="edge29_Node000015_Node000009" title=" " alt="" coords="212,428,305,447,479,466,479,472,305,452,211,434"/>
+<area shape="poly" id="edge24_Node000015_Node000014" title=" " alt="" coords="196,436,257,501,307,549,315,553,312,558,303,553,254,505,192,440"/>
+<area shape="rect" id="Node000016" href="$othello_k_i_8cpp.html#a5e5980177c60019445f26e3e61b50c51" title=" " alt="" coords="327,512,424,539"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="206,436,306,491,330,503,328,508,304,496,203,440"/>
+<area shape="rect" id="Node000017" href="$othello_8cpp.html#ae44cf481fe71ebc30511c76190e6bc5d" title=" " alt="" coords="316,411,436,437"/>
+<area shape="poly" id="edge25_Node000015_Node000017" title=" " alt="" coords="211,421,300,421,300,427,211,427"/>
+<area shape="poly" id="edge20_Node000016_Node000009" title=" " alt="" coords="424,509,489,490,490,495,425,514"/>
+<area shape="poly" id="edge22_Node000016_Node000010" title=" " alt="" coords="425,523,512,518,562,510,610,497,640,485,667,469,669,474,642,490,612,503,563,515,513,523,425,528"/>
+<area shape="poly" id="edge21_Node000016_Node000012" title=" " alt="" coords="391,510,522,395,526,399,394,514"/>
+<area shape="poly" id="edge26_Node000017_Node000009" title=" " alt="" coords="426,435,490,454,488,459,424,441"/>
+<area shape="poly" id="edge28_Node000017_Node000010" title=" " alt="" coords="437,426,643,442,643,448,436,431"/>
+<area shape="poly" id="edge27_Node000017_Node000012" title=" " alt="" coords="424,407,488,389,490,394,426,413"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="initialisiereSpielfeld" name="initialisiereSpielfeld">
+<area shape="rect" id="Node000001" title="Funktion zur ersten Initialisierung eines neuen Spielfelds." alt="" coords="213,5,345,32"/>
+<area shape="rect" id="Node000002" href="$othello_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,21,55,21,55,16,197,16"/>
+<area shape="rect" id="Node000003" href="$othello_8cpp.html#a596345e24a803c4d6cc0880cdd9c6788" title=" " alt="" coords="103,31,165,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,36,166,41,165,36,197,30"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="87,35,54,27,56,22,88,30"/>
+</map>
