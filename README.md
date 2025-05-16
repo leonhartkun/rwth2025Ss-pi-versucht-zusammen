@@ -6,10 +6,6 @@
 
 [TOC]
 
-## 📁 项目结构
-
-
-
 - `Versuch01_Teil1/`：实验1第一部分代码  
 - `Versuch01_Teil2/`：实验1第二部分代码  
 - `Versuch02_Teil1/`：实验2第一部分代码  
@@ -41,8 +37,6 @@
 **RWTH Aachen Info-Praktikum | Programmierkurs C++ | Versuch3 | Versuch4 | Versuch5 | CLion | Doxygen | Eclipse | Gemeinsame Lernmaterialien**
 
 Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Sommersemester 2025 an der RWTH Aachen, einschließlich vollständigem Code und Dokumentation zu Versuch3, Versuch4 und Versuch5. Andere Studierende sind eingeladen, diese zu studieren, zu nutzen oder zu verbessern.
-
-## 📁 Projektstruktur
 
 
 
@@ -77,24 +71,6 @@ Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Somme
 **RWTH Aachen Info Practical | C++ Programming Course | Versuch3 | Versuch4 | Versuch5 | CLion | Doxygen | Eclipse | Shared Learning Resources**
 
 This project contains all programming assignments from the RWTH Aachen Info Practical course in the 2025 summer semester, including full code and documentation for Versuch3, Versuch4, and Versuch5. Other students are welcome to browse, reference, or contribute improvements.
-
-## 📁 Project Structure
-project-name/
-│
-├── dir1/
-│   ├── file1.ext
-│   └── file2.ext
-│
-├── dir2/
-│   ├── sub-dir1/
-│   │   └── file3.ext
-│   └── sub-dir2/
-│
-└── dir3/
-    ├── file4.ext
-    └── file5.ext
-
-
 
 - `Versuch01_Teil1/`: Code for Part 1 of Experiment 1  
 - `Versuch01_Teil2/`: Code for Part 2 of Experiment 1  
@@ -1287,5 +1263,4 @@ D:.
                     search.css
                     search.js
                     searchdata.js
-                    
-</details>```
+
