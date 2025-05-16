@@ -3,7 +3,9 @@
 **RWTH Aachen 信息实习 | Info Praktikum | Programmierkurs C++ | Versuch3 | Versuch4 | Versuch5 | CLion | Doxygen | Eclipse | 学习资料共享**
 
 本项目包含 RWTH Aachen 2025 年夏季学期信息实习课程（Info Praktikum）中的全部编程任务，包括 Versuch3、Versuch4、Versuch5 的完整代码与文档。欢迎其他同学查阅、参考或改进。
+
 [TOC]
+
 ## 📁 项目结构
 
 
@@ -120,6 +122,1166 @@ project-name/
 # RWTH信息实习课程任务合集（2025夏季学期）
 # RWTH Info Praktikum Aufgaben (Sommersemester 2025)
 # RWTH Info Practical Tasks (Summer Semester 2025)
+
+
+.
+│  .gitignore
+│  README.md
+│  tree.txt
+│  
+├─Versuch01_Teil1
+│  │  a.exe
+│  │  Variablen.cpp
+│  │  
+│  └─.idea
+│          .gitignore
+│          editor.xml
+│          modules.xml
+│          vcs.xml
+│          Versuch01_Teil1.iml
+│          workspace.xml
+│          
+├─Versuch01_Teil2
+│  │  a.exe
+│  │  Strukturen.cpp
+│  │  
+│  └─.idea
+│          .gitignore
+│          editor.xml
+│          modules.xml
+│          Versuch01_Teil2.iml
+│          workspace.xml
+│          
+├─Versuch02_Teil1
+│  │  a.exe
+│  │  CMakeLists.txt
+│  │  main.cpp
+│  │  
+│  ├─.idea
+│  │      .gitignore
+│  │      editor.xml
+│  │      modules.xml
+│  │      vcs.xml
+│  │      Versuch02_Teil1.iml
+│  │      workspace.xml
+│  │      
+│  └─cmake-build-debug
+│      │  CMakeCache.txt
+│      │  
+│      ├─.cmake
+│      │  └─api
+│      │      └─v1
+│      │          └─query
+│      │                  cache-v2
+│      │                  cmakeFiles-v1
+│      │                  codemodel-v2
+│      │                  toolchains-v1
+│      │                  
+│      └─CMakeFiles
+│          │  clion-Debug-log.txt
+│          │  clion-environment.txt
+│          │  cmake.check_cache
+│          │  
+│          └─pkgRedirects
+├─Versuch02_Teil2
+│  │  a.exe
+│  │  fibonacci.cpp
+│  │  
+│  └─.idea
+│          .gitignore
+│          editor.xml
+│          modules.xml
+│          Versuch02_Teil2.iml
+│          workspace.xml
+│          
+├─Versuch02_Teil3
+│  │  a.exe
+│  │  Verschluesselung.cpp
+│  │  
+│  └─.idea
+│          .gitignore
+│          editor.xml
+│          modules.xml
+│          vcs.xml
+│          Versuch02_Teil3.iml
+│          workspace.xml
+│          
+├─Versuch3
+│  │  CMakeLists.txt
+│  │  config.h
+│  │  Doxyfile
+│  │  Doxyfile.bak
+│  │  othello.cpp
+│  │  othello.exe
+│  │  othelloErgebnis.txt
+│  │  othelloKI.cpp
+│  │  othelloKI.h
+│  │  test.cpp
+│  │  test.exe
+│  │  test.h
+│  │  
+│  ├─cmake-build-debug
+│  │  │  .ninja_deps
+│  │  │  .ninja_log
+│  │  │  build.ninja
+│  │  │  CMakeCache.txt
+│  │  │  cmake_install.cmake
+│  │  │  Versuch_3_0_1.exe
+│  │  │  
+│  │  ├─.cmake
+│  │  │  └─api
+│  │  │      └─v1
+│  │  │          ├─query
+│  │  │          │      cache-v2
+│  │  │          │      cmakeFiles-v1
+│  │  │          │      codemodel-v2
+│  │  │          │      toolchains-v1
+│  │  │          │      
+│  │  │          └─reply
+│  │  │                  cache-v2-558dedc1c6005e7793b0.json
+│  │  │                  cmakeFiles-v1-68aaea3046186453573c.json
+│  │  │                  codemodel-v2-40fdfed6893e0d8ae722.json
+│  │  │                  directory-.-Debug-d0094a50bb2071803777.json
+│  │  │                  index-2025-05-15T09-25-07-0658.json
+│  │  │                  target-Versuch_3_0_1-Debug-81b55c4d9e1c0953133e.json
+│  │  │                  toolchains-v1-23189d526bf310d701b7.json
+│  │  │                  
+│  │  ├─CMakeFiles
+│  │  │  │  clion-Debug-log.txt
+│  │  │  │  clion-environment.txt
+│  │  │  │  cmake.check_cache
+│  │  │  │  CMakeConfigureLog.yaml
+│  │  │  │  rules.ninja
+│  │  │  │  TargetDirectories.txt
+│  │  │  │  
+│  │  │  ├─3.31.6
+│  │  │  │  │  CMakeCCompiler.cmake
+│  │  │  │  │  CMakeCXXCompiler.cmake
+│  │  │  │  │  CMakeDetermineCompilerABI_C.bin
+│  │  │  │  │  CMakeDetermineCompilerABI_CXX.bin
+│  │  │  │  │  CMakeRCCompiler.cmake
+│  │  │  │  │  CMakeSystem.cmake
+│  │  │  │  │  
+│  │  │  │  ├─CompilerIdC
+│  │  │  │  │  │  a.exe
+│  │  │  │  │  │  CMakeCCompilerId.c
+│  │  │  │  │  │  
+│  │  │  │  │  └─tmp
+│  │  │  │  └─CompilerIdCXX
+│  │  │  │      │  a.exe
+│  │  │  │      │  CMakeCXXCompilerId.cpp
+│  │  │  │      │  
+│  │  │  │      └─tmp
+│  │  │  ├─CMakeScratch
+│  │  │  ├─pkgRedirects
+│  │  │  └─Versuch_3_0_1.dir
+│  │  └─Testing
+│  │      └─Temporary
+│  │              LastTest.log
+│  │              
+│  └─doxygen_1.0
+│      │  html.zip
+│      │  
+│      ├─html
+│      │  │  bc_s.png
+│      │  │  bc_sd.png
+│      │  │  clipboard.js
+│      │  │  closed.png
+│      │  │  config_8h.html
+│      │  │  config_8h.js
+│      │  │  config_8h_source.html
+│      │  │  config_8h__dep__incl.map
+│      │  │  config_8h__dep__incl.md5
+│      │  │  config_8h__dep__incl.png
+│      │  │  cookie.js
+│      │  │  doc.svg
+│      │  │  docd.svg
+│      │  │  doxygen.css
+│      │  │  doxygen.svg
+│      │  │  doxygen_crawl.html
+│      │  │  dynsections.js
+│      │  │  files.html
+│      │  │  files_dup.js
+│      │  │  folderclosed.svg
+│      │  │  folderclosedd.svg
+│      │  │  folderopen.svg
+│      │  │  folderopend.svg
+│      │  │  globals.html
+│      │  │  globals_defs.html
+│      │  │  globals_func.html
+│      │  │  globals_vars.html
+│      │  │  graph_legend.html
+│      │  │  graph_legend.md5
+│      │  │  graph_legend.png
+│      │  │  index.html
+│      │  │  input.png
+│      │  │  jquery.js
+│      │  │  minus.svg
+│      │  │  minusd.svg
+│      │  │  navtree.css
+│      │  │  navtree.js
+│      │  │  navtreedata.js
+│      │  │  navtreeindex0.js
+│      │  │  nav_f.png
+│      │  │  nav_fd.png
+│      │  │  nav_g.png
+│      │  │  nav_h.png
+│      │  │  nav_hd.png
+│      │  │  open.png
+│      │  │  othello_8cpp.html
+│      │  │  othello_8cpp.js
+│      │  │  othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.map
+│      │  │  othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.md5
+│      │  │  othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.png
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph.map
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph.md5
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph.png
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph.map
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph.md5
+│      │  │  othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph.png
+│      │  │  othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph.map
+│      │  │  othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph.md5
+│      │  │  othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph.png
+│      │  │  othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.map
+│      │  │  othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.md5
+│      │  │  othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.png
+│      │  │  othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.map
+│      │  │  othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.md5
+│      │  │  othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.png
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph.map
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph.md5
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph.png
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.map
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.md5
+│      │  │  othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.png
+│      │  │  othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.map
+│      │  │  othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.md5
+│      │  │  othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.png
+│      │  │  othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.map
+│      │  │  othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.md5
+│      │  │  othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.png
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph.map
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph.md5
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph.png
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph.map
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph.md5
+│      │  │  othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph.png
+│      │  │  othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map
+│      │  │  othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.md5
+│      │  │  othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png
+│      │  │  othello_8cpp__incl.map
+│      │  │  othello_8cpp__incl.md5
+│      │  │  othello_8cpp__incl.png
+│      │  │  othello_k_i_8cpp.html
+│      │  │  othello_k_i_8cpp.js
+│      │  │  othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.map
+│      │  │  othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.md5
+│      │  │  othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.png
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph.map
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph.md5
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph.png
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph.map
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph.md5
+│      │  │  othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph.png
+│      │  │  othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.map
+│      │  │  othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.md5
+│      │  │  othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.png
+│      │  │  othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.map
+│      │  │  othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.md5
+│      │  │  othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.png
+│      │  │  othello_k_i_8cpp__incl.map
+│      │  │  othello_k_i_8cpp__incl.md5
+│      │  │  othello_k_i_8cpp__incl.png
+│      │  │  othello_k_i_8h.html
+│      │  │  othello_k_i_8h.js
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_cgraph.map
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_cgraph.md5
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_cgraph.png
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_icgraph.map
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_icgraph.md5
+│      │  │  othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_icgraph.png
+│      │  │  othello_k_i_8h_source.html
+│      │  │  othello_k_i_8h__dep__incl.map
+│      │  │  othello_k_i_8h__dep__incl.md5
+│      │  │  othello_k_i_8h__dep__incl.png
+│      │  │  othello_k_i_8h__incl.map
+│      │  │  othello_k_i_8h__incl.md5
+│      │  │  othello_k_i_8h__incl.png
+│      │  │  plus.svg
+│      │  │  plusd.svg
+│      │  │  resize.js
+│      │  │  splitbar.png
+│      │  │  splitbard.png
+│      │  │  sync_off.png
+│      │  │  sync_on.png
+│      │  │  tabs.css
+│      │  │  tab_a.png
+│      │  │  tab_ad.png
+│      │  │  tab_b.png
+│      │  │  tab_bd.png
+│      │  │  tab_h.png
+│      │  │  tab_hd.png
+│      │  │  tab_s.png
+│      │  │  tab_sd.png
+│      │  │  test_8cpp.html
+│      │  │  test_8cpp.js
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph.map
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph.md5
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph.png
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph.map
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph.md5
+│      │  │  test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph.png
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph.map
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph.md5
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph.png
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph.map
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph.md5
+│      │  │  test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph.png
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph.map
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph.md5
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph.png
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph.map
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph.md5
+│      │  │  test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph.png
+│      │  │  test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.map
+│      │  │  test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.md5
+│      │  │  test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.png
+│      │  │  test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph.map
+│      │  │  test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph.md5
+│      │  │  test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph.png
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph.map
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph.md5
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph.png
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph.map
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph.md5
+│      │  │  test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph.png
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph.map
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph.md5
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph.png
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph.map
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph.md5
+│      │  │  test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph.png
+│      │  │  test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph.map
+│      │  │  test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph.md5
+│      │  │  test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph.png
+│      │  │  test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.map
+│      │  │  test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.md5
+│      │  │  test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.png
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph.map
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph.md5
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph.png
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph.map
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph.md5
+│      │  │  test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph.png
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph.map
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph.md5
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph.png
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph.map
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph.md5
+│      │  │  test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph.png
+│      │  │  test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.map
+│      │  │  test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.md5
+│      │  │  test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.png
+│      │  │  test_8cpp__incl.map
+│      │  │  test_8cpp__incl.md5
+│      │  │  test_8cpp__incl.png
+│      │  │  test_8h.html
+│      │  │  test_8h.js
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_cgraph.map
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_cgraph.md5
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_cgraph.png
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_icgraph.map
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_icgraph.md5
+│      │  │  test_8h_a9c8c940467219dd9a3a51312c61bcf83_icgraph.png
+│      │  │  test_8h_source.html
+│      │  │  test_8h__dep__incl.map
+│      │  │  test_8h__dep__incl.md5
+│      │  │  test_8h__dep__incl.png
+│      │  │  
+│      │  └─search
+│      │          all_0.js
+│      │          all_1.js
+│      │          all_2.js
+│      │          all_3.js
+│      │          all_4.js
+│      │          all_5.js
+│      │          all_6.js
+│      │          all_7.js
+│      │          all_8.js
+│      │          close.svg
+│      │          defines_0.js
+│      │          defines_1.js
+│      │          files_0.js
+│      │          files_1.js
+│      │          files_2.js
+│      │          functions_0.js
+│      │          functions_1.js
+│      │          functions_2.js
+│      │          functions_3.js
+│      │          functions_4.js
+│      │          functions_5.js
+│      │          functions_6.js
+│      │          mag.svg
+│      │          mag_d.svg
+│      │          mag_sel.svg
+│      │          mag_seld.svg
+│      │          pages_0.js
+│      │          search.css
+│      │          search.js
+│      │          searchdata.js
+│      │          variables_0.js
+│      │          variables_1.js
+│      │          variables_2.js
+│      │          variables_3.js
+│      │          variables_4.js
+│      │          
+│      └─latex
+│              config_8h.tex
+│              config_8h_source.tex
+│              config_8h__dep__incl.md5
+│              config_8h__dep__incl.pdf
+│              doxygen.sty
+│              etoc_doxygen.sty
+│              files.tex
+│              index.tex
+│              input.png
+│              longtable_doxygen.sty
+│              make.bat
+│              Makefile
+│              othello_8cpp.tex
+│              othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.md5
+│              othello_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.pdf
+│              othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph.md5
+│              othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_cgraph.pdf
+│              othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph.md5
+│              othello_8cpp_a596345e24a803c4d6cc0880cdd9c6788_icgraph.pdf
+│              othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph.md5
+│              othello_8cpp_a5c2aa50af4bb13bc589b835e1c1473bc_icgraph.pdf
+│              othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.md5
+│              othello_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.pdf
+│              othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.md5
+│              othello_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.pdf
+│              othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph.md5
+│              othello_8cpp_a8cf3121558de67463e88957becd116d1_cgraph.pdf
+│              othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.md5
+│              othello_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.pdf
+│              othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.md5
+│              othello_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.pdf
+│              othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.md5
+│              othello_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.pdf
+│              othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph.md5
+│              othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_cgraph.pdf
+│              othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph.md5
+│              othello_8cpp_ae44cf481fe71ebc30511c76190e6bc5d_icgraph.pdf
+│              othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.md5
+│              othello_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
+│              othello_8cpp__incl.md5
+│              othello_8cpp__incl.pdf
+│              othello_k_i_8cpp.tex
+│              othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.md5
+│              othello_k_i_8cpp_a0f17ff75622987b979767417e76164a0_icgraph.pdf
+│              othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph.md5
+│              othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_cgraph.pdf
+│              othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph.md5
+│              othello_k_i_8cpp_a5e5980177c60019445f26e3e61b50c51_icgraph.pdf
+│              othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.md5
+│              othello_k_i_8cpp_a7034afa60f015a8ab6c0b836d316d4a4_icgraph.pdf
+│              othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.md5
+│              othello_k_i_8cpp_a8cf3121558de67463e88957becd116d1_icgraph.pdf
+│              othello_k_i_8cpp__incl.md5
+│              othello_k_i_8cpp__incl.pdf
+│              othello_k_i_8h.tex
+│              othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_cgraph.md5
+│              othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_cgraph.pdf
+│              othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_icgraph.md5
+│              othello_k_i_8h_a5e5980177c60019445f26e3e61b50c51_icgraph.pdf
+│              othello_k_i_8h_source.tex
+│              othello_k_i_8h__dep__incl.md5
+│              othello_k_i_8h__dep__incl.pdf
+│              othello_k_i_8h__incl.md5
+│              othello_k_i_8h__incl.pdf
+│              refman.tex
+│              tabu_doxygen.sty
+│              test_8cpp.tex
+│              test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph.md5
+│              test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_cgraph.pdf
+│              test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph.md5
+│              test_8cpp_a07b607020a2ae0bc390922f6b1010d7e_icgraph.pdf
+│              test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph.md5
+│              test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_cgraph.pdf
+│              test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph.md5
+│              test_8cpp_a0e489dcd4ea9e8df2a402eb1754f6fca_icgraph.pdf
+│              test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph.md5
+│              test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_cgraph.pdf
+│              test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph.md5
+│              test_8cpp_a1ac824b77843882a5a81c2589dc0b4a3_icgraph.pdf
+│              test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.md5
+│              test_8cpp_a6ded08a0017d5e8a5909d8ce403058fa_icgraph.pdf
+│              test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph.md5
+│              test_8cpp_a9a96d91998389b5b92ae11bee6382caa_icgraph.pdf
+│              test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph.md5
+│              test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_cgraph.pdf
+│              test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph.md5
+│              test_8cpp_a9c8c940467219dd9a3a51312c61bcf83_icgraph.pdf
+│              test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph.md5
+│              test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_cgraph.pdf
+│              test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph.md5
+│              test_8cpp_aa97a66b2a8d5268d1ca0a2407fc1cf7b_icgraph.pdf
+│              test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph.md5
+│              test_8cpp_ab141dfe59d6487353be7ec47b5d9a14c_icgraph.pdf
+│              test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.md5
+│              test_8cpp_ab5b9afa274ecde39b15429f5fc77b59e_icgraph.pdf
+│              test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph.md5
+│              test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_cgraph.pdf
+│              test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph.md5
+│              test_8cpp_abd7dc9f35ce7c4d7c9bb5c8075c9722f_icgraph.pdf
+│              test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph.md5
+│              test_8cpp_abed33357222cced27f6a71dfcef7f0dc_cgraph.pdf
+│              test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph.md5
+│              test_8cpp_abed33357222cced27f6a71dfcef7f0dc_icgraph.pdf
+│              test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.md5
+│              test_8cpp_ace1027b2745225e26a5ffb243cf24a15_icgraph.pdf
+│              test_8cpp__incl.md5
+│              test_8cpp__incl.pdf
+│              test_8h.tex
+│              test_8h_a9c8c940467219dd9a3a51312c61bcf83_cgraph.md5
+│              test_8h_a9c8c940467219dd9a3a51312c61bcf83_cgraph.pdf
+│              test_8h_a9c8c940467219dd9a3a51312c61bcf83_icgraph.md5
+│              test_8h_a9c8c940467219dd9a3a51312c61bcf83_icgraph.pdf
+│              test_8h_source.tex
+│              test_8h__dep__incl.md5
+│              test_8h__dep__incl.pdf
+│              
+├─Versuch4
+│  │  CMakeLists.txt
+│  │  Doxyfile
+│  │  main.cpp
+│  │  Vektor.cpp
+│  │  Vektor.h
+│  │  
+│  ├─.idea
+│  │      .gitignore
+│  │      .name
+│  │      editor.xml
+│  │      misc.xml
+│  │      modules.xml
+│  │      vcs.xml
+│  │      versuch4.iml
+│  │      workspace.xml
+│  │      
+│  ├─cmake-build-debug
+│  │  │  .gitignore
+│  │  │  .ninja_deps
+│  │  │  .ninja_log
+│  │  │  build.ninja
+│  │  │  CMakeCache.txt
+│  │  │  CMakeDoxyfile.in
+│  │  │  CMakeDoxygenDefaults.cmake
+│  │  │  cmake_install.cmake
+│  │  │  versuch4.exe
+│  │  │  
+│  │  ├─.cmake
+│  │  │  └─api
+│  │  │      └─v1
+│  │  │          ├─query
+│  │  │          │      cache-v2
+│  │  │          │      cmakeFiles-v1
+│  │  │          │      codemodel-v2
+│  │  │          │      toolchains-v1
+│  │  │          │      
+│  │  │          └─reply
+│  │  │                  cache-v2-9f15fd9d03bf16a976a6.json
+│  │  │                  cmakeFiles-v1-4440148726f8af2dc0a8.json
+│  │  │                  codemodel-v2-fed9f59a5c52345817b9.json
+│  │  │                  directory-.-Debug-d0094a50bb2071803777.json
+│  │  │                  index-2025-05-15T10-33-27-0445.json
+│  │  │                  target-doc_doxygen-Debug-ba5f86baf4e01c2c62bd.json
+│  │  │                  target-versuch4-Debug-1c253135ed03d875253d.json
+│  │  │                  toolchains-v1-4dc9066deab20de23506.json
+│  │  │                  
+│  │  ├─CMakeFiles
+│  │  │  │  clion-Debug-log.txt
+│  │  │  │  clion-environment.txt
+│  │  │  │  cmake.check_cache
+│  │  │  │  CMakeConfigureLog.yaml
+│  │  │  │  rules.ninja
+│  │  │  │  TargetDirectories.txt
+│  │  │  │  
+│  │  │  ├─3.31.6
+│  │  │  │  │  CMakeCCompiler.cmake
+│  │  │  │  │  CMakeCXXCompiler.cmake
+│  │  │  │  │  CMakeDetermineCompilerABI_C.bin
+│  │  │  │  │  CMakeDetermineCompilerABI_CXX.bin
+│  │  │  │  │  CMakeRCCompiler.cmake
+│  │  │  │  │  CMakeSystem.cmake
+│  │  │  │  │  
+│  │  │  │  ├─CompilerIdC
+│  │  │  │  │  │  a.exe
+│  │  │  │  │  │  CMakeCCompilerId.c
+│  │  │  │  │  │  
+│  │  │  │  │  └─tmp
+│  │  │  │  └─CompilerIdCXX
+│  │  │  │      │  a.exe
+│  │  │  │      │  CMakeCXXCompilerId.cpp
+│  │  │  │      │  
+│  │  │  │      └─tmp
+│  │  │  ├─pkgRedirects
+│  │  │  ├─Sichtweite.dir
+│  │  │  └─versuch4.dir
+│  │  │          main.cpp.obj
+│  │  │          Vektor.cpp.obj
+│  │  │          
+│  │  └─Testing
+│  │      └─Temporary
+│  │              LastTest.log
+│  │              
+│  └─doxygen_files
+│      ├─html
+│      │  │  annotated.html
+│      │  │  annotated_dup.js
+│      │  │  bc_s.png
+│      │  │  bc_sd.png
+│      │  │  classes.html
+│      │  │  class_vektor-members.html
+│      │  │  class_vektor.html
+│      │  │  class_vektor.js
+│      │  │  class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph.map
+│      │  │  class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph.md5
+│      │  │  class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph.png
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph.map
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph.md5
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph.png
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph.map
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph.md5
+│      │  │  class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph.png
+│      │  │  class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph.map
+│      │  │  class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph.md5
+│      │  │  class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph.png
+│      │  │  class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph.map
+│      │  │  class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph.md5
+│      │  │  class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph.png
+│      │  │  class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph.map
+│      │  │  class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph.md5
+│      │  │  class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph.png
+│      │  │  class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph.map
+│      │  │  class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph.md5
+│      │  │  class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph.png
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph.map
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph.md5
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph.png
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph.map
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph.md5
+│      │  │  class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph.png
+│      │  │  class_vektor_aa3c41759f0a472327a8970878234675a_icgraph.map
+│      │  │  class_vektor_aa3c41759f0a472327a8970878234675a_icgraph.md5
+│      │  │  class_vektor_aa3c41759f0a472327a8970878234675a_icgraph.png
+│      │  │  class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph.map
+│      │  │  class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph.md5
+│      │  │  class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph.png
+│      │  │  clipboard.js
+│      │  │  closed.png
+│      │  │  cookie.js
+│      │  │  dir_007ad4948e580287e9d3cd339e78f152.html
+│      │  │  dir_007ad4948e580287e9d3cd339e78f152.js
+│      │  │  dir_007ad4948e580287e9d3cd339e78f152_dep.map
+│      │  │  dir_007ad4948e580287e9d3cd339e78f152_dep.md5
+│      │  │  dir_007ad4948e580287e9d3cd339e78f152_dep.png
+│      │  │  dir_08cec4c655d37361da453b6dde918433.html
+│      │  │  dir_08cec4c655d37361da453b6dde918433.js
+│      │  │  dir_08cec4c655d37361da453b6dde918433_dep.map
+│      │  │  dir_08cec4c655d37361da453b6dde918433_dep.md5
+│      │  │  dir_08cec4c655d37361da453b6dde918433_dep.png
+│      │  │  dir_860c11998a3807e839f8c74cce4c2bd1.html
+│      │  │  dir_860c11998a3807e839f8c74cce4c2bd1.js
+│      │  │  dir_860c11998a3807e839f8c74cce4c2bd1_dep.map
+│      │  │  dir_860c11998a3807e839f8c74cce4c2bd1_dep.md5
+│      │  │  dir_860c11998a3807e839f8c74cce4c2bd1_dep.png
+│      │  │  dir_95e29a8b8ee7c54052c171a88bb95675.html
+│      │  │  dir_95e29a8b8ee7c54052c171a88bb95675.js
+│      │  │  dir_f89abcb304c928c7d889aa5625570de5.html
+│      │  │  dir_f89abcb304c928c7d889aa5625570de5.js
+│      │  │  dir_f89abcb304c928c7d889aa5625570de5_dep.map
+│      │  │  dir_f89abcb304c928c7d889aa5625570de5_dep.md5
+│      │  │  dir_f89abcb304c928c7d889aa5625570de5_dep.png
+│      │  │  doc.svg
+│      │  │  docd.svg
+│      │  │  doxygen.css
+│      │  │  doxygen.svg
+│      │  │  doxygen_crawl.html
+│      │  │  dynsections.js
+│      │  │  files.html
+│      │  │  files_dup.js
+│      │  │  folderclosed.svg
+│      │  │  folderclosedd.svg
+│      │  │  folderopen.svg
+│      │  │  folderopend.svg
+│      │  │  functions.html
+│      │  │  functions_func.html
+│      │  │  globals.html
+│      │  │  globals_defs.html
+│      │  │  globals_func.html
+│      │  │  globals_vars.html
+│      │  │  graph_legend.html
+│      │  │  graph_legend.md5
+│      │  │  graph_legend.png
+│      │  │  index.html
+│      │  │  input.png
+│      │  │  jquery.js
+│      │  │  main_8cpp.html
+│      │  │  main_8cpp.js
+│      │  │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map
+│      │  │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.md5
+│      │  │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png
+│      │  │  main_8cpp__incl.map
+│      │  │  main_8cpp__incl.md5
+│      │  │  main_8cpp__incl.png
+│      │  │  minus.svg
+│      │  │  minusd.svg
+│      │  │  navtree.css
+│      │  │  navtree.js
+│      │  │  navtreedata.js
+│      │  │  navtreeindex0.js
+│      │  │  nav_f.png
+│      │  │  nav_fd.png
+│      │  │  nav_g.png
+│      │  │  nav_h.png
+│      │  │  nav_hd.png
+│      │  │  open.png
+│      │  │  plus.svg
+│      │  │  plusd.svg
+│      │  │  resize.js
+│      │  │  splitbar.png
+│      │  │  splitbard.png
+│      │  │  sync_off.png
+│      │  │  sync_on.png
+│      │  │  tabs.css
+│      │  │  tab_a.png
+│      │  │  tab_ad.png
+│      │  │  tab_b.png
+│      │  │  tab_bd.png
+│      │  │  tab_h.png
+│      │  │  tab_hd.png
+│      │  │  tab_s.png
+│      │  │  tab_sd.png
+│      │  │  _c_make_c_compiler_id_8c.html
+│      │  │  _c_make_c_compiler_id_8c.js
+│      │  │  _c_make_c_x_x_compiler_id_8cpp.html
+│      │  │  _c_make_c_x_x_compiler_id_8cpp.js
+│      │  │  _vektor_8cpp.html
+│      │  │  _vektor_8cpp__incl.map
+│      │  │  _vektor_8cpp__incl.md5
+│      │  │  _vektor_8cpp__incl.png
+│      │  │  _vektor_8h.html
+│      │  │  _vektor_8h.js
+│      │  │  _vektor_8h_source.html
+│      │  │  _vektor_8h__dep__incl.map
+│      │  │  _vektor_8h__dep__incl.md5
+│      │  │  _vektor_8h__dep__incl.png
+│      │  │  _vektor_8h__incl.map
+│      │  │  _vektor_8h__incl.md5
+│      │  │  _vektor_8h__incl.png
+│      │  │  
+│      │  └─search
+│      │          all_0.js
+│      │          all_1.js
+│      │          all_2.js
+│      │          all_3.js
+│      │          all_4.js
+│      │          all_5.js
+│      │          all_6.js
+│      │          all_7.js
+│      │          all_8.js
+│      │          all_9.js
+│      │          all_a.js
+│      │          all_b.js
+│      │          all_c.js
+│      │          all_d.js
+│      │          all_e.js
+│      │          classes_0.js
+│      │          close.svg
+│      │          defines_0.js
+│      │          defines_1.js
+│      │          defines_2.js
+│      │          defines_3.js
+│      │          defines_4.js
+│      │          defines_5.js
+│      │          defines_6.js
+│      │          files_0.js
+│      │          files_1.js
+│      │          files_2.js
+│      │          functions_0.js
+│      │          functions_1.js
+│      │          functions_2.js
+│      │          functions_3.js
+│      │          functions_4.js
+│      │          functions_5.js
+│      │          functions_6.js
+│      │          functions_7.js
+│      │          functions_8.js
+│      │          mag.svg
+│      │          mag_d.svg
+│      │          mag_sel.svg
+│      │          mag_seld.svg
+│      │          search.css
+│      │          search.js
+│      │          searchdata.js
+│      │          variables_0.js
+│      │          
+│      └─latex
+│              annotated.tex
+│              class_vektor.tex
+│              class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph.md5
+│              class_vektor_a578a23f6efefcd0b038609bdcb9a7f7b_icgraph.pdf
+│              class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph.md5
+│              class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_cgraph.pdf
+│              class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph.md5
+│              class_vektor_a5c2887f0690d9ffd1bba0a16bd8cc477_icgraph.pdf
+│              class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph.md5
+│              class_vektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5_cgraph.pdf
+│              class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph.md5
+│              class_vektor_a744b4980d331af082c08890ff2e4a857_icgraph.pdf
+│              class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph.md5
+│              class_vektor_a7e0b4c5110595bc81c8824e735af99aa_icgraph.pdf
+│              class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph.md5
+│              class_vektor_a93d6584667064c7e3abc9d42b529db93_icgraph.pdf
+│              class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph.md5
+│              class_vektor_a9e095d5d627ad26c7c2d6f227567e731_cgraph.pdf
+│              class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph.md5
+│              class_vektor_a9e095d5d627ad26c7c2d6f227567e731_icgraph.pdf
+│              class_vektor_aa3c41759f0a472327a8970878234675a_icgraph.md5
+│              class_vektor_aa3c41759f0a472327a8970878234675a_icgraph.pdf
+│              class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph.md5
+│              class_vektor_ad1864a78b96956dc7f504bba9b39af45_icgraph.pdf
+│              dir_007ad4948e580287e9d3cd339e78f152.tex
+│              dir_007ad4948e580287e9d3cd339e78f152_dep.md5
+│              dir_007ad4948e580287e9d3cd339e78f152_dep.pdf
+│              dir_08cec4c655d37361da453b6dde918433.tex
+│              dir_08cec4c655d37361da453b6dde918433_dep.md5
+│              dir_08cec4c655d37361da453b6dde918433_dep.pdf
+│              dir_860c11998a3807e839f8c74cce4c2bd1.tex
+│              dir_860c11998a3807e839f8c74cce4c2bd1_dep.md5
+│              dir_860c11998a3807e839f8c74cce4c2bd1_dep.pdf
+│              dir_95e29a8b8ee7c54052c171a88bb95675.tex
+│              dir_f89abcb304c928c7d889aa5625570de5.tex
+│              dir_f89abcb304c928c7d889aa5625570de5_dep.md5
+│              dir_f89abcb304c928c7d889aa5625570de5_dep.pdf
+│              doxygen.sty
+│              etoc_doxygen.sty
+│              files.tex
+│              input.png
+│              longtable_doxygen.sty
+│              main_8cpp.tex
+│              main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.md5
+│              main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
+│              main_8cpp__incl.md5
+│              main_8cpp__incl.pdf
+│              make.bat
+│              Makefile
+│              refman.tex
+│              tabu_doxygen.sty
+│              _c_make_c_compiler_id_8c.tex
+│              _c_make_c_x_x_compiler_id_8cpp.tex
+│              _vektor_8cpp.tex
+│              _vektor_8cpp__incl.md5
+│              _vektor_8cpp__incl.pdf
+│              _vektor_8h.tex
+│              _vektor_8h_source.tex
+│              _vektor_8h__dep__incl.md5
+│              _vektor_8h__dep__incl.pdf
+│              _vektor_8h__incl.md5
+│              _vektor_8h__incl.pdf
+│              
+└─Versuch5
+    │  CMakeLists.txt
+    │  Doxyfile
+    │  Liste.cpp
+    │  Liste.h
+    │  ListenElement.cpp
+    │  ListenElement.h
+    │  main.cpp
+    │  Student.cpp
+    │  Student.h
+    │  
+    ├─.idea
+    │      .gitignore
+    │      editor.xml
+    │      misc.xml
+    │      modules.xml
+    │      vcs.xml
+    │      Versuch5.iml
+    │      workspace.xml
+    │      
+    ├─cmake-build-debug
+    │  │  .gitignore
+    │  │  .ninja_deps
+    │  │  .ninja_log
+    │  │  build.ninja
+    │  │  CMakeCache.txt
+    │  │  cmake_install.cmake
+    │  │  Versuch5.exe
+    │  │  
+    │  ├─.cmake
+    │  │  └─api
+    │  │      └─v1
+    │  │          ├─query
+    │  │          │      cache-v2
+    │  │          │      cmakeFiles-v1
+    │  │          │      codemodel-v2
+    │  │          │      toolchains-v1
+    │  │          │      
+    │  │          └─reply
+    │  │                  cache-v2-040501b5dfb72651a3e3.json
+    │  │                  cmakeFiles-v1-271920d204873db74abd.json
+    │  │                  codemodel-v2-f91fd41c1bd3da13bf5c.json
+    │  │                  directory-.-Debug-d0094a50bb2071803777.json
+    │  │                  index-2025-05-09T08-48-27-0176.json
+    │  │                  target-Versuch5-Debug-f5730705916bd1ea0a4a.json
+    │  │                  toolchains-v1-23189d526bf310d701b7.json
+    │  │                  
+    │  ├─CMakeFiles
+    │  │  │  clion-Debug-log.txt
+    │  │  │  clion-environment.txt
+    │  │  │  cmake.check_cache
+    │  │  │  CMakeConfigureLog.yaml
+    │  │  │  rules.ninja
+    │  │  │  TargetDirectories.txt
+    │  │  │  
+    │  │  ├─3.31.6
+    │  │  │  │  CMakeCCompiler.cmake
+    │  │  │  │  CMakeCXXCompiler.cmake
+    │  │  │  │  CMakeDetermineCompilerABI_C.bin
+    │  │  │  │  CMakeDetermineCompilerABI_CXX.bin
+    │  │  │  │  CMakeRCCompiler.cmake
+    │  │  │  │  CMakeSystem.cmake
+    │  │  │  │  
+    │  │  │  ├─CompilerIdC
+    │  │  │  │  │  a.exe
+    │  │  │  │  │  CMakeCCompilerId.c
+    │  │  │  │  │  
+    │  │  │  │  └─tmp
+    │  │  │  └─CompilerIdCXX
+    │  │  │      │  a.exe
+    │  │  │      │  CMakeCXXCompilerId.cpp
+    │  │  │      │  
+    │  │  │      └─tmp
+    │  │  ├─pkgRedirects
+    │  │  └─Versuch5.dir
+    │  │          Liste.cpp.obj
+    │  │          ListenElement.cpp.obj
+    │  │          main.cpp.obj
+    │  │          Student.cpp.obj
+    │  │          
+    │  └─Testing
+    │      └─Temporary
+    │              LastTest.log
+    │              
+    └─GUI_DOXYGEN
+        └─html
+            │  annotated.html
+            │  annotated_dup.js
+            │  bc_s.png
+            │  bc_sd.png
+            │  classes.html
+            │  class_liste-members.html
+            │  class_liste.html
+            │  class_liste.js
+            │  class_listen_element-members.html
+            │  class_listen_element.html
+            │  class_listen_element.js
+            │  class_listen_element_a13756ed466d8364c0f43aa87e8b1a0c6_cgraph.map
+            │  class_listen_element_a13756ed466d8364c0f43aa87e8b1a0c6_cgraph.md5
+            │  class_listen_element_a13756ed466d8364c0f43aa87e8b1a0c6_cgraph.png
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_cgraph.map
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_cgraph.md5
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_cgraph.png
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_icgraph.map
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_icgraph.md5
+            │  class_listen_element_a18c45f3902f8b3aacd4e977fe0cc0f92_icgraph.png
+            │  class_listen_element_a34e925d310f27785c7227f76fb42549b_cgraph.map
+            │  class_listen_element_a34e925d310f27785c7227f76fb42549b_cgraph.md5
+            │  class_listen_element_a34e925d310f27785c7227f76fb42549b_cgraph.png
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_cgraph.map
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_cgraph.md5
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_cgraph.png
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_icgraph.map
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_icgraph.md5
+            │  class_listen_element_a34ecab2eb329046f12a0b724b2350c3a_icgraph.png
+            │  class_listen_element_a5026f2303a51827b5c7d6fa928413041_icgraph.map
+            │  class_listen_element_a5026f2303a51827b5c7d6fa928413041_icgraph.md5
+            │  class_listen_element_a5026f2303a51827b5c7d6fa928413041_icgraph.png
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_cgraph.map
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_cgraph.md5
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_cgraph.png
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_icgraph.map
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_icgraph.md5
+            │  class_listen_element_a6cbd3a5732556c9ae027e2b6ac1b9fb8_icgraph.png
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_cgraph.map
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_cgraph.md5
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_cgraph.png
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_icgraph.map
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_icgraph.md5
+            │  class_liste_a03a950dc8fb42a599196ce41330cf8cd_icgraph.png
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_cgraph.map
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_cgraph.md5
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_cgraph.png
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_icgraph.map
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_icgraph.md5
+            │  class_liste_a34bc1c9c56b6f484413043b5219eac3a_icgraph.png
+            │  class_liste_a359e04399c69cab7061e7c8eceb74d38_icgraph.map
+            │  class_liste_a359e04399c69cab7061e7c8eceb74d38_icgraph.md5
+            │  class_liste_a359e04399c69cab7061e7c8eceb74d38_icgraph.png
+            │  class_liste_a379a9ced61e8489881aa1205abbbf752_icgraph.map
+            │  class_liste_a379a9ced61e8489881aa1205abbbf752_icgraph.md5
+            │  class_liste_a379a9ced61e8489881aa1205abbbf752_icgraph.png
+            │  class_liste_a7b6936c35cb2a36514de4ea4364c8ee3_icgraph.map
+            │  class_liste_a7b6936c35cb2a36514de4ea4364c8ee3_icgraph.md5
+            │  class_liste_a7b6936c35cb2a36514de4ea4364c8ee3_icgraph.png
+            │  class_student-members.html
+            │  class_student.html
+            │  class_student.js
+            │  class_student_a5560ff9c5da47ba8067cb37035e45e16_icgraph.map
+            │  class_student_a5560ff9c5da47ba8067cb37035e45e16_icgraph.md5
+            │  class_student_a5560ff9c5da47ba8067cb37035e45e16_icgraph.png
+            │  clipboard.js
+            │  closed.png
+            │  cookie.js
+            │  doc.svg
+            │  docd.svg
+            │  doxygen.css
+            │  doxygen.svg
+            │  doxygen_crawl.html
+            │  dynsections.js
+            │  files.html
+            │  files_dup.js
+            │  folderclosed.svg
+            │  folderclosedd.svg
+            │  folderopen.svg
+            │  folderopend.svg
+            │  functions.html
+            │  functions_func.html
+            │  globals.html
+            │  globals_func.html
+            │  graph_legend.html
+            │  graph_legend.md5
+            │  graph_legend.png
+            │  index.html
+            │  input.png
+            │  jquery.js
+            │  main_8cpp.html
+            │  main_8cpp.js
+            │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map
+            │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.md5
+            │  main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png
+            │  main_8cpp_source.html
+            │  main_8cpp__incl.map
+            │  main_8cpp__incl.md5
+            │  main_8cpp__incl.png
+            │  minus.svg
+            │  minusd.svg
+            │  navtree.css
+            │  navtree.js
+            │  navtreedata.js
+            │  navtreeindex0.js
+            │  nav_f.png
+            │  nav_fd.png
+            │  nav_g.png
+            │  nav_h.png
+            │  nav_hd.png
+            │  open.png
+            │  plus.svg
+            │  plusd.svg
+            │  resize.js
+            │  splitbar.png
+            │  splitbard.png
+            │  sync_off.png
+            │  sync_on.png
+            │  tabs.css
+            │  tab_a.png
+            │  tab_ad.png
+            │  tab_b.png
+            │  tab_bd.png
+            │  tab_h.png
+            │  tab_hd.png
+            │  tab_s.png
+            │  tab_sd.png
+            │  _listen_element_8cpp.html
+            │  _listen_element_8cpp_source.html
+            │  _listen_element_8cpp__incl.map
+            │  _listen_element_8cpp__incl.md5
+            │  _listen_element_8cpp__incl.png
+            │  _listen_element_8h.html
+            │  _listen_element_8h.js
+            │  _listen_element_8h_source.html
+            │  _listen_element_8h__dep__incl.map
+            │  _listen_element_8h__dep__incl.md5
+            │  _listen_element_8h__dep__incl.png
+            │  _listen_element_8h__incl.map
+            │  _listen_element_8h__incl.md5
+            │  _listen_element_8h__incl.png
+            │  _liste_8cpp.html
+            │  _liste_8cpp_source.html
+            │  _liste_8cpp__incl.map
+            │  _liste_8cpp__incl.md5
+            │  _liste_8cpp__incl.png
+            │  _liste_8h.html
+            │  _liste_8h.js
+            │  _liste_8h_source.html
+            │  _liste_8h__dep__incl.map
+            │  _liste_8h__dep__incl.md5
+            │  _liste_8h__dep__incl.png
+            │  _liste_8h__incl.map
+            │  _liste_8h__incl.md5
+            │  _liste_8h__incl.png
+            │  _student_8cpp.html
+            │  _student_8cpp_source.html
+            │  _student_8cpp__incl.map
+            │  _student_8cpp__incl.md5
+            │  _student_8cpp__incl.png
+            │  _student_8h.html
+            │  _student_8h.js
+            │  _student_8h_source.html
+            │  _student_8h__dep__incl.map
+            │  _student_8h__dep__incl.md5
+            │  _student_8h__dep__incl.png
+            │  _student_8h__incl.map
+            │  _student_8h__incl.md5
+            │  _student_8h__incl.png
+            │  
+            └─search
+                    all_0.js
+                    all_1.js
+                    all_2.js
+                    all_3.js
+                    all_4.js
+                    all_5.js
+                    all_6.js
+                    all_7.js
+                    all_8.js
+                    all_9.js
+                    classes_0.js
+                    classes_1.js
+                    close.svg
+                    files_0.js
+                    files_1.js
+                    files_2.js
+                    functions_0.js
+                    functions_1.js
+                    functions_2.js
+                    functions_3.js
+                    functions_4.js
+                    functions_5.js
+                    functions_6.js
+                    functions_7.js
+                    mag.svg
+                    mag_d.svg
+                    mag_sel.svg
+                    mag_seld.svg
+                    pages_0.js
+                    pages_1.js
+                    search.css
+                    search.js
+                    searchdata.js
+                    
 
 本项目包含 RWTH Aachen 2025 年夏季学期信息实习课程（Info Praktikum）中的全部 C++ 编程任务与解决方案，包括 Versuch3、4、5，涵盖 CLion 使用、Doxygen 文档生成与 Eclipse 项目导入等内容。
 This repository contains all programming tasks and solutions for the RWTH Info Practical (Info-Praktikum) 2025 summer semester, including Versuch3–5, CLion setup, Doxygen documentation, and Eclipse project templates.
