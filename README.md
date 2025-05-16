@@ -30,7 +30,7 @@ rwth_pi_zusammen/
 
 1. 克隆项目：
 
-    git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
+    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. 使用支持 CMake 的 IDE（如 CLion）打开。
 
@@ -75,7 +75,7 @@ rwth_pi_zusammen/
 
 1. Repository klonen:
 
-    git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
+    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. Mit einer CMake-kompatiblen IDE (z. B. CLion) öffnen.
 
@@ -120,7 +120,7 @@ rwth_pi_zusammen/
 
 1. Clone the repository:
 
-    git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
+    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. Open with a CMake-compatible IDE (e.g., CLion).
 
@@ -130,3 +130,10 @@ rwth_pi_zusammen/
 
 📧 leonhartyu2005@gmail.com  
 📧 jiakun.yu@rwth-aachen.de  
+# RWTH信息实习课程任务合集（2025夏季学期）
+# RWTH Info Praktikum Aufgaben (Sommersemester 2025)
+# RWTH Info Practical Tasks (Summer Semester 2025)
+
+本项目包含 RWTH Aachen 2025 年夏季学期信息实习课程（Info Praktikum）中的全部 C++ 编程任务与解决方案，包括 Versuch3、4、5，涵盖 CLion 使用、Doxygen 文档生成与 Eclipse 项目导入等内容。
+This repository contains all programming tasks and solutions for the RWTH Info Practical (Info-Praktikum) 2025 summer semester, including Versuch3–5, CLion setup, Doxygen documentation, and Eclipse project templates.
+Dieses Repository enthält alle Aufgaben und Lösungen zum RWTH Info-Praktikum im Sommersemester 2025 mit CLion, Doxygen und Eclipse-Projekten.
