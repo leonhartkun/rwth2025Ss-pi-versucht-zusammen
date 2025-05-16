@@ -128,8 +128,7 @@ This repository contains all programming tasks and solutions for the RWTH Info P
 Dieses Repository enthält alle Aufgaben und Lösungen zum RWTH Info-Praktikum im Sommersemester 2025 mit CLion, Doxygen und Eclipse-Projekten.
 
 ## 📁 Project Structure
-文件夹 PATH 列表
-卷序列号为 0C3A-0F87
+```text
 D:.
 |   .gitignore
 |   gitpush.cmd
@@ -1289,4 +1288,4 @@ D:.
                     search.js
                     searchdata.js
                     
-
+</details>```
