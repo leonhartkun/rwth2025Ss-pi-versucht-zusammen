@@ -17,9 +17,12 @@
 
 ## 📌 使用方式
 
+
 1. 克隆项目：
-```bash 
-git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+
+```bash
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
+
 
 2. 使用支持 CMake 的 IDE（如 CLion）打开。
 
