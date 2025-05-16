@@ -7,15 +7,23 @@
 ## 📁 项目结构
 
 rwth_pi_zusammen/
-├── Versuch01_Teil1/
-├── Versuch01_Teil2/
-├── Versuch02_Teil1/
-├── Versuch02_Teil2/
-├── Versuch02_Teil3/
-├── Versuch3/
-├── Versuch4/
-├── Versuch5/
-└── README.md
+├─Versuch01_Teil1/
+├─Versuch01_Teil2/
+├─Versuch02_Teil1/
+├─Versuch02_Teil2/
+├─Versuch02_Teil3/
+├─Versuch3/
+│  └─doxygen_1.0/
+│      ├─html/
+│      └─Latex/
+├─Versuch4/
+│  └─doxygen_files/
+│      ├─html/
+│      └─Latex/
+└─Versuch5/
+    └─GUI_DOXYGEN/
+        └─html/
+            └─search/
 
 - `Versuch01_Teil1/`：实验1第一部分代码  
 - `Versuch01_Teil2/`：实验1第二部分代码  
@@ -30,7 +38,8 @@ rwth_pi_zusammen/
 
 1. 克隆项目：
 
-    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+    ```bash
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. 使用支持 CMake 的 IDE（如 CLion）打开。
 
@@ -52,15 +61,23 @@ Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Somme
 ## 📁 Projektstruktur
 
 rwth_pi_zusammen/
-├── Versuch01_Teil1/
-├── Versuch01_Teil2/
-├── Versuch02_Teil1/
-├── Versuch02_Teil2/
-├── Versuch02_Teil3/
-├── Versuch3/
-├── Versuch4/
-├── Versuch5/
-└── README.md
+├─Versuch01_Teil1/
+├─Versuch01_Teil2/
+├─Versuch02_Teil1/
+├─Versuch02_Teil2/
+├─Versuch02_Teil3/
+├─Versuch3/
+│  └─doxygen_1.0/
+│      ├─html/
+│      └─Latex/
+├─Versuch4/
+│  └─doxygen_files/
+│      ├─html/
+│      └─Latex/
+└─Versuch5/
+    └─GUI_DOXYGEN/
+        └─html/
+            └─search/
 
 - `Versuch01_Teil1/`: Code für Teil 1 von Versuch 1  
 - `Versuch01_Teil2/`: Code für Teil 2 von Versuch 1  
@@ -75,7 +92,8 @@ rwth_pi_zusammen/
 
 1. Repository klonen:
 
-    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+    ```bash
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. Mit einer CMake-kompatiblen IDE (z. B. CLion) öffnen.
 
@@ -97,15 +115,23 @@ This project contains all programming assignments from the RWTH Aachen Info Prac
 ## 📁 Project Structure
 
 rwth_pi_zusammen/
-├── Versuch01_Teil1/
-├── Versuch01_Teil2/
-├── Versuch02_Teil1/
-├── Versuch02_Teil2/
-├── Versuch02_Teil3/
-├── Versuch3/
-├── Versuch4/
-├── Versuch5/
-└── README.md
+├─Versuch01_Teil1/
+├─Versuch01_Teil2/
+├─Versuch02_Teil1/
+├─Versuch02_Teil2/
+├─Versuch02_Teil3/
+├─Versuch3/
+│  └─doxygen_1.0/
+│      ├─html/
+│      └─Latex/
+├─Versuch4/
+│  └─doxygen_files/
+│      ├─html/
+│      └─Latex/
+└─Versuch5/
+    └─GUI_DOXYGEN/
+        └─html/
+            └─search/
 
 - `Versuch01_Teil1/`: Code for Part 1 of Experiment 1  
 - `Versuch01_Teil2/`: Code for Part 2 of Experiment 1  
@@ -120,7 +146,8 @@ rwth_pi_zusammen/
 
 1. Clone the repository:
 
-    ```git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+    ```bash
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. Open with a CMake-compatible IDE (e.g., CLion).
 
