@@ -3,10 +3,10 @@
 **RWTH Aachen 信息实习 | Info Praktikum | Programmierkurs C++ | Versuch3 | Versuch4 | Versuch5 | CLion | Doxygen | Eclipse | 学习资料共享**
 
 本项目包含 RWTH Aachen 2025 年夏季学期信息实习课程（Info Praktikum）中的全部编程任务，包括 Versuch3、Versuch4、Versuch5 的完整代码与文档。欢迎其他同学查阅、参考或改进。
-
+[TOC]
 ## 📁 项目结构
 
-[TOC]
+
 
 - `Versuch01_Teil1/`：实验1第一部分代码  
 - `Versuch01_Teil2/`：实验1第二部分代码  
@@ -42,7 +42,7 @@ Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Somme
 
 ## 📁 Projektstruktur
 
-[TOC]
+
 
 - `Versuch01_Teil1/`: Code für Teil 1 von Versuch 1  
 - `Versuch01_Teil2/`: Code für Teil 2 von Versuch 1  
@@ -77,8 +77,22 @@ Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Somme
 This project contains all programming assignments from the RWTH Aachen Info Practical course in the 2025 summer semester, including full code and documentation for Versuch3, Versuch4, and Versuch5. Other students are welcome to browse, reference, or contribute improvements.
 
 ## 📁 Project Structure
+project-name/
+│
+├── dir1/
+│   ├── file1.ext
+│   └── file2.ext
+│
+├── dir2/
+│   ├── sub-dir1/
+│   │   └── file3.ext
+│   └── sub-dir2/
+│
+└── dir3/
+    ├── file4.ext
+    └── file5.ext
 
-[TOC]
+
 
 - `Versuch01_Teil1/`: Code for Part 1 of Experiment 1  
 - `Versuch01_Teil2/`: Code for Part 2 of Experiment 1  
