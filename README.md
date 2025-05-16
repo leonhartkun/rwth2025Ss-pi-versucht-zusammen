@@ -18,8 +18,8 @@
 ## 📌 使用方式
 
 1. 克隆项目：
-
-    ```bash git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+```bash 
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
 
 2. 使用支持 CMake 的 IDE（如 CLion）打开。
 
@@ -53,7 +53,8 @@ Dieses Projekt enthält alle Programmieraufgaben aus dem Info-Praktikum im Somme
 
 1. Repository klonen:
 
-    ```bash git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+ ```bash 
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
 
 2. Mit einer CMake-kompatiblen IDE (z. B. CLion) öffnen.
 
@@ -85,7 +86,8 @@ This project contains all programming assignments from the RWTH Aachen Info Prac
 
 1. Clone the repository:
 
-    ```bash git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git```
+    ```bash 
+git clone git@git.rwth-aachen.de:leonhartyu2005/rwth_pi_zusammen.git
 
 2. Open with a CMake-compatible IDE (e.g., CLion).
 
