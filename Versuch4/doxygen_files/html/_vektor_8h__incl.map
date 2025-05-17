@@ -1,9 +1,0 @@
-<map id="Vektor.h" name="Vektor.h">
-<area shape="rect" id="Node000001" title="Definition der Klasse Vektor zur Darstellung und Berechnung von 3D&#45;Vektoren." alt="" coords="94,5,164,32"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,77,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,35,70,72,66,68,112,30"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="100,80,158,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,33,132,64,126,64,126,33"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="181,80,248,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,31,190,68,187,72,142,35"/>
-</map>

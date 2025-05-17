@@ -46,7 +46,7 @@ public:
      * @brief Berechnet die Länge (Betrag) des Vektors.
      * @return Länge des Vektors
      */
-    double laenge() const;
+    double laenge(const Vektor& input) const;
 
     /**
      * @brief Berechnet das Skalarprodukt mit einem anderen Vektor.
@@ -66,7 +66,8 @@ public:
      * @brief Rotiert den Vektor um die Z-Achse.
      * @param rad Winkel im Bogenmaß
      */
-    void rotiereUmZ(const double rad);
+    long double rotiereUmZ(const long double deg) ;  // ✅ 加上 const
+
 
     /**
      * @brief Gibt die X-Komponente zurück.
@@ -82,6 +83,18 @@ public:
      * @brief Gibt die Z-Komponente zurück.
      */
     double getZ() const { return z; }
+    /**
+     * @brief 向量加法：将当前向量与另一个向量相加
+     * @details 返回一个新向量，其每个分量是两个向量分量的和。
+     *
+     * 中文：计算当前向量与输入向量的和，返回新向量对象，不修改原有向量。
+     * Deutsch: Berechnet die Vektorsumme mit dem gegebenen Vektor und gibt einen neuen Vektor zurück.
+     *
+     * @param input 要加上的另一个向量 / Der andere Vektor, der addiert werden soll.
+     * @return 相加结果的新向量 / Ein neuer Vektor als Ergebnis der Addition.
+     */
+    Vektor add(const Vektor& input) const;
+
 
 private:
     double x; ///< X-Komponente

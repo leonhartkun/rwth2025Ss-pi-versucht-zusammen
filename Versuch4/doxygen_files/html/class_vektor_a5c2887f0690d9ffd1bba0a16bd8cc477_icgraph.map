@@ -1,7 +1,0 @@
-<map id="Vektor::skalarProd" name="Vektor::skalarProd">
-<area shape="rect" id="Node000001" title="Berechnet das Skalarprodukt mit einem anderen Vektor." alt="" coords="157,31,285,57"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="32,5,82,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,34,82,25,82,20,142,29"/>
-<area shape="rect" id="Node000003" href="$class_vektor.html#a66d1f47d9c7f6d985f39e9f34fb3f0d5" title="Berechnet den Winkel (in Grad) zwischen zwei Vektoren." alt="" coords="5,56,109,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,59,109,64,109,59,141,54"/>
-</map>
