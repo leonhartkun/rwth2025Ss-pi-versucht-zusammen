@@ -392,7 +392,10 @@ void spielen(const int spielerTyp[2])
     // solange noch Zuege bei einem der beiden Spieler moeglich sind
     //
     // Hier erfolgt jetzt Ihre Implementierung ...
+    int rund = 0;
     while (true) {
+        rund = rund + 1;
+        std::cout << "Rund" <<rund << std::endl;
         computerZug(spielfeld,aktuellerSpieler);
         aktuellerSpieler = 3-aktuellerSpieler;
         if (spielerTyp[aktuellerSpieler-1] == MENSCH) {
