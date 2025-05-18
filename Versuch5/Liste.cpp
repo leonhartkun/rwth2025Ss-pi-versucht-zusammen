@@ -92,3 +92,13 @@ void Liste::ausgabeVorwaerts() const
         cursor = cursor->getNext();
     }
 }
+/**
+ * @brief Gibt die Liste vom ersten bis zum letzten Element aus.(in hinterwaerts / 从前向后输出链表中所有元素的数据。（倒叙）
+ */
+void Liste::ausgabeHinterwaerts() const {
+    ListenElement* cursor = back;
+    while (cursor != nullptr) {
+        cursor->getData().ausgabe();
+        cursor = cursor->getPrev();
+    }
+}

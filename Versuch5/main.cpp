@@ -10,6 +10,7 @@
 #include <string>
 #include "Liste.h"
 #include "Student.h"
+#include <windows.h>
 
 /**
  * @brief 主函数 / Hauptfunktion
@@ -20,6 +21,8 @@
  */
 int main()
 {
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
     Liste studentenListe;
     Student student;
 
@@ -103,6 +106,8 @@ int main()
                 {
                     std::cout << "Inhalt der Liste in fortlaufender Reihenfolge:" << std::endl;
                     studentenListe.ausgabeVorwaerts();
+                    std::cout<< "Inhalte der Lister Hinterwaert:" << std::endl;
+                    studentenListe.ausgabeHinterwaerts();
                 }
                 else
                 {

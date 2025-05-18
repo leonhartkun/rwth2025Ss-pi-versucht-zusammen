@@ -1,26 +1,33 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,132,55,159"/>
-<area shape="rect" id="Node000002" href="$class_student.html#a5560ff9c5da47ba8067cb37035e45e16" title="在终端输出学生信息 Gibt die Studentendaten auf der Konsole aus" alt="" coords="332,5,456,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,130,58,85,77,61,101,42,154,19,211,8,267,4,317,6,317,11,267,10,212,13,156,25,104,46,81,65,62,88,39,133"/>
-<area shape="rect" id="Node000003" href="$class_liste.html#a34bc1c9c56b6f484413043b5219eac3a" title="从前向后输出整个链表的学生信息 Gibt alle Studentendaten der Liste von vorne nach hinten aus" alt="" coords="103,56,267,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="46,130,71,111,101,92,115,86,118,91,104,97,74,115,49,134"/>
-<area shape="rect" id="Node000007" href="$class_liste.html#a379a9ced61e8489881aa1205abbbf752" title="获取第一个元素中的学生数据（不删除） Gibt die Daten des ersten Elements zurück (ohne es zu löschen)" alt="" coords="129,107,241,133"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="55,139,113,129,114,134,56,144"/>
-<area shape="rect" id="Node000008" href="$class_liste.html#a7b6936c35cb2a36514de4ea4364c8ee3" title="检查链表是否为空 Prüft, ob die Liste leer ist" alt="" coords="138,157,232,184"/>
-<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="56,147,123,158,123,163,55,152"/>
-<area shape="rect" id="Node000009" href="$class_liste.html#a359e04399c69cab7061e7c8eceb74d38" title="移除链表头部的元素 Entfernt das erste Element aus der Liste" alt="" coords="131,208,239,235"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="49,157,74,176,104,194,118,200,115,205,101,198,71,180,46,161"/>
-<area shape="rect" id="Node000010" href="$class_liste.html#a03a950dc8fb42a599196ce41330cf8cd" title="在链表末尾添加一个学生数据项 Fügt ein neues Studentenelement am Ende der Liste hinzu" alt="" coords="127,259,242,285"/>
-<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="40,158,64,201,82,224,104,245,115,251,112,255,101,249,78,228,60,204,35,161"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="243,53,321,34,322,39,244,58"/>
-<area shape="rect" id="Node000004" href="$class_listen_element.html#a5026f2303a51827b5c7d6fa928413041" title="获取当前存储的学生数据 / Gibt die gespeicherten Studentendaten zurück" alt="" coords="315,56,473,83"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="267,67,299,67,299,72,267,72"/>
-<area shape="rect" id="Node000005" href="$class_listen_element.html#a34ecab2eb329046f12a0b724b2350c3a" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das nächste Element zurück" alt="" coords="315,132,473,159"/>
-<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="234,81,268,92,348,123,346,128,266,97,232,86"/>
-<area shape="rect" id="Node000006" href="$class_listen_element.html#a18c45f3902f8b3aacd4e977fe0cc0f92" title="构造函数，初始化数据和指针 Konstruktor zur Initialisierung von Daten und Zeiger" alt="" coords="521,208,717,235"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="437,157,563,200,562,205,435,162"/>
-<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="581,209,574,199,579,189,594,183,619,181,646,184,660,190,658,195,644,189,619,187,595,189,583,193,580,199,585,206"/>
-<area shape="rect" id="Node000011" href="$class_listen_element.html#a6cbd3a5732556c9ae027e2b6ac1b9fb8" title="设置指向上一个节点的指针" alt="" coords="316,233,473,260"/>
-<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="242,262,300,255,301,261,243,268"/>
-<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="473,235,506,231,506,237,474,240"/>
+<area shape="rect" id="Node000001" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,183,55,209"/>
+<area shape="rect" id="Node000002" href="$class_student.html#a5560ff9c5da47ba8067cb37035e45e16" title="在终端输出学生信息 Gibt die Studentendaten auf der Konsole aus" alt="" coords="348,56,472,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,181,39,155,53,124,73,92,101,67,131,53,163,44,228,36,291,40,347,49,346,55,291,45,228,42,164,49,133,58,104,72,77,95,57,126,44,157,37,183"/>
+<area shape="rect" id="Node000003" href="$class_liste.html#ab531c2665b53ddcb07ca3d1ff66c10ed" title="从后向前输出整个链表的学生信息 Gibt alle Studentendaten der Liste von hinter nach vorne aus" alt="" coords="103,132,283,159"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,185,102,168,126,161,127,166,103,173,56,190"/>
+<area shape="rect" id="Node000007" href="$class_liste.html#a34bc1c9c56b6f484413043b5219eac3a" title="从前向后输出整个链表的学生信息 Gibt alle Studentendaten der Liste von vorne nach hinten aus" alt="" coords="111,81,275,108"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="39,180,64,149,101,118,112,112,114,117,104,122,68,153,43,184"/>
+<area shape="rect" id="Node000009" href="$class_liste.html#a379a9ced61e8489881aa1205abbbf752" title="获取第一个元素中的学生数据（不删除） Gibt die Daten des ersten Elements zurück (ohne es zu löschen)" alt="" coords="137,233,249,260"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="56,202,103,219,127,226,126,231,102,224,54,207"/>
+<area shape="rect" id="Node000010" href="$class_liste.html#a7b6936c35cb2a36514de4ea4364c8ee3" title="检查链表是否为空 Prüft, ob die Liste leer ist" alt="" coords="146,284,240,311"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="43,208,68,239,104,270,132,283,130,287,101,274,64,243,39,212"/>
+<area shape="rect" id="Node000011" href="$class_liste.html#a359e04399c69cab7061e7c8eceb74d38" title="移除链表头部的元素 Entfernt das erste Element aus der Liste" alt="" coords="139,335,247,361"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="38,209,60,263,79,294,104,321,125,333,123,337,101,325,75,298,55,266,33,211"/>
+<area shape="rect" id="Node000012" href="$class_liste.html#a03a950dc8fb42a599196ce41330cf8cd" title="在链表末尾添加一个学生数据项 Fügt ein neues Studentenelement am Ende der Liste hinzu" alt="" coords="135,183,250,209"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="55,193,120,193,120,199,55,199"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="249,129,282,118,330,92,346,86,348,91,332,97,284,122,251,134"/>
+<area shape="rect" id="Node000004" href="$class_listen_element.html#a5026f2303a51827b5c7d6fa928413041" title="获取当前存储的学生数据 / Gibt die gespeicherten Studentendaten zurück" alt="" coords="331,107,489,133"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="283,132,315,128,316,134,284,137"/>
+<area shape="rect" id="Node000005" href="$class_listen_element.html#a34e925d310f27785c7227f76fb42549b" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das vorgänge Element zurück" alt="" coords="332,157,489,184"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="284,153,316,157,316,162,283,159"/>
+<area shape="rect" id="Node000006" href="$class_listen_element.html#a18c45f3902f8b3aacd4e977fe0cc0f92" title="构造函数，初始化数据和指针 Konstruktor zur Initialisierung von Daten und Zeiger" alt="" coords="537,157,733,184"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="489,168,522,168,522,173,489,173"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="597,158,590,149,595,139,610,133,635,131,662,133,676,140,674,145,660,138,635,136,611,138,599,143,596,148,601,155"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="275,82,333,76,334,81,276,88"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="276,102,316,106,315,112,275,107"/>
+<area shape="rect" id="Node000008" href="$class_listen_element.html#a34ecab2eb329046f12a0b724b2350c3a" title="获取指向下一个节点的指针 / Gibt den Zeiger auf das nächste Element zurück" alt="" coords="331,5,489,32"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="230,78,330,41,350,35,352,40,332,47,232,83"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="465,30,491,42,527,65,560,93,613,144,610,148,557,97,524,70,488,46,463,35"/>
+<area shape="rect" id="Node000013" href="$class_listen_element.html#a6cbd3a5732556c9ae027e2b6ac1b9fb8" title="设置指向上一个节点的指针" alt="" coords="332,208,489,235"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="251,200,316,208,316,213,251,205"/>
+<area shape="poly" id="edge18_Node000013_Node000006" title=" " alt="" coords="472,205,557,185,559,191,473,210"/>
 </map>

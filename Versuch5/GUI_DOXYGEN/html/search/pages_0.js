@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['5_0',['Versuch 5',['../index.html',1,'']]]
+  ['doxygen_20example_0',['doxygen example',['../index.html',1,'']]]
 ];

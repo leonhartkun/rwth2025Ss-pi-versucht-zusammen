@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['liste_0',['Liste',['../class_liste.html',1,'Liste'],['../class_liste.html#a26368f966a6cfb9d8320603871d9f316',1,'Liste::Liste()']]],
-  ['liste_2ecpp_1',['Liste.cpp',['../_liste_8cpp.html',1,'']]],
-  ['liste_2eh_2',['Liste.h',['../_liste_8h.html',1,'']]],
-  ['listenelement_3',['ListenElement',['../class_listen_element.html',1,'ListenElement'],['../class_listen_element.html#a18c45f3902f8b3aacd4e977fe0cc0f92',1,'ListenElement::ListenElement()']]],
-  ['listenelement_2ecpp_4',['ListenElement.cpp',['../_listen_element_8cpp.html',1,'']]],
-  ['listenelement_2eh_5',['ListenElement.h',['../_listen_element_8h.html',1,'']]]
+  ['getadresse_0',['getAdresse',['../class_student.html#aec9e550c530f685630942bf4140bfb73',1,'Student']]],
+  ['getdata_1',['getData',['../class_listen_element.html#a5026f2303a51827b5c7d6fa928413041',1,'ListenElement']]],
+  ['getgeburtstag_2',['getGeburtstag',['../class_student.html#a7a5a2f32e4fbc93395073157e3ae035f',1,'Student']]],
+  ['getmatnr_3',['getMatNr',['../class_student.html#a4b8bf48bc0e35673793210bd03cb4f23',1,'Student']]],
+  ['getname_4',['getName',['../class_student.html#af2b671e64af8a240f59652414a8b8047',1,'Student']]],
+  ['getnext_5',['getNext',['../class_listen_element.html#a34ecab2eb329046f12a0b724b2350c3a',1,'ListenElement']]],
+  ['getprev_6',['getPrev',['../class_listen_element.html#a34e925d310f27785c7227f76fb42549b',1,'ListenElement']]]
 ];

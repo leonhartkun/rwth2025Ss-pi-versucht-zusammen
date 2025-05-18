@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Versuch 5", "index.html", [
+  [ "doxygen example", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -37,7 +37,9 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -45,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_liste_8cpp.html"
+"_c_make_c_compiler_id_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

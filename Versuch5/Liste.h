@@ -59,6 +59,11 @@ public:
      *        Gibt alle Studentendaten der Liste von vorne nach hinten aus
      */
     void ausgabeVorwaerts() const;
+    /**
+     * @brief 从后向前输出整个链表的学生信息
+     *        Gibt alle Studentendaten der Liste von hinter nach vorne aus
+     */
+    void ausgabeHinterwaerts() const;
 };
 
 #endif /*LISTE_H_*/

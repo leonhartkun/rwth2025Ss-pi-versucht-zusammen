@@ -1,12 +1,12 @@
-<map id="Liste.h" name="Liste.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="128,5,188,32"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,77,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,35,76,74,73,69,137,30"/>
-<area shape="rect" id="Node000003" href="$_listen_element_8h.html" title=" " alt="" coords="101,80,216,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,33,161,64,156,64,156,33"/>
-<area shape="rect" id="Node000004" href="$_student_8h.html" title=" " alt="" coords="166,155,244,181"/>
-<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="183,31,209,51,230,79,234,95,233,112,223,142,218,140,228,111,229,96,225,81,205,54,180,35"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="169,106,191,140,187,143,164,109"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="178,229,232,256"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="208,182,208,214,202,214,202,182"/>
+<map id="D:/rwth_eclipse_workstation/doxygen_show/Liste.h" name="D:/rwth_eclipse_workstation/doxygen_show/Liste.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,5,252,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,77,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,51,73,89,70,85,127,46"/>
+<area shape="rect" id="Node000003" href="$_listen_element_8h.html" title=" " alt="" coords="101,96,216,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,49,161,80,156,80,156,49"/>
+<area shape="rect" id="Node000004" href="$_student_8h.html" title=" " alt="" coords="166,171,244,197"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="190,47,213,68,230,95,234,111,233,128,223,158,218,157,228,127,229,112,225,97,209,71,187,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="169,122,191,156,187,159,164,125"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="178,245,232,272"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="208,198,208,230,202,230,202,198"/>
 </map>
