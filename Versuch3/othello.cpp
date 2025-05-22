@@ -394,14 +394,19 @@ void spielen(const int spielerTyp[2])
     // Hier erfolgt jetzt Ihre Implementierung ...
     int rund = 0;
     while (true) {
-        rund = rund + 1;
-        std::cout << "Rund" <<rund << std::endl;
-        computerZug(spielfeld,aktuellerSpieler);
-        aktuellerSpieler = 3-aktuellerSpieler;
+
+
+
+
         if (spielerTyp[aktuellerSpieler-1] == MENSCH) {
             menschlicherZug(spielfeld, aktuellerSpieler);
+            aktuellerSpieler = 3-aktuellerSpieler;
         }
+        computerZug(spielfeld,aktuellerSpieler);
+        rund = rund + 1;
+        std::cout << "Rund" <<rund << std::endl;
         zeigeSpielfeld(spielfeld);
+        aktuellerSpieler = 3-aktuellerSpieler;
         if (moeglicheZuege(spielfeld,aktuellerSpieler)==0)
         {
             break;
@@ -443,19 +448,69 @@ int main()
         }
         std::cout << std::endl << std::endl;
     }
-    
-    // Die folgenden drei Zeilen werden auskommentiert oder geloescht, nachdem Sie die Funktion spielen()
-    // implementiert haben (waeren sonst doppelt)
-    int spielfeld[GROESSE_Y][GROESSE_X];
+    while (true) {
+        // Die folgenden drei Zeilen werden auskommentiert oder geloescht, nachdem Sie die Funktion spielen()
+        // implementiert haben (waeren sonst doppelt)
+        int spielfeld[GROESSE_Y][GROESSE_X];
 
-    initialisiereSpielfeld(spielfeld);
+        std::cout << R"(
+        __   _____         __             __
+       |  |    |    |__|  |__  |    |    |  |
+       |__|    |    |  |  |__  |__  |__  |__|
+    ============================================
+    )" << std::endl;
 
-    zeigeSpielfeld(spielfeld);
+        std::cout << "Ist Spieler 1 ein Computer ? (j/n) " << std::endl;
+        char spieler1;
+        std::cin >> spieler1;
+        char spieler2;
+        std::cout << "Ist Spieler 2 ein Computer ? (j/n) " << std::endl;
+        std::cin >> spieler2;
 
-    int spielerTyp[2] = { COMPUTER, COMPUTER };  // Feld, das Informationen ueber den Typ des Spielers enthaelt. MENSCH(=1) oder COPMUTER(=2)
-    spielen(spielerTyp);
-    //
-    // Hier erfolgt jetzt Ihre Implementierung ...
-    
+        int spielerTyp[2] = { COMPUTER, COMPUTER };// Feld, das Informationen ueber den Typ des Spielers enthaelt. MENSCH(=1) oder COPMUTER(=2)
+
+        switch (spieler1) {
+            case 'j':
+            {
+                spielerTyp[0] = COMPUTER;
+                break;
+            }
+
+            case 'n':
+            {
+                spielerTyp[0] = MENSCH;
+                break;
+            }
+
+        }
+        switch (spieler2) {
+            case 'j':
+            {
+                spielerTyp[1] = COMPUTER;
+                break;
+            }
+            case 'n':
+            {
+                spielerTyp[1] = MENSCH;
+                break;
+            }
+        }
+        initialisiereSpielfeld(spielfeld);
+
+        //zeigeSpielfeld(spielfeld);
+
+        spielen(spielerTyp);
+        //
+        // Hier erfolgt jetzt Ihre Implementierung ...
+        std::cout << "Neues Spiel? (j/n)" << std::endl;
+        char neuesSpiel;
+        std::cin >> neuesSpiel;
+        if (neuesSpiel == 'j') {
+            continue;
+        }
+        else if (neuesSpiel == 'n') {
+            break;
+        }
+    }
     return 0;
 }

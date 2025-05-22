@@ -1,0 +1,5 @@
+<map id="check" name="check">
+<area shape="rect" id="Node000001" title="DE: Fragt die Bestätigung für eine Aktion am Objekt ab. CN: 确认是否对某个学生对象执行指定操作。" alt="" coords="103,5,159,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

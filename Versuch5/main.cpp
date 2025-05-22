@@ -67,6 +67,7 @@ int main()
                   << "(3): Datenbank ausgeben" << std::endl
                   << "(4): Matrikelnummer finden und loeschen" << std::endl
                   << "(5): Datenelement vorne hinzufuegen" << std::endl
+                  << "(6): Datenbank ausgeben(hinterwarts)"<<std::endl
                   << "(0): Beenden" << std::endl;
         std::cin >> abfrage;
         std::cin.ignore(10, '\n');
@@ -111,13 +112,12 @@ int main()
             }
             break;
 
-            case '3':/**< 正向和反向输出列表内容 / Liste vorwärts und rückwärts ausgeben */
+            case '3':/**< 正向输出列表内容 / Liste vorwärts ausgeben */
                 if (!studentenListe.empty())
                 {
                     std::cout << "Inhalt der Liste in fortlaufender Reihenfolge:" << std::endl;
                     studentenListe.ausgabeVorwaerts();
-                    std::cout << "Inhalt der Liste hinterwaerts:" << std::endl;
-                    studentenListe.ausgabeHinterwaerts();
+
                 }
                 else
                 {
@@ -153,6 +153,12 @@ int main()
                 studentenListe.push_front(student);
             }
             break;
+            case '6': /**< 反向输出列表内容 / Liste rückwärts ausgeben */
+                {
+                std::cout << "Inhalt der Liste hinterwaerts:" << std::endl;
+                studentenListe.ausgabeHinterwaerts();
+                break;
+                }
 
             case '0':/**< 程序结束 / Programm beenden */
                 std::cout << "Das Programm wird nun beendet." << std::endl;

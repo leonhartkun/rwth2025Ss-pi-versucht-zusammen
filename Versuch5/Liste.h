@@ -1,169 +1,95 @@
-/**
- * @file main.cpp
- * @brief Praktikum Informatik 1 MMXXV - Versuch 5: Dynamische Datenstrukturen
- *        本程序为 Praktikum Informatik 1 的实验 5，实现了一个基于双链表的简单学生数据库。
- *        Dieses Programm implementiert eine einfache Studentendatenbank basierend auf einer doppelt verketteten Liste.
- *
- * @author
- *
- * @date 2025-05-19
- */
+//////////////////////////////////////////////////////////////////////////////
+// Praktikum Informatik 1 MMXXV
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef LISTE_H_
+#define LISTE_H_
 
 #include <iostream>
-#include <string>
-#include "Liste.h"
+#include "ListenElement.h"
 #include "Student.h"
-#include <windows.h>
 
 /**
- * @brief 主函数 / Hauptfunktion
- *        Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank
- *        运行一个基于文本菜单的学生数据库管理程序
- *
- * @return int Rückgabewert 0 bei regulärem Programmende / 程序正常结束时返回 0
+ * @class Liste
+ * @brief 表示一个学生链表，用于存储和操作学生数据。
+ *        Repräsentiert eine doppelt verkettete Liste von Studenten.
  */
-int main()
+class Liste
 {
-    // 设置控制台编码为 UTF-8 / Konsole auf UTF-8 einstellen
-    SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
+private:
+    ListenElement* front; ///< 指向第一个元素的指针 / Zeiger auf das erste Listenelement
+    ListenElement* back;  ///< 指向最后一个元素的指针 / Zeiger auf das letzte Listenelement
 
-    Liste studentenListe;    /**< 双链表，保存学生数据 / doppelt verkettete Liste für Studentendaten */
-    Student student;        /**< 临时保存学生对象 / temporärer Studentengenerator */
-
-    char abfrage;           /**< 用户菜单输入 / Nutzereingabe für Menü */
-    std::cout << "Wollen Sie die Liste selbst fuellen? (j)/(n) ";
-    std::cin >> abfrage;
-    std::cin.ignore(10, '\n');
+public:
+    /**
+     * @brief 构造函数，初始化空链表
+     *        Konstruktor zur Initialisierung der leeren Liste
+     */
+    Liste();
 
     /**
-     * @brief 自动填充示例数据 / Automatisches Vorfüllen der Liste
-     * 当用户输入不是 'j' 时，预填充若干示例学生 / Wenn Eingabe ungleich 'j', wird die Liste mit Beispieldaten gefüllt
+     * @brief 在链表末尾添加一个学生数据项
+     *        Fügt ein neues Studentenelement am Ende der Liste hinzu
+     * @param pData 要添加的学生数据 / Studentendaten, die hinzugefügt werden
      */
-    if (abfrage != 'j')
-    {
-        student = Student(34567, "Harro Simoneit", "19.06.1971", "Am Markt 1");
-        studentenListe.pushBack(student);
-        student = Student(74567, "Vera Schmitt", "23.07.1982", "Gartenstr. 23");
-        studentenListe.pushBack(student);
-        student = Student(12345, "Siggi Baumeister", "23.04.1983", "Ahornst.55");
-        studentenListe.pushBack(student);
-        student = Student(64567, "Paula Peters", "9.01.1981", "Weidenweg 12");
-        studentenListe.pushBack(student);
-        student = Student(23456, "Walter Rodenstock", "15.10.1963", "Wüllnerstr.9");
-        studentenListe.pushBack(student);
-    }
+    void pushBack(const Student& pData);
 
     /**
-     * @brief Hauptmenü-Schleife / 主菜单循环
-     *        Bietet Optionen zum Hinzufügen, Entfernen, Suchen und Ausgeben von Studenten
+     * @brief 在链表头部添加一个学生数据项
+     *        Fügt ein neues Studentenelement am Anfang der Liste hinzu
+     * @param pData 要添加的学生数据 / Studentendaten, die hinzugefügt werden
      */
-    do
-    {
-        std::cout << "\nMenue:" << std::endl
-                  << "-----------------------------" << std::endl
-                  << "(1): Datenelement hinten hinzufuegen" << std::endl
-                  << "(2): Datenelement vorne entfernen" << std::endl
-                  << "(3): Datenbank ausgeben" << std::endl
-                  << "(4): Matrikelnummer finden und loeschen" << std::endl
-                  << "(5): Datenelement vorne hinzufuegen" << std::endl
-                  << "(0): Beenden" << std::endl;
-        std::cin >> abfrage;
-        std::cin.ignore(10, '\n');
+    void push_front(const Student& pData);
 
-        switch (abfrage)
-        {
-            case '1':/**< 插入至链表尾部 / Element hinten hinzufügen */
-            {
-                unsigned int matNr = 0;
-                std::string name;
-                std::string geburtstag;
-                std::string adresse;
+    /**
+     * @brief 移除链表头部的元素
+     *        Entfernt das erste Element aus der Liste
+     * @note 如果列表为空，则不执行任何操作 / Kein Effekt, wenn die Liste leer ist
+     */
+    void popFront();
 
-                std::cout << "Bitte geben Sie die Daten für den Studenten ein.\nName: ";
-                getline(std::cin, name);
-                std::cout << "Geburtsdatum: ";
-                getline(std::cin, geburtstag);
-                std::cout << "Adresse: ";
-                getline(std::cin, adresse);
-                std::cout << "Matrikelnummer: ";
-                std::cin >> matNr;
-                std::cin.ignore(10, '\n');
+    /**
+     * @brief 检查链表是否为空
+     *        Prüft, ob die Liste leer ist
+     * @return 若为空返回 true / Gibt true zurück, wenn die Liste leer ist
+     */
+    bool empty() const;
 
-                student = Student(matNr, name, geburtstag, adresse);
-                studentenListe.pushBack(student);
-            }
-            break;
+    /**
+     * @brief 获取第一个元素中的学生数据（不删除）
+     *        Gibt die Daten des ersten Elements zurück (ohne es zu löschen)
+     * @return 第一个学生对象 / Student-Objekt am Anfang der Liste
+     * @pre 列表不能为空 / Die Liste darf nicht leer sein
+     */
+    Student dataFront() const;
 
-            case '2':/**< 删除链表头部元素 / Element vorne entfernen */
-            {
-                if (!studentenListe.empty())
-                {
-                    student = studentenListe.dataFront();
-                    std::cout << "Der folgende Student ist geloescht worden:" << std::endl;
-                    student.ausgabe();
-                    studentenListe.popFront();
-                }
-                else
-                {
-                    std::cout << "Die Liste ist leer!" << std::endl;
-                }
-            }
-            break;
+    /**
+     * @brief 从前向后输出整个链表的学生信息
+     *        Gibt alle Studentendaten der Liste von vorne nach hinten aus
+     */
+    void ausgabeVorwaerts() const;
 
-            case '3':/**< 正向和反向输出列表内容 / Liste vorwärts und rückwärts ausgeben */
-                if (!studentenListe.empty())
-                {
-                    std::cout << "Inhalt der Liste in fortlaufender Reihenfolge:" << std::endl;
-                    studentenListe.ausgabeVorwaerts();
-                    std::cout << "Inhalt der Liste hinterwaerts:" << std::endl;
-                    studentenListe.ausgabeHinterwaerts();
-                }
-                else
-                {
-                    std::cout << "Die Liste ist leer!" << std::endl;
-                }
-                break;
+    /**
+     * @brief 从后向前输出整个链表的学生信息
+     *        Gibt alle Studentendaten der Liste von hinten nach vorne aus
+     */
+    void ausgabeHinterwaerts() const;
 
-            case '4':/**< 按学号查找并删除学生 / Matrikelnummer finden und löschen */
-            {
-                std::cout << "Bitte geben Sie die Matrikelnummer ein: " << std::endl;
-                int matnum;
-                std::cin >> matnum;
-                studentenListe.delete_student(matnum);
-            }
-            break;
+    /**
+     * @brief 根据学号查找并删除学生节点
+     *        Sucht das Studentenelement anhand der Matrikelnummer und entfernt es
+     * @param num 要删除的学生的 Matrikelnummer / Matrikelnummer des zu löschenden Studenten
+     * @note 如果未找到，输出提示信息 / Gibt eine Meldung aus, falls nicht gefunden
+     */
+    void delete_student(int num);
 
-            case '5':/**< 插入至链表头部 / Element vorne hinzufügen */
-            {
-                unsigned int matNr;
-                std::string name, geburtstag, adresse;
+    /**
+     * @brief 根据学号查找学生节点
+     *        Findet das Studentenelement anhand der Matrikelnummer
+     * @param matnum 要查找的 Matrikelnummer / Matrikelnummer des gesuchten Studenten
+     * @return 如果找到，返回对应的节点指针 / Zeiger auf das gefundene Listenelement, sonst nullptr
+     */
+    ListenElement* find_student(int matnum) const;
+};
 
-                std::cout << "Bitte geben Sie die Daten für den Studenten ein.\nName: ";
-                getline(std::cin, name);
-                std::cout << "Geburtsdatum: ";
-                getline(std::cin, geburtstag);
-                std::cout << "Adresse: ";
-                getline(std::cin, adresse);
-                std::cout << "Matrikelnummer: ";
-                std::cin >> matNr;
-                std::cin.ignore(10, '\n');
-
-                student = Student(matNr, name, geburtstag, adresse);
-                studentenListe.push_front(student);
-            }
-            break;
-
-            case '0':/**< 程序结束 / Programm beenden */
-                std::cout << "Das Programm wird nun beendet." << std::endl;
-                break;
-
-            default:/**< 输入错误提示 / Falsche Eingabe */
-                std::cout << "Falsche Eingabe, bitte nochmal." << std::endl;
-                break;
-        }
-    }
-    while (abfrage != '0');
-
-    return 0;
-}
+#endif /* LISTE_H_ */

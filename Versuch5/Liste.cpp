@@ -164,7 +164,9 @@ ListenElement* Liste::find_student(int matnum) const
         if (cur->getData().getMatNr() == matnum)
             return cur;
     }
+    std::cout<<"n"<<std::endl;
     return nullptr;
+
 }
 
 /**

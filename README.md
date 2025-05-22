@@ -17,6 +17,7 @@ Versuch02_Teil3/
 Versuch3/
 Versuch4/
 Versuch5/
+Versuch6/包含手写笔记
 README.md
 ```
 

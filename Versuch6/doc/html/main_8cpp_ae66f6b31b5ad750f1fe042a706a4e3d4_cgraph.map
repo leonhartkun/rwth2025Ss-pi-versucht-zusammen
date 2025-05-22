@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本..." alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000002" href="$class_student.html#a5560ff9c5da47ba8067cb37035e45e16" title="在终端输出学生信息 Gibt die Studentendaten auf der Konsole aus" alt="" coords="103,5,226,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,58,112,36,114,40,56,63"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a89e1073bfb78efddc7390889cf247eb6" title="DE: Fragt die Bestätigung für eine Aktion am Objekt ab. CN: 确认是否对某个学生对象执行指定操作。" alt="" coords="136,56,192,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,67,121,67,121,72,55,72"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a81ba6718c61eea2a27fc7bd442709252" title="DE: Erfasst die Eingabe eines neuen Studenten vom Benutzer. CN: 从用户处获取一个新的学生数据。" alt="" coords="131,107,198,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,76,117,100,115,105,54,81"/>
+</map>
