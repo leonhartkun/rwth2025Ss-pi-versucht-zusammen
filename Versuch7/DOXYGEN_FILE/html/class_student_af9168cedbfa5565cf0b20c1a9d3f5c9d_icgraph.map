@@ -1,0 +1,13 @@
+<map id="Student::Student" name="Student::Student">
+<area shape="rect" id="Node000001" title="默认构造函数 Standardkonstruktor" alt="" coords="191,107,310,133"/>
+<area shape="rect" id="Node000002" href="$class_student.html#a44b0dc0efbc95f687706f28363e897db" title="比较大小 vergleichen matnummer" alt="" coords="9,5,139,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,99,183,72,141,46,116,35,118,30,144,42,186,68,222,95"/>
+<area shape="rect" id="Node000003" href="$class_student.html#aa75f262c261070a618b5874c1b1482cf" title="Überladet den &lt;&lt;&#45;Operator, um einen Studenten auf einem Ausgabestrom auszugeben. 中文：重载 &lt;&lt; 运算符，用于将 Stu..." alt="" coords="5,56,143,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,104,122,86,124,81,188,99"/>
+<area shape="rect" id="Node000004" href="$class_student.html#a8f7c31ed0e331481ac58f12b2e822047" title="比较大小 vergleichen matnummer" alt="" coords="5,107,143,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,123,143,123,143,117,175,117"/>
+<area shape="rect" id="Node000005" href="$class_student.html#a8ed21df54035f4067179661924875aac" title="比较大小 vergleichen matnummer" alt="" coords="9,157,139,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="188,141,124,159,122,154,186,136"/>
+<area shape="rect" id="Node000006" href="$class_student.html#ab89b9056fa1df2469354f0e0f0e911ff" title="Überladet den &gt;&gt;&#45;Operator, um einen Studenten vom Eingabestrom einzulesen. 中文：重载 &gt;&gt; 运算符，用于从输入流中读取一个 S..." alt="" coords="5,208,143,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,145,186,172,144,198,118,210,116,205,141,194,183,168,219,141"/>
+</map>

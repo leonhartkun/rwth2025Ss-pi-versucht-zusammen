@@ -1,0 +1,123 @@
+\doxysection{main.\+cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Praktikum Informatik 1 MMXXV -\/ Versuch 7\+: Dynamische Datenstrukturen.  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include "{}Student.\+h"{}}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8cpp_a9c8092e004521f69fc5ef37db9061114}{FP}}~"{}D\+:\textbackslash{}\textbackslash{}rwth\+\_\+eclipse\+\_\+workstation\textbackslash{}\textbackslash{}\+Versuch6\textbackslash{}\textbackslash{}studenten.\+txt"{}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{main_8cpp_a89e1073bfb78efddc7390889cf247eb6}{check}} (\mbox{\hyperlink{class_student}{Student}} object, string action)
+\begin{DoxyCompactList}\small\item\em DE\+: Fragt die Bestätigung für eine Aktion am Objekt ab. CN\+: 确认是否对某个学生对象执行指定操作。 \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em 主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本菜单的学生数据库管理程序 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Praktikum Informatik 1 MMXXV -\/ Versuch 7\+: Dynamische Datenstrukturen. 
+
+\begin{DoxyVerb}   DE: Dieses Programm implementiert eine einfache Studentendatenbank basierend auf einem Vektor.
+   CN: 本程序为 Praktikum Informatik 1 的实验 7，使用 vector 实现了一个简单的学生数据库。
+
+   Funktionen umfassen:
+   - Einlesen von Studierendendaten aus einer Datei
+   - Ausgabe der Daten vorwärts und rückwärts
+   - Hinzufügen/Löschen von Einträgen an verschiedenen Positionen
+   - Speichern der Daten in eine Datei
+
+   Hauptmenü-Befehle:
+   1: 读取文件 / Datei einlesen
+   2: 正序输出 / Vorwärts ausgeben
+   3: 反序输出 / Rückwärts ausgeben
+   4: 前插数据 / Element vorne einfügen
+   5: 删除末尾元素 / Hinten löschen
+   6: 删除开头元素 / Vorne löschen
+   7: 按索引插入 / Per Index einfügen
+   8: 按索引删除 / Per Index löschen
+   9: 保存文件 / In Datei speichern
+   0: 退出程序 / Beenden
+\end{DoxyVerb}
+
+
+\begin{DoxyAuthor}{Author}
+Jiakun Yu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2025-\/05-\/19 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{main_8cpp_a9c8092e004521f69fc5ef37db9061114}\index{main.cpp@{main.cpp}!FP@{FP}}
+\index{FP@{FP}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{FP}{FP}}
+{\footnotesize\ttfamily \label{main_8cpp_a9c8092e004521f69fc5ef37db9061114} 
+\#define FP~"{}D\+:\textbackslash{}\textbackslash{}rwth\+\_\+eclipse\+\_\+workstation\textbackslash{}\textbackslash{}\+Versuch6\textbackslash{}\textbackslash{}studenten.\+txt"{}}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a89e1073bfb78efddc7390889cf247eb6}\index{main.cpp@{main.cpp}!check@{check}}
+\index{check@{check}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily \label{main_8cpp_a89e1073bfb78efddc7390889cf247eb6} 
+bool check (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_student}{Student}}}]{object}{, }\item[{string}]{action}{}\end{DoxyParamCaption})}
+
+
+
+DE\+: Fragt die Bestätigung für eine Aktion am Objekt ab. CN\+: 确认是否对某个学生对象执行指定操作。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em object} & Das betroffene Student-\/\+Objekt / 要操作的学生对象 \\
+\hline
+{\em action} & Die Aktion (als String) / 操作描述（如"{}löschen"{}） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true bei Bestätigung / 用户确认执行返回 true 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{main_8cpp_a89e1073bfb78efddc7390889cf247eb6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+主函数 / Hauptfunktion Führt ein textbasiertes Menü aus zur Verwaltung einer Studentendatenbank 运行一个基于文本菜单的学生数据库管理程序 
+
+\begin{DoxyReturn}{Returns}
+int Rückgabewert 0 bei regulärem Programmende / 程序正常结束时返回 0 
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<} 输入错误提示 / Falsche Eingabe

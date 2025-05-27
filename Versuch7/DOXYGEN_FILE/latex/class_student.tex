@@ -1,0 +1,280 @@
+\doxysection{Student Class Reference}
+\hypertarget{class_student}{}\label{class_student}\index{Student@{Student}}
+
+
+表示一名学生，包括学号、姓名、生日和地址。 Repräsentiert einen Studenten mit Matrikelnummer, Name, Geburtstag und Adresse.  
+
+
+
+
+{\ttfamily \#include $<$Student.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_student_af9168cedbfa5565cf0b20c1a9d3f5c9d}{Student}} ()
+\begin{DoxyCompactList}\small\item\em 默认构造函数 Standardkonstruktor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_student_aa09e2fb7eaf10abcad7ae243a424507a}{Student}} (unsigned int mat\+Nr, string name, string geburtstag, string address)
+\begin{DoxyCompactList}\small\item\em 构造函数，带有全部初始化信息 Konstruktor mit vollständigen Informationen \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_student_a4b8bf48bc0e35673793210bd03cb4f23}{get\+Mat\+Nr}} () const
+\begin{DoxyCompactList}\small\item\em 获取学号 / Gibt die Matrikelnummer zurück \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_student_a1df6c28e6416e20d338b9ff11bdc1e04}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em 获取姓名 / Gibt den Namen zurück \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_student_a0ad771ec842768815eb1d1ddc3a381d2}{get\+Geburtstag}} () const
+\begin{DoxyCompactList}\small\item\em 获取出生日期 / Gibt das Geburtsdatum zurück \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_student_a271664663500849336931bdb5d8fb549}{get\+Adresse}} () const
+\begin{DoxyCompactList}\small\item\em 获取地址 / Gibt die Adresse zurück \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_student_a5560ff9c5da47ba8067cb37035e45e16}{ausgabe}} () const
+\begin{DoxyCompactList}\small\item\em 在终端输出学生信息 Gibt die Studentendaten auf der Konsole aus \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_student_a8ed21df54035f4067179661924875aac}{operator$>$}} (const \mbox{\hyperlink{class_student}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em 比较大小 vergleichen matnummer \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_student_a44b0dc0efbc95f687706f28363e897db}{operator$<$}} (const \mbox{\hyperlink{class_student}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em 比较大小 vergleichen matnummer \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_student_a8f7c31ed0e331481ac58f12b2e822047}{operator==}} (const \mbox{\hyperlink{class_student}{Student}} \&other) const
+\begin{DoxyCompactList}\small\item\em 比较大小 vergleichen matnummer \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_student_aa75f262c261070a618b5874c1b1482cf}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_student}{Student}} \&student)
+\begin{DoxyCompactList}\small\item\em Überladet den \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<}-\/Operator, um einen Studenten auf einem Ausgabestrom auszugeben. 中文：重载 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 运算符，用于将 \doxylink{class_student}{Student} 对象输出到输出流。 \end{DoxyCompactList}\item 
+istream \& \mbox{\hyperlink{class_student_ab89b9056fa1df2469354f0e0f0e911ff}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{class_student}{Student}} \&s)
+\begin{DoxyCompactList}\small\item\em Überladet den \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>}-\/Operator, um einen Studenten vom Eingabestrom einzulesen. 中文：重载 \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} 运算符，用于从输入流中读取一个 \doxylink{class_student}{Student} 对象。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+表示一名学生，包括学号、姓名、生日和地址。 Repräsentiert einen Studenten mit Matrikelnummer, Name, Geburtstag und Adresse. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_student_af9168cedbfa5565cf0b20c1a9d3f5c9d}\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{Student()}{Student()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_student_af9168cedbfa5565cf0b20c1a9d3f5c9d} 
+Student\+::\+Student (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+默认构造函数 Standardkonstruktor 
+
+默认构造函数：创建一个空学生对象 Standardkonstruktor, der einen leeren Studenten erstellt Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_student_af9168cedbfa5565cf0b20c1a9d3f5c9d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_student_aa09e2fb7eaf10abcad7ae243a424507a}\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{Student()}{Student()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_student_aa09e2fb7eaf10abcad7ae243a424507a} 
+Student\+::\+Student (\begin{DoxyParamCaption}\item[{unsigned int}]{mat\+Nr}{, }\item[{string}]{name}{, }\item[{string}]{geburtstag}{, }\item[{string}]{adresse}{}\end{DoxyParamCaption})}
+
+
+
+构造函数，带有全部初始化信息 Konstruktor mit vollständigen Informationen 
+
+构造函数：创建一个完整的学生对象 Konstruktor, der einen neuen Studenten mit allen Werten erstellt
+
+
+\begin{DoxyParams}{Parameters}
+{\em mat\+Nr} & 学号 / Matrikelnummer \\
+\hline
+{\em name} & 姓名 / Name \\
+\hline
+{\em geburtstag} & 出生日期 / Geburtstag (z.\+B. "{}01.\+01.\+2000"{}) \\
+\hline
+{\em address} & 地址 / Adresse\\
+\hline
+{\em mat\+Nr} & 学号 / Matrikelnummer \\
+\hline
+{\em name} & 姓名 / Name \\
+\hline
+{\em geburtstag} & 出生日期 / Geburtstag \\
+\hline
+{\em adresse} & 地址 / Adresse \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_student_a5560ff9c5da47ba8067cb37035e45e16}\index{Student@{Student}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily \label{class_student_a5560ff9c5da47ba8067cb37035e45e16} 
+void Student\+::ausgabe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+在终端输出学生信息 Gibt die Studentendaten auf der Konsole aus 
+
+输出学生的全部数据（控制台输出） Gibt alle Daten des Studenten in einer Zeile aus Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_student_a5560ff9c5da47ba8067cb37035e45e16_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_student_a271664663500849336931bdb5d8fb549}\index{Student@{Student}!getAdresse@{getAdresse}}
+\index{getAdresse@{getAdresse}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getAdresse()}{getAdresse()}}
+{\footnotesize\ttfamily \label{class_student_a271664663500849336931bdb5d8fb549} 
+string Student\+::get\+Adresse (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+获取地址 / Gibt die Adresse zurück 
+
+获取学生地址 Gibt die Adresse des Studenten zurück
+
+\begin{DoxyReturn}{Returns}
+地址 / Adresse 
+\end{DoxyReturn}
+\Hypertarget{class_student_a0ad771ec842768815eb1d1ddc3a381d2}\index{Student@{Student}!getGeburtstag@{getGeburtstag}}
+\index{getGeburtstag@{getGeburtstag}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getGeburtstag()}{getGeburtstag()}}
+{\footnotesize\ttfamily \label{class_student_a0ad771ec842768815eb1d1ddc3a381d2} 
+string Student\+::get\+Geburtstag (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+获取出生日期 / Gibt das Geburtsdatum zurück 
+
+获取学生出生日期 Gibt den Geburtstag des Studenten zurück
+
+\begin{DoxyReturn}{Returns}
+出生日期 / Geburtstag 
+\end{DoxyReturn}
+\Hypertarget{class_student_a4b8bf48bc0e35673793210bd03cb4f23}\index{Student@{Student}!getMatNr@{getMatNr}}
+\index{getMatNr@{getMatNr}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getMatNr()}{getMatNr()}}
+{\footnotesize\ttfamily \label{class_student_a4b8bf48bc0e35673793210bd03cb4f23} 
+unsigned int Student\+::get\+Mat\+Nr (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+获取学号 / Gibt die Matrikelnummer zurück 
+
+获取学生的学号 Gibt die Matrikelnummer des Studenten zurück
+
+\begin{DoxyReturn}{Returns}
+学号 / Matrikelnummer 
+\end{DoxyReturn}
+\Hypertarget{class_student_a1df6c28e6416e20d338b9ff11bdc1e04}\index{Student@{Student}!getName@{getName}}
+\index{getName@{getName}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{class_student_a1df6c28e6416e20d338b9ff11bdc1e04} 
+string Student\+::get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+获取姓名 / Gibt den Namen zurück 
+
+获取学生姓名 Gibt den Namen des Studenten zurück
+
+\begin{DoxyReturn}{Returns}
+姓名 / Name 
+\end{DoxyReturn}
+\Hypertarget{class_student_a44b0dc0efbc95f687706f28363e897db}\index{Student@{Student}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily \label{class_student_a44b0dc0efbc95f687706f28363e897db} 
+bool Student\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_student}{Student}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+比较大小 vergleichen matnummer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_student_a8f7c31ed0e331481ac58f12b2e822047}\index{Student@{Student}!operator==@{operator==}}
+\index{operator==@{operator==}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily \label{class_student_a8f7c31ed0e331481ac58f12b2e822047} 
+bool Student\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_student}{Student}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+比较大小 vergleichen matnummer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_student_a8ed21df54035f4067179661924875aac}\index{Student@{Student}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily \label{class_student_a8ed21df54035f4067179661924875aac} 
+bool Student\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_student}{Student}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+比较大小 vergleichen matnummer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_student_aa75f262c261070a618b5874c1b1482cf}\index{Student@{Student}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily \label{class_student_aa75f262c261070a618b5874c1b1482cf} 
+ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os}{, }\item[{const \mbox{\hyperlink{class_student}{Student}} \&}]{student}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Überladet den \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<}-\/Operator, um einen Studenten auf einem Ausgabestrom auszugeben. 中文：重载 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 运算符，用于将 \doxylink{class_student}{Student} 对象输出到输出流。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em student} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_student_ab89b9056fa1df2469354f0e0f0e911ff}\index{Student@{Student}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily \label{class_student_ab89b9056fa1df2469354f0e0f0e911ff} 
+istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is}{, }\item[{\mbox{\hyperlink{class_student}{Student}} \&}]{s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Überladet den \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>}-\/Operator, um einen Studenten vom Eingabestrom einzulesen. 中文：重载 \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} 运算符，用于从输入流中读取一个 \doxylink{class_student}{Student} 对象。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & Der Eingabestrom（输入流，例如 cin） \\
+\hline
+{\em s} & Das Student-\/\+Objekt, das eingelesen werden soll（要读取的学生对象） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referenz auf den Eingabestrom（返回输入流本身，允许链式操作） 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_student_8h}{Student.\+h}}\item 
+\mbox{\hyperlink{_student_8cpp}{Student.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,72 @@
+\doxysection{Student.\+cpp File Reference}
+\hypertarget{_student_8cpp}{}\label{_student_8cpp}\index{Student.cpp@{Student.cpp}}
+
+
+Implementierung der Klasse \doxylink{class_student}{Student} 学生类的实现部分  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}Student.\+h"{}}\newline
+Include dependency graph for Student.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{_student_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{_student_8cpp_aa75f262c261070a618b5874c1b1482cf}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_student}{Student}} \&student)
+\begin{DoxyCompactList}\small\item\em Überladet den \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<}-\/Operator, um einen Studenten auf einem Ausgabestrom auszugeben. 中文：重载 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 运算符，用于将 \doxylink{class_student}{Student} 对象输出到输出流。 \end{DoxyCompactList}\item 
+istream \& \mbox{\hyperlink{_student_8cpp_ab89b9056fa1df2469354f0e0f0e911ff}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{class_student}{Student}} \&s)
+\begin{DoxyCompactList}\small\item\em Überladet den \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>}-\/Operator, um einen Studenten vom Eingabestrom einzulesen. 中文：重载 \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} 运算符，用于从输入流中读取一个 \doxylink{class_student}{Student} 对象。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementierung der Klasse \doxylink{class_student}{Student} 学生类的实现部分 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_student_8cpp_aa75f262c261070a618b5874c1b1482cf}\index{Student.cpp@{Student.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Student.cpp@{Student.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily \label{_student_8cpp_aa75f262c261070a618b5874c1b1482cf} 
+ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os}{, }\item[{const \mbox{\hyperlink{class_student}{Student}} \&}]{student}{}\end{DoxyParamCaption})}
+
+
+
+Überladet den \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<}-\/Operator, um einen Studenten auf einem Ausgabestrom auszugeben. 中文：重载 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 运算符，用于将 \doxylink{class_student}{Student} 对象输出到输出流。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em student} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{_student_8cpp_ab89b9056fa1df2469354f0e0f0e911ff}\index{Student.cpp@{Student.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Student.cpp@{Student.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily \label{_student_8cpp_ab89b9056fa1df2469354f0e0f0e911ff} 
+istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is}{, }\item[{\mbox{\hyperlink{class_student}{Student}} \&}]{s}{}\end{DoxyParamCaption})}
+
+
+
+Überladet den \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>}-\/Operator, um einen Studenten vom Eingabestrom einzulesen. 中文：重载 \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} 运算符，用于从输入流中读取一个 \doxylink{class_student}{Student} 对象。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & Der Eingabestrom（输入流，例如 cin） \\
+\hline
+{\em s} & Das Student-\/\+Objekt, das eingelesen werden soll（要读取的学生对象） \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Referenz auf den Eingabestrom（返回输入流本身，允许链式操作） 
+\end{DoxyReturn}

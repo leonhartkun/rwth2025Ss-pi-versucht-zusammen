@@ -1,0 +1,20 @@
+<map id="main.cpp" name="main.cpp">
+<area shape="rect" id="Node000001" title="Praktikum Informatik 1 MMXXV &#45; Versuch 7: Dynamische Datenstrukturen." alt="" coords="296,5,371,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,89,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,32,104,80,103,75,296,27"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,80,184,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="302,35,196,76,194,71,300,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="274,155,327,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,35,274,54,261,66,251,81,247,97,252,113,274,142,270,145,247,115,242,97,246,79,257,63,271,50,301,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="260,80,317,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="328,34,307,68,302,65,324,31"/>
+<area shape="rect" id="Node000006" href="$_student_8h.html" title=" " alt="" coords="342,80,419,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="344,31,366,66,362,68,340,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="444,80,509,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="360,30,439,70,437,75,357,35"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="532,80,607,107"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="372,29,519,74,517,79,370,34"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="631,80,708,107"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="372,25,616,77,615,82,371,30"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="368,109,327,146,323,142,365,105"/>
+</map>
