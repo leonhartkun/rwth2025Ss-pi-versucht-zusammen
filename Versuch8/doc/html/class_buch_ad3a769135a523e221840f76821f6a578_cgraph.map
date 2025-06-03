@@ -1,0 +1,5 @@
+<map id="Buch::ausgabe" name="Buch::ausgabe">
+<area shape="rect" id="Node000001" title="Gibt Informationen zum Buch in den übergebenen Ausgabestrom aus." alt="" coords="5,5,114,32"/>
+<area shape="rect" id="Node000002" href="$class_medium.html#ae22cc34cfd479a9ddf61c9d6c340427b" title="Ausgabefunktion." alt="" coords="162,5,286,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,16,146,16,146,21,114,21"/>
+</map>

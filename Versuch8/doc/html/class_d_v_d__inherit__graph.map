@@ -1,0 +1,5 @@
+<map id="DVD" name="DVD">
+<area shape="rect" id="Node000001" title="Repräsentiert eine DVD als spezielles Medium." alt="" coords="14,80,64,107"/>
+<area shape="rect" id="Node000002" href="$class_medium.html" title="Basisklasse für sämtliche Medien." alt="" coords="5,5,73,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="42,48,42,80,36,80,36,48"/>
+</map>

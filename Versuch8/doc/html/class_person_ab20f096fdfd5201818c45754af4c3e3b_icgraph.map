@@ -1,0 +1,9 @@
+<map id="Person::getName" name="Person::getName">
+<area shape="rect" id="Node000001" title="Zugriffsfunktion auf den Namen der Person." alt="" coords="365,31,488,57"/>
+<area shape="rect" id="Node000002" href="$class_medium.html#a98261c5da2a63906799f298cbbcd66b8" title="Ausleihen&#45;Funktion." alt="" coords="187,31,317,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,47,317,47,317,41,350,41"/>
+<area shape="rect" id="Node000003" href="$class_d_v_d.html#a70c30e0b6b96df84fdaae5a8cb069ef4" title="Verleiht die DVD an eine Person, falls das Alter geeignet ist." alt="" coords="15,5,129,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,35,129,29,130,24,171,30"/>
+<area shape="rect" id="Node000004" href="$class_magazin.html#af64fe3e3431aa4493e1b5d701696a9e1" title="Verleiht das Magazin, falls es noch nicht ausgeliehen ist." alt="" coords="5,56,139,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="172,58,140,63,139,57,171,53"/>
+</map>

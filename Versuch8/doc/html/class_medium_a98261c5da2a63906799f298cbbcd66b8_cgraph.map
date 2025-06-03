@@ -1,0 +1,5 @@
+<map id="Medium::ausleihen" name="Medium::ausleihen">
+<area shape="rect" id="Node000001" title="Ausleihen&#45;Funktion." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="Node000002" href="$class_person.html#ab20f096fdfd5201818c45754af4c3e3b" title="Zugriffsfunktion auf den Namen der Person." alt="" coords="184,5,307,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,16,168,16,168,21,136,21"/>
+</map>

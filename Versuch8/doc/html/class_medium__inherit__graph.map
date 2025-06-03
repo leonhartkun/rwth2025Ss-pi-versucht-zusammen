@@ -1,0 +1,9 @@
+<map id="Medium" name="Medium">
+<area shape="rect" id="Node000001" title="Basisklasse für sämtliche Medien." alt="" coords="72,5,139,32"/>
+<area shape="rect" id="Node000002" href="$class_buch.html" title="Repräsentiert ein Buch als spezielles Medium." alt="" coords="5,80,57,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,45,46,82,42,78,80,41"/>
+<area shape="rect" id="Node000003" href="$class_d_v_d.html" title="Repräsentiert eine DVD als spezielles Medium." alt="" coords="80,80,131,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,48,108,80,103,80,103,48"/>
+<area shape="rect" id="Node000004" href="$class_magazin.html" title="Repräsentiert eine Zeitschrift als spezielles Medium." alt="" coords="154,80,225,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,40,177,78,173,82,130,45"/>
+</map>

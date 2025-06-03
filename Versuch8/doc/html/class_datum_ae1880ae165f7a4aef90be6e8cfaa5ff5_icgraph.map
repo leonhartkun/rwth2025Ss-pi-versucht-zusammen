@@ -1,0 +1,9 @@
+<map id="Datum::Datum" name="Datum::Datum">
+<area shape="rect" id="Node000001" title="Standartkonstruktor." alt="" coords="177,56,284,83"/>
+<area shape="rect" id="Node000002" href="$class_datum.html#ab580376d6838d4b3176606b061d7fe74" title="Additionsoperator." alt="" coords="5,5,129,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,53,112,35,113,30,171,48"/>
+<area shape="rect" id="Node000003" href="$class_datum.html#a8e9f8000e2869bacbf1cac80ac2ff7ee" title="Subtraktionsoperator." alt="" coords="7,56,127,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,72,127,72,127,67,161,67"/>
+<area shape="rect" id="Node000004" href="$class_datum.html#ae083121165ba9b060bab456f156ef4df" title="Zuweisungsoperator." alt="" coords="5,107,129,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="171,90,113,109,112,104,170,85"/>
+</map>

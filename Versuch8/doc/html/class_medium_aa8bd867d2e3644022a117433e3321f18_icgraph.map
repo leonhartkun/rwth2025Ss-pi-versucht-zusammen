@@ -1,0 +1,9 @@
+<map id="Medium::Medium" name="Medium::Medium">
+<area shape="rect" id="Node000001" title="Konstruktor." alt="" coords="181,56,302,83"/>
+<area shape="rect" id="Node000002" href="$class_buch.html#a9188109e0ced75920d8d2978714e4ff9" title="Konstruktor zum Initialisieren eines Buches." alt="" coords="24,5,114,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,54,113,34,115,29,180,48"/>
+<area shape="rect" id="Node000003" href="$class_d_v_d.html#aa97609c2c72c1206ba9c2ea868b97a2e" title="Konstruktor für eine DVD." alt="" coords="25,56,113,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,72,113,72,113,67,165,67"/>
+<area shape="rect" id="Node000004" href="$class_magazin.html#a6397156e7ce7dd671032248794131f23" title="Konstruktor für ein Magazin." alt="" coords="5,107,133,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,90,118,109,116,104,178,85"/>
+</map>

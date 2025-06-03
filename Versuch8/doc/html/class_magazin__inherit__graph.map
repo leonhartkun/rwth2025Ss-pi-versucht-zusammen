@@ -1,0 +1,5 @@
+<map id="Magazin" name="Magazin">
+<area shape="rect" id="Node000001" title="Repräsentiert eine Zeitschrift als spezielles Medium." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="Node000002" href="$class_medium.html" title="Basisklasse für sämtliche Medien." alt="" coords="7,5,74,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,48,43,80,38,80,38,48"/>
+</map>

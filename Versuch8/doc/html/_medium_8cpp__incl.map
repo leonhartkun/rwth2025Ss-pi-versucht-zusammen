@@ -1,0 +1,17 @@
+<map id="Medium.cpp" name="Medium.cpp">
+<area shape="rect" id="Node000001" title="Implementierung der Basisklasse Medium für das Praktikum Informatik 1." alt="" coords="36,5,129,32"/>
+<area shape="rect" id="Node000002" href="$_medium_8h.html" title=" " alt="" coords="43,80,122,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,33,85,64,80,64,80,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="9,304,62,331"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="71,34,52,55,34,81,18,117,10,155,8,191,12,227,28,289,23,290,7,228,3,191,5,154,13,115,29,79,48,52,67,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="116,304,187,331"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="98,31,118,52,135,79,153,135,161,193,161,246,158,289,153,288,156,246,155,193,148,136,131,81,114,55,94,34"/>
+<area shape="rect" id="Node000003" href="$_datum_8h.html" title=" " alt="" coords="73,229,145,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,106,109,154,113,214,108,214,104,155,86,108"/>
+<area shape="rect" id="Node000006" href="$_person_8h.html" title=" " alt="" coords="20,155,94,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="80,108,69,141,64,139,75,106"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,258,61,295,57,291,94,255"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="119,255,139,289,134,292,114,258"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="68,180,93,215,89,218,64,183"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="58,182,42,289,37,288,53,181"/>
+</map>

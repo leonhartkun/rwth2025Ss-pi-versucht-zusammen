@@ -1,0 +1,15 @@
+<map id="Magazin.h" name="Magazin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="50,5,131,32"/>
+<area shape="rect" id="Node000002" href="$_medium_8h.html" title=" " alt="" coords="51,80,130,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,33,93,64,88,64,88,33"/>
+<area shape="rect" id="Node000003" href="$_datum_8h.html" title=" " alt="" coords="17,229,89,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,108,62,215,57,214,85,107"/>
+<area shape="rect" id="Node000006" href="$_person_8h.html" title=" " alt="" coords="91,155,164,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="99,106,117,140,112,142,94,108"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="101,304,154,331"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="68,255,106,291,102,295,64,258"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,304,77,331"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="54,257,48,289,43,288,48,256"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="117,184,78,221,75,217,113,180"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="130,182,130,288,125,288,125,182"/>
+</map>

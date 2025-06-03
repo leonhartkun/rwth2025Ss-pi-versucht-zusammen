@@ -1,0 +1,5 @@
+<map id="Person::getGeburtsdatum" name="Person::getGeburtsdatum">
+<area shape="rect" id="Node000001" title="Zugriffsfunktion auf das Geburtsdatum der Person." alt="" coords="167,5,337,32"/>
+<area shape="rect" id="Node000002" href="$class_d_v_d.html#a70c30e0b6b96df84fdaae5a8cb069ef4" title="Verleiht die DVD an eine Person, falls das Alter geeignet ist." alt="" coords="5,5,119,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,21,119,21,119,16,151,16"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Medium::ausgabe" name="Medium::ausgabe">
+<area shape="rect" id="Node000001" title="Ausgabefunktion." alt="" coords="181,56,305,83"/>
+<area shape="rect" id="Node000002" href="$class_buch.html#ad3a769135a523e221840f76821f6a578" title="Gibt Informationen zum Buch in den übergebenen Ausgabestrom aus." alt="" coords="15,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,54,117,35,118,30,180,48"/>
+<area shape="rect" id="Node000003" href="$class_d_v_d.html#ac76a2bf133c62585e74d52a19f2ae802" title="Gibt alle Informationen zur DVD in den angegebenen Ausgabestrom aus." alt="" coords="15,56,123,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,72,123,72,123,67,165,67"/>
+<area shape="rect" id="Node000004" href="$class_magazin.html#ac9a6156907ae930f09d6e679c591089f" title="Gibt die Informationen des Magazins in den Ausgabestrom aus." alt="" coords="5,107,133,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,90,118,109,117,104,179,85"/>
+</map>
