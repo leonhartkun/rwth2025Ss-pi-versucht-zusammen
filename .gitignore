@@ -1,5 +1,4 @@
 cmake-build-*/
 .idea/
-*.exe
 *.obj
 *.log
