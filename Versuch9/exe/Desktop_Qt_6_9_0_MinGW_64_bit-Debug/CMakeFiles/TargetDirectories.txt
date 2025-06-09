@@ -1,0 +1,13 @@
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Versuch9.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Versuch9_lupdate.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/update_translations.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Versuch9_lrelease.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/release_translations.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Versuch9_autogen_timestamp_deps.dir
+D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/Versuch9_autogen.dir

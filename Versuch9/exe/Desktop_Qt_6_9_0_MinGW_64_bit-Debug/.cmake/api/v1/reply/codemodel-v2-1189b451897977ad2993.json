@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-66830e8f556d8e8b9c19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Versuch9",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Versuch9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Versuch9-Debug-3e874df31122d1b99468.json",
+					"name" : "Versuch9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Versuch9_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Versuch9_autogen-Debug-b4c615d7f2342acd64f0.json",
+					"name" : "Versuch9_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Versuch9_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Versuch9_autogen_timestamp_deps-Debug-f0a25ff4a28543e1e21f.json",
+					"name" : "Versuch9_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Versuch9_lrelease::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Versuch9_lrelease-Debug-496c72c8ef4f25123a00.json",
+					"name" : "Versuch9_lrelease",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Versuch9_lupdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Versuch9_lupdate-Debug-0df6b407d1651b6c7905.json",
+					"name" : "Versuch9_lupdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release_translations-Debug-f6816ebe83dbc7c00c73.json",
+					"name" : "release_translations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update_translations-Debug-f1af3b6fa5b1c11640da.json",
+					"name" : "update_translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/rwth_eclipse_workstation/Versuch9/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+		"source" : "D:/rwth_eclipse_workstation/Versuch9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
