@@ -1,0 +1,5 @@
+<map id="add_city" name="add_city">
+<area shape="rect" id="Node000001" title="Dialogklasse zum Hinzufügen einer Stadt." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,48,43,80,38,80,38,48"/>
+</map>

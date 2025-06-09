@@ -1,0 +1,5 @@
+<map id="SmallTown::SmallTown" name="SmallTown::SmallTown">
+<area shape="rect" id="Node000001" title="Konstruktor für SmallTown." alt="" coords="5,5,163,32"/>
+<area shape="rect" id="Node000002" href="$class_city.html#a9e29f32d33f56bdf59cba425a7e08bd8" title="Konstruktor für City." alt="" coords="211,5,288,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,16,195,16,195,21,163,21"/>
+</map>

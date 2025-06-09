@@ -1,0 +1,5 @@
+<map id="Street" name="Street">
+<area shape="rect" id="Node000001" title="Repräsentiert eine allgemeine Straße zwischen zwei Städten." alt="" coords="5,112,62,139"/>
+<area shape="rect" id="Node000002" href="$class_city.html" title="Repräsentiert eine allgemeine Stadt mit Position und Name." alt="" coords="11,5,56,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,47,36,112,31,112,31,47"/>
+</map>

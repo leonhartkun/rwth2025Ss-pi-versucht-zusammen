@@ -1,0 +1,5 @@
+<map id="check::check_street" name="check::check_street">
+<area shape="rect" id="Node000001" title="Überprüft, ob eine Straße zwischen zwei Städten gültig hinzugefügt werden kann." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="Node000002" href="$class_map.html#a0062006ddc13d41c2eca4979fa34a86b" title="Findet eine Stadt anhand ihres Namens." alt="" coords="193,5,292,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,16,177,16,177,21,145,21"/>
+</map>

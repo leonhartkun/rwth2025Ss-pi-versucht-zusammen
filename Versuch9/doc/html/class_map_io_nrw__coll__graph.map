@@ -1,0 +1,5 @@
+<map id="MapIoNrw" name="MapIoNrw">
+<area shape="rect" id="Node000001" title="Stellt eine fest kodierte Beispielkarte von NRW zur Verfügung." alt="" coords="5,80,87,107"/>
+<area shape="rect" id="Node000002" href="$class_map_io.html" title="Abstrakte Klasse zum Hinzufügen von Städten und Straßen zu einer Karte." alt="" coords="17,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,48,49,80,43,80,43,48"/>
+</map>

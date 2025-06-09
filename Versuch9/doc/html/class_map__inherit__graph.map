@@ -1,0 +1,5 @@
+<map id="Map" name="Map">
+<area shape="rect" id="Node000001" title="Konkrete Implementierung einer Karte mit Städten und Straßen." alt="" coords="30,80,76,107"/>
+<area shape="rect" id="Node000002" href="$class_abstract_map.html" title=" " alt="" coords="5,5,101,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,48,56,80,50,80,50,48"/>
+</map>

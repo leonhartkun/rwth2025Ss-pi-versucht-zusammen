@@ -1,0 +1,9 @@
+<map id="Street::get_start" name="Street::get_start">
+<area shape="rect" id="Node000001" title="Gibt die Startstadt zurück." alt="" coords="202,56,317,83"/>
+<area shape="rect" id="Node000002" href="$class_map.html#a61d294ea5825c8fb5bc4096e9cec2667" title="Fügt eine Straße zur Karte hinzu." alt="" coords="24,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,54,129,35,130,30,195,49"/>
+<area shape="rect" id="Node000003" href="$class_map.html#a70ad7dd376aa71119c8dc05eed75fd05" title="Berechnet die Länge einer Straße." alt="" coords="24,56,135,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,72,136,72,136,67,186,67"/>
+<area shape="rect" id="Node000004" href="$class_map.html#a8342e4a44a89b2da7f7cd7c5e817723e" title="Gibt die gegenüberliegende Stadt einer Straße zurück." alt="" coords="5,107,154,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="195,90,130,109,129,104,194,85"/>
+</map>

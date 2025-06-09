@@ -1,0 +1,5 @@
+<map id="Map::findCity" name="Map::findCity">
+<area shape="rect" id="Node000001" title="Findet eine Stadt anhand ihres Namens." alt="" coords="193,5,292,32"/>
+<area shape="rect" id="Node000002" href="$classcheck.html#af7be0782684af47725bf481fc4009840" title="Überprüft, ob eine Straße zwischen zwei Städten gültig hinzugefügt werden kann." alt="" coords="5,5,145,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,21,145,21,145,16,177,16"/>
+</map>

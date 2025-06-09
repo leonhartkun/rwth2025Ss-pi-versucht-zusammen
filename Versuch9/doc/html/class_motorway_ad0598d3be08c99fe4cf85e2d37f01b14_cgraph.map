@@ -1,0 +1,5 @@
+<map id="Motorway::Motorway" name="Motorway::Motorway">
+<area shape="rect" id="Node000001" title="Konstruktor für eine Autobahn." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="Node000002" href="$class_street.html#a6b46b32e856030ff31d09ff0011e25e4" title="Konstruktor für eine Straße zwischen zwei Städten." alt="" coords="197,5,296,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,16,181,16,181,21,149,21"/>
+</map>

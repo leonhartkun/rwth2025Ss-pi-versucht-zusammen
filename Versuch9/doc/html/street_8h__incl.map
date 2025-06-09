@@ -1,0 +1,9 @@
+<map id="street.h" name="street.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,5,129,32"/>
+<area shape="rect" id="Node000002" href="$city_8h.html" title=" " alt="" coords="70,80,123,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,33,99,64,94,64,94,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,71,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,109,60,144,56,141,84,106"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="95,155,216,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="109,106,138,141,134,144,105,109"/>
+</map>

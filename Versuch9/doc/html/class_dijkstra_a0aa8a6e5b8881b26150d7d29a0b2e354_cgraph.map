@@ -1,0 +1,11 @@
+<map id="Dijkstra::search" name="Dijkstra::search">
+<area shape="rect" id="Node000001" title="Dijkstra Algorithm to find the shortest path between two towns." alt="" coords="5,81,119,108"/>
+<area shape="rect" id="Node000002" href="$class_abstract_map.html#a09ddd4db3021602aa2c0ca343a8dd3a2" title="Search for a city in this map by given name." alt="" coords="191,5,340,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,78,166,42,188,34,189,39,168,46,89,83"/>
+<area shape="rect" id="Node000003" href="$class_abstract_map.html#a4457b31b90038c291b84675941400238" title="Calculate the street length." alt="" coords="185,56,346,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,85,169,79,170,84,120,90"/>
+<area shape="rect" id="Node000004" href="$class_abstract_map.html#a621f60a374d486d6cebbfc1d038cfc64" title="Look for opposite city." alt="" coords="167,107,364,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,99,151,103,151,108,119,104"/>
+<area shape="rect" id="Node000005" href="$class_abstract_map.html#add9d35daea37d6e08391be612e7038e3" title="Search for streets in this map." alt="" coords="177,157,354,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="89,106,168,143,189,150,188,155,166,148,87,111"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AbstractMap::addStreet" name="AbstractMap::addStreet">
+<area shape="rect" id="Node000001" title="Adds the provided street to this map. If the cities linked by the street have not been added to this ..." alt="" coords="206,31,365,57"/>
+<area shape="rect" id="Node000002" href="$class_map_io_fileinput.html#ad574efdd17dea380a9034468cc0231f8" title="Liest die Karteninformationen aus Dateien und befüllt die Karte." alt="" coords="5,5,158,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,35,158,31,159,26,190,30"/>
+<area shape="rect" id="Node000003" href="$class_map_io_nrw.html#ab81d348eadcf8f729c3abc6f1e9517e0" title="Befüllt die Karte mit vordefinierten Städten und Straßen." alt="" coords="18,56,145,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,58,146,64,145,59,190,53"/>
+</map>

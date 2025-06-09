@@ -1,0 +1,7 @@
+<map id="Map::addStreet" name="Map::addStreet">
+<area shape="rect" id="Node000001" title="Fügt eine Straße zur Karte hinzu." alt="" coords="5,31,116,57"/>
+<area shape="rect" id="Node000002" href="$class_street.html#a743065af5998c10c82831c7c96c99895" title="Gibt die Zielstadt zurück." alt="" coords="166,5,276,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,33,151,27,151,32,117,38"/>
+<area shape="rect" id="Node000003" href="$class_street.html#ac9953cfc8e2115b646ed07492b8b21d5" title="Gibt die Startstadt zurück." alt="" coords="164,56,279,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,50,149,55,148,60,116,55"/>
+</map>

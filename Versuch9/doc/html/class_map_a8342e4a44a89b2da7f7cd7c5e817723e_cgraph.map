@@ -1,0 +1,7 @@
+<map id="Map::getOppositeCity" name="Map::getOppositeCity">
+<area shape="rect" id="Node000001" title="Gibt die gegenüberliegende Stadt einer Straße zurück." alt="" coords="5,31,154,57"/>
+<area shape="rect" id="Node000002" href="$class_street.html#a743065af5998c10c82831c7c96c99895" title="Gibt die Zielstadt zurück." alt="" coords="204,5,314,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,31,189,26,190,31,154,36"/>
+<area shape="rect" id="Node000003" href="$class_street.html#ac9953cfc8e2115b646ed07492b8b21d5" title="Gibt die Startstadt zurück." alt="" coords="202,56,317,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,52,187,56,186,62,154,57"/>
+</map>

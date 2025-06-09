@@ -1,0 +1,9 @@
+<map id="Ui::MainWindow" name="Ui::MainWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,248,123,275"/>
+<area shape="rect" id="Node000002" href="$class_ui___main_window.html" title=" " alt="" coords="6,172,122,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,214,67,248,61,248,61,214"/>
+<area shape="rect" id="Node000003" href="$classmouse__control.html" title="Erweiterte QGraphicsView mit Zoomfunktion per Mausrad." alt="" coords="11,81,117,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,124,67,171,61,171,61,124"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="8,5,120,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="67,47,67,81,61,81,61,47"/>
+</map>

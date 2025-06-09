@@ -1,0 +1,9 @@
+<map id="MapIoFileinput::fillMap" name="MapIoFileinput::fillMap">
+<area shape="rect" id="Node000001" title="Liest die Karteninformationen aus Dateien und befüllt die Karte." alt="" coords="5,56,158,83"/>
+<area shape="rect" id="Node000002" href="$class_abstract_map.html#a9938512c5ef94370786a3d1a72aa7e37" title="Adds the provided city to this map." alt="" coords="211,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,53,213,34,215,39,139,58"/>
+<area shape="rect" id="Node000003" href="$class_abstract_map.html#a179d25c28087d9090314caff024b1f46" title="Adds the provided street to this map. If the cities linked by the street have not been added to this ..." alt="" coords="206,56,365,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,67,190,67,190,72,158,72"/>
+<area shape="rect" id="Node000004" href="$class_abstract_map.html#a09ddd4db3021602aa2c0ca343a8dd3a2" title="Search for a city in this map by given name." alt="" coords="211,107,360,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="139,81,215,100,213,105,138,86"/>
+</map>

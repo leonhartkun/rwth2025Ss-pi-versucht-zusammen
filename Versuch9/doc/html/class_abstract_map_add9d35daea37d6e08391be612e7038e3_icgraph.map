@@ -1,0 +1,5 @@
+<map id="AbstractMap::getStreetList" name="AbstractMap::getStreetList">
+<area shape="rect" id="Node000001" title="Search for streets in this map." alt="" coords="167,5,344,32"/>
+<area shape="rect" id="Node000002" href="$class_dijkstra.html#a0aa8a6e5b8881b26150d7d29a0b2e354" title="Dijkstra Algorithm to find the shortest path between two towns." alt="" coords="5,5,119,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,21,119,21,119,16,151,16"/>
+</map>

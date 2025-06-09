@@ -1,0 +1,5 @@
+<map id="BigTown::BigTown" name="BigTown::BigTown">
+<area shape="rect" id="Node000001" title="Konstruktor für BigTown." alt="" coords="5,5,135,32"/>
+<area shape="rect" id="Node000002" href="$class_city.html#a9e29f32d33f56bdf59cba425a7e08bd8" title="Konstruktor für City." alt="" coords="183,5,260,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,16,167,16,167,21,135,21"/>
+</map>

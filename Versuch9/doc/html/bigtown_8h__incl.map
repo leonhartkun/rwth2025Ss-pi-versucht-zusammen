@@ -1,0 +1,11 @@
+<map id="bigtown.h" name="bigtown.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="58,5,135,32"/>
+<area shape="rect" id="Node000002" href="$city_8h.html" title=" " alt="" coords="70,80,123,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,33,99,64,94,64,94,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,71,181"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="89,34,74,55,60,81,51,111,44,140,39,139,45,110,56,79,70,53,84,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,155,218,181"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="109,31,138,79,156,139,151,140,133,81,104,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,109,60,144,56,141,84,106"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="109,105,140,141,136,145,105,109"/>
+</map>

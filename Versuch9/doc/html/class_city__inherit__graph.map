@@ -1,0 +1,9 @@
+<map id="City" name="City">
+<area shape="rect" id="Node000001" title="Repräsentiert eine allgemeine Stadt mit Position und Name." alt="" coords="117,5,162,32"/>
+<area shape="rect" id="Node000002" href="$class_big_town.html" title="Repräsentiert eine größere Stadt, die auf einer Karte gezeichnet werden kann." alt="" coords="5,80,77,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,60,82,56,77,109,39"/>
+<area shape="rect" id="Node000003" href="$class_small_city.html" title="Repräsentiert eine kleine Stadt auf der Karte." alt="" coords="100,80,179,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,48,142,80,137,80,137,48"/>
+<area shape="rect" id="Node000004" href="$class_small_town.html" title="Repräsentiert eine mittelgroße Stadt auf der Karte." alt="" coords="202,80,288,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,39,228,77,225,82,169,43"/>
+</map>

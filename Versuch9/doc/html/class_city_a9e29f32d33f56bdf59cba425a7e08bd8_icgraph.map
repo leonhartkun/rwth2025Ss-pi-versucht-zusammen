@@ -1,0 +1,9 @@
+<map id="City::City" name="City::City">
+<area shape="rect" id="Node000001" title="Konstruktor für City." alt="" coords="211,56,288,83"/>
+<area shape="rect" id="Node000002" href="$class_big_town.html#a729e10f45710fbcf1c2cb1f7128e1a57" title="Konstruktor für BigTown." alt="" coords="19,5,149,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,56,129,35,131,30,197,51"/>
+<area shape="rect" id="Node000003" href="$class_small_city.html#a365ebb9172045093e12576dd6b13eb06" title="Konstruktor für SmallCity." alt="" coords="12,56,156,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,72,156,72,156,67,195,67"/>
+<area shape="rect" id="Node000004" href="$class_small_town.html#adf5bf119c0fddfbe078eb7a3e412084c" title="Konstruktor für SmallTown." alt="" coords="5,107,163,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,88,131,109,129,104,195,83"/>
+</map>

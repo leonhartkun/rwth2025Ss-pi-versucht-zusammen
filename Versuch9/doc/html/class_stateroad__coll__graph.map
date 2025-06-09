@@ -1,0 +1,7 @@
+<map id="Stateroad" name="Stateroad">
+<area shape="rect" id="Node000001" title="Repräsentiert eine Landstraße zwischen zwei Städten." alt="" coords="5,188,83,215"/>
+<area shape="rect" id="Node000002" href="$class_street.html" title="Repräsentiert eine allgemeine Straße zwischen zwei Städten." alt="" coords="16,112,72,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,154,47,188,41,188,41,154"/>
+<area shape="rect" id="Node000003" href="$class_city.html" title="Repräsentiert eine allgemeine Stadt mit Position und Name." alt="" coords="21,5,67,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="47,47,47,112,41,112,41,47"/>
+</map>

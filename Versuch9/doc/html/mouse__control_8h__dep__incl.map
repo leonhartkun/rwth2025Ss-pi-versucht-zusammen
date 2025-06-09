@@ -1,0 +1,14 @@
+<map id="mouse_control.h" name="mouse_control.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="358,5,475,32"/>
+<area shape="rect" id="Node000002" href="$moc__mouse__control_8cpp.html" title=" " alt="" coords="5,80,236,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="364,40,234,82,232,77,363,35"/>
+<area shape="rect" id="Node000004" href="$ui__mainwindow_8h.html" title=" " alt="" coords="260,80,445,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="402,46,379,81,375,78,398,44"/>
+<area shape="rect" id="Node000005" href="$mainwindow_8cpp.html" title=" " alt="" coords="358,227,475,253"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="440,43,459,79,466,117,459,155,444,196,427,228,422,225,440,194,454,154,460,117,454,81,435,46"/>
+<area shape="rect" id="Node000006" href="$mouse__control_8cpp.html" title=" " alt="" coords="519,104,650,131"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="453,38,564,101,561,106,450,42"/>
+<area shape="rect" id="Node000003" href="$mocs__compilation_8cpp.html" title=" " alt="" coords="28,203,213,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,171,123,202,118,202,118,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="381,167,412,225,408,228,377,170"/>
+</map>

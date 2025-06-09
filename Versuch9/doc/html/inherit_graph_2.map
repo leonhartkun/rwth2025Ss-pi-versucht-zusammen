@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_city.html" title="Repräsentiert eine allgemeine Stadt mit Position und Name." alt="" coords="5,56,51,83"/>
+<area shape="rect" id="Node000001" href="$class_big_town.html" title="Repräsentiert eine größere Stadt, die auf einer Karte gezeichnet werden kann." alt="" coords="106,5,177,32"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="64,51,109,30,111,35,66,56"/>
+<area shape="rect" id="Node000002" href="$class_small_city.html" title="Repräsentiert eine kleine Stadt auf der Karte." alt="" coords="102,56,180,83"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="66,67,102,67,102,72,66,72"/>
+<area shape="rect" id="Node000003" href="$class_small_town.html" title="Repräsentiert eine mittelgroße Stadt auf der Karte." alt="" coords="99,107,184,133"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="66,83,111,104,109,109,64,88"/>
+</map>

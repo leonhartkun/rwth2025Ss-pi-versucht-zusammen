@@ -1,0 +1,7 @@
+<map id="MapIo" name="MapIo">
+<area shape="rect" id="Node000001" title="Abstrakte Klasse zum Hinzufügen von Städten und Straßen zu einer Karte." alt="" coords="88,5,146,32"/>
+<area shape="rect" id="Node000002" href="$class_map_io_fileinput.html" title="Implementiert das Einlesen von Stadt&#45; und Straßendaten aus Dateien." alt="" coords="5,80,112,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,46,71,81,67,78,95,43"/>
+<area shape="rect" id="Node000003" href="$class_map_io_nrw.html" title="Stellt eine fest kodierte Beispielkarte von NRW zur Verfügung." alt="" coords="135,80,216,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,43,168,78,164,81,135,46"/>
+</map>
