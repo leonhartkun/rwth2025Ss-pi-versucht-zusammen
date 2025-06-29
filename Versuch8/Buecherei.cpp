@@ -41,6 +41,7 @@ void mediumEntfernen(std::vector<Medium*>& medien);
 void mediumAusleihen(std::vector<Medium*>& medien, Datum aktuellesDatum);
 void mediumZurueckgeben(std::vector<Medium*>& medien);
 void alleMedienAusgeben(std::vector<Medium*>& medien);
+void AlleAusgeleihenenMedienAusgeben(std::vector<Medium*>& medien);
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -74,6 +75,7 @@ int main()
                   << "(3): Datenbank ausgeben" << std::endl
                   << "(4): Ein Medium verleihen" << std::endl
                   << "(5): Ein Medium zurücknehmen" << std::endl
+                  << "(6): Alle Ausgeliehenen Medien auszugeben." << std::endl
                   << "(7): Beenden" << std::endl;
 
         // Einlesen der Abfrage
@@ -125,6 +127,12 @@ int main()
             case '5':
             {
                 mediumZurueckgeben(medien);
+                break;
+            }
+
+            case '6':
+            {
+                AlleAusgeleihenenMedienAusgeben(medien);
                 break;
             }
 
@@ -416,5 +424,22 @@ void alleMedienAusgeben(std::vector<Medium*>& medien)
     {
         std::cout << "*************************************************************" << std::endl;
         medien[index]->ausgabe(std::cout);
+    }
+}
+
+void AlleAusgeleihenenMedienAusgeben(std::vector<Medium*>& medien) {
+    std::cout << "Vorhandene Medien in der Bücherei:" << std::endl;
+    int num = 0;
+
+    for (unsigned int index = 0; index < medien.size(); index++)
+    {
+        if (medien[index]->get_status()) {
+            std::cout << "*************************************************************" << std::endl;
+            medien[index]->ausgabe(std::cout);
+            num+=1;
+        }
+    }
+    if (num == 0) {
+        std::cout << "Derzeit sind keine Medien ausgeliehen."<<std::endl;
     }
 }

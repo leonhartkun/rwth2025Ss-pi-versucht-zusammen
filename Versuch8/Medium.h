@@ -63,6 +63,8 @@ public:
      */
     unsigned int getID();
 
+    bool get_status() const;
+
 protected:
     /*!
      * @brief Statische Variable zum Erzeugen der fortlaufenden IDs

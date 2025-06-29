@@ -113,3 +113,7 @@ unsigned int Medium::getID()
 {
     return ID;
 }
+
+bool Medium::get_status() const{
+    return status;
+}
