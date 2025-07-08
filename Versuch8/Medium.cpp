@@ -117,3 +117,8 @@ unsigned int Medium::getID()
 bool Medium::get_status() const{
     return status;
 }
+
+std::ostream& operator<<(std::ostream& os, const Medium& m) {
+    m.ausgabe(os);
+    return os;
+}

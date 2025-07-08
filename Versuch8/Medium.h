@@ -65,6 +65,8 @@ public:
 
     bool get_status() const;
 
+    friend std::ostream& operator<<(std::ostream& os, const Medium& medium);
+
 protected:
     /*!
      * @brief Statische Variable zum Erzeugen der fortlaufenden IDs

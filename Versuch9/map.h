@@ -150,6 +150,10 @@ public:
      * @param mode 要设置的模式
      */
     void set_cost_mode(CostMode mode) override;
+
+    void draw_city(QGraphicsScene& scene) const;
+
+    void draw_street(QGraphicsScene& scene) const;
 };
 
 #endif // MAP_H

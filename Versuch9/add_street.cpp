@@ -35,6 +35,7 @@ void add_street::on_add_street_button_clicked()
 {
     city_from = ui->from_combo->currentText();
     city_to = ui->to_combo->currentText();
+    street_type = ui->type_combo->currentText();
 
     accept();  // 确认并关闭对话框
 }
@@ -63,6 +64,10 @@ QString add_street::get_to_city(){
     return city_to;
 }
 
+QString add_street::get_street_type(){
+    return street_type;
+}
+
 /**
  * @brief Füllt die Kombinationsfelder mit verfügbaren Städten aus der Karte
  * @brief Populates the combo boxes with available cities from the map
@@ -83,4 +88,6 @@ void add_street::set_combo(Map* map)
         ui->to_combo->addItem(cityname);
         ui->from_combo->addItem(cityname);
     }
+    ui->type_combo->addItem("Stateroad");
+    ui->type_combo->addItem("motorway");
 }

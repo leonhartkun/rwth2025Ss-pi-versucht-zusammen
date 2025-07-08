@@ -175,6 +175,12 @@ private:
      * @brief 指向当前地图的指针
      */
     Map* map = new Map();
+    /**
+     * @brief Focus on the city point
+     * @brief 聚焦城市
+     */
+    void zoom_to_point(const QPointF &scene_point, qreal factor);
+
 };
 
 #endif // MAINWINDOW_H

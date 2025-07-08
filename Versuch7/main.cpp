@@ -134,7 +134,16 @@ int main()
                     student_tmp = Student(matnum, name, geburtstag, address);
                     studentenListe.push_back(student_tmp);
                 }
-
+                if (studentenListe.size() == 0) {
+                    cout<<"Liste ist empty"<<endl;
+                    break;
+                }
+                int num = 0;
+                for (auto it = studentenListe.begin(); it != studentenListe.end(); it++) {
+                    cout<<"("<<num<<")";
+                    cout<<*it<<endl;
+                    num++;
+                }
                 break;
             }
 
@@ -233,6 +242,10 @@ int main()
             }
             case '9':// case 9: Element nach Matrikelnummer löschen / 按学号删除
             {
+                if (studentenListe.size() == 0) {
+                    cout<<"Liste ist empty"<<endl;
+                    break;
+                }
                 cout<<"Bitte geben Sie die Matrikelnummer ein:"<<endl;
                 string matnum_s;
                 getline(cin,matnum_s);
@@ -242,9 +255,20 @@ int main()
                 if (check(*index,"loeschen")) {
                     studentenListe.erase(index);
                     cout<<"Datei geloescht"<<endl;
+                }
+                else {
+                    cout<<"Datei wurde nicht geloescht"<<endl;
+                }
+                if (studentenListe.size() == 0) {
+                    cout<<"Liste ist empty"<<endl;
                     break;
                 }
-                cout<<"Datei wurde nicht geloescht"<<endl;
+                int num = 0;
+                for (auto it = studentenListe.begin(); it != studentenListe.end(); it++) {
+                    cout<<"("<<num<<")";
+                    cout<<*it<<endl;
+                    num++;
+                }
                 break;
             }
             case 'A':// case A: Datei speichern / 保存至文件

@@ -36,6 +36,21 @@ void Map::draw(QGraphicsScene& scene) const
     }
 }
 
+void Map::draw_city(QGraphicsScene& scene) const
+{
+    for (auto it = cities.begin(); it != cities.end(); ++it)
+    {
+        (*it)->draw(scene);
+    }
+}
+
+void Map::draw_street(QGraphicsScene& scene) const
+{
+    for (auto it = streets.begin(); it != streets.end(); ++it)
+    {
+        (*it)->draw_street(scene);
+    }
+}
 /**
  * @brief Sucht eine Stadt nach ihrem Namen
  * @brief Searches for a city by its name

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>252</width>
+    <width>312</width>
     <height>78</height>
    </rect>
   </property>
@@ -14,19 +14,6 @@
    <string>Dialog</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="1">
-    <widget class="QLabel" name="to">
-     <property name="text">
-      <string>To</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="1">
-    <widget class="QComboBox" name="to_combo"/>
-   </item>
-   <item row="2" column="0">
-    <widget class="QComboBox" name="from_combo"/>
-   </item>
    <item row="0" column="0">
     <widget class="QLabel" name="from">
      <property name="text">
@@ -34,12 +21,35 @@
      </property>
     </widget>
    </item>
-   <item row="3" column="0" colspan="2">
+   <item row="2" column="0">
+    <widget class="QComboBox" name="from_combo"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="to_combo"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="to">
+     <property name="text">
+      <string>To</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="rodetype">
+     <property name="text">
+      <string>Rode type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="3">
     <widget class="QPushButton" name="add_street_button">
      <property name="text">
       <string>Add Street</string>
      </property>
     </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QComboBox" name="type_combo"/>
    </item>
   </layout>
  </widget>

@@ -15,6 +15,7 @@
 /* Durch setzen dieser Variable künnen Sie entscheiden, welche Includes alle eingebunden werden sollen
  * Bei setzen auf true sind alle abgeleiteten Klassen (Buch, DVD, Magazin) vorhanden
  * Bei setzen auf false ist nur die Basisklasse Medium vorhanden
+ *
  */
  
 #define UNTERKLASSENVORHANDEN true
@@ -423,7 +424,7 @@ void alleMedienAusgeben(std::vector<Medium*>& medien)
     for (unsigned int index = 0; index < medien.size(); index++)
     {
         std::cout << "*************************************************************" << std::endl;
-        medien[index]->ausgabe(std::cout);
+        std::cout << *medien[index] << std::endl;
     }
 }
 
@@ -435,7 +436,7 @@ void AlleAusgeleihenenMedienAusgeben(std::vector<Medium*>& medien) {
     {
         if (medien[index]->get_status()) {
             std::cout << "*************************************************************" << std::endl;
-            medien[index]->ausgabe(std::cout);
+            std::cout << *medien[index] << std::endl;
             num+=1;
         }
     }

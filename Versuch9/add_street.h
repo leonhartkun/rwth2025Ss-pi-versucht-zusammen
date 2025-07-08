@@ -55,6 +55,7 @@ public:
      */
     QString get_to_city();
 
+    QString get_street_type();
     /**
      * @brief Setzt die ComboBox mit verfügbaren Städten
      * @brief Populates the combo boxes with available cities
@@ -88,6 +89,8 @@ private:
     /// @brief Name of the destination city
     /// @brief 终点城市名称
     QString city_to;
+
+    QString street_type;
 };
 
 #endif // ADD_STREET_H

@@ -40,6 +40,7 @@ protected:
      */
     int slowspeed = 50;
 
+
 public:
     /**
      * @brief Konstruktor für eine Straße zwischen zwei Städten

@@ -11,14 +11,28 @@
 #include "mapiofileinput.h"
 #include "check.h"
 #include "add_street.h"
+#include "motorway.h"
+#include "stateroad.h"
 #include <QMessageBox>
 #include <QRandomGenerator>
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QGraphicsTextItem>
 #include <QFileDialog>
+#include <QPropertyAnimation>
+#include <QSequentialAnimationGroup>
+#include <QEasingCurve>
+#include <QTimer>
 
 #define TEST true
+
+/*
+ * 长期非测试部分
+ * 1. add city
+ * 2. add street
+ * 3. find way
+ * 4. read document
+ */
 
 MainWindow::MainWindow(QWidget *parent)
         : QMainWindow(parent)
@@ -28,6 +42,9 @@ MainWindow::MainWindow(QWidget *parent)
     {
         ui->setupUi(this);
         scene = new QGraphicsScene(this);
+        // 在 MainWindow 构造里，setupUi(this) 之后加这行
+        ui->graphicsView->setTransformationAnchor(QGraphicsView::AnchorViewCenter);
+
         ui->graphicsView->setScene(scene);
     }
     ui->test->setVisible(false);
@@ -38,14 +55,17 @@ MainWindow::MainWindow(QWidget *parent)
     ui->from_combo->setVisible(false);
     ui->to->setVisible(false);
     ui->to_combo->setVisible(false);
-    ui->confirm->setVisible(false);
     ui->fastmode->setVisible(false);
-    ui->label_eingabe->setVisible(false);
-    ui->lineEdit->setVisible(false);
-    ui->fill_map->setVisible(false);
+    ui->info_eingabe->setVisible(false);
+    ui->confirm->setVisible(false);
+    //ui->label_eingabe->setVisible(false);
+    //ui->lineEdit->setVisible(false);
+    //ui->fill_map->setVisible(false);
     map = new Map();
     mapIo = new MapIoNrw();
 
+    // 然后自动伸缩到所有 item
+    ui->graphicsView->fitInView(scene->itemsBoundingRect(), Qt::KeepAspectRatio);
 
 }
 
@@ -54,6 +74,21 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::zoom_to_point(const QPointF &scene_point, qreal factor)
+{
+    auto view = ui->graphicsView;
+
+    view->setTransformationAnchor(QGraphicsView::AnchorViewCenter);
+
+    view->resetTransform();
+
+    view->centerOn(scene_point);
+
+    view->scale(factor,factor);
+
+}
+
 
 void MainWindow::on_test_clicked()
 {
@@ -78,7 +113,35 @@ void MainWindow::on_lineEdit_returnPressed()
 {
     QString line_text_return = ui->lineEdit->text();
     qDebug()<<line_text_return;
+    ui->info_eingabe->setVisible(true);
+
     ui->lineEdit->clear();
+    const auto &cities = map->get_city_list();
+    bool flag = false; int city_x; int city_y;
+    for (auto *it : cities){
+        QString name = it->getname();
+        if (name == line_text_return)
+        {
+            flag = true;
+            city_x = it->get_x();
+            city_y = it->get_y();
+            break;
+        };
+
+    }
+    if (flag){
+        ui->info_eingabe->setText("Find the city "+line_text_return);
+        ui->info_eingabe->setStyleSheet("color:blue;");
+        QPointF target_city_point(city_x,city_y);
+        zoom_to_point(target_city_point,1.5);
+        ui->info_eingabe->setVisible(false);
+        return;
+    }
+    else{
+        ui->info_eingabe->setText("Can't find the city "+line_text_return);
+        ui->info_eingabe->setStyleSheet("color:red;");
+        return;
+    }
 
 }
 
@@ -92,6 +155,20 @@ void MainWindow::on_actionexit_triggered()
 void MainWindow::on_actionclear_Scene_triggered()
 {
     scene->clear();
+    //ui->test->setVisible(false);
+    //ui->test_draw_city->setVisible(false);
+    //ui->draw_map->setVisible(false);
+    //ui->draw_street->setVisible(false);
+    ui->from->setVisible(false);
+    ui->from_combo->setVisible(false);
+    ui->to->setVisible(false);
+    ui->to_combo->setVisible(false);
+    ui->fastmode->setVisible(false);
+    ui->info_eingabe->setVisible(false);
+    ui->confirm->setVisible(false);
+    //ui->label_eingabe->setVisible(false);
+    //ui->lineEdit->setVisible(false);
+    //ui->fill_map->setVisible(false);
 }
 
 
@@ -112,27 +189,37 @@ void MainWindow::on_test_draw_city_clicked()
 
 void MainWindow::on_draw_map_clicked()
 {
-
-    map->draw(*scene);
+    map->clear();
+    QString fileName_city ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/city_file_small.txt";
+    QString fileName_street ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/street_file_small.txt";
+    MapIo* file_reader = new MapIoFileinput(fileName_city, fileName_street);
+    file_reader -> fillMap(*map);
+    map->draw_city(*scene);
+    map->clear();
 }
 
 
 void MainWindow::on_draw_street_clicked()
 {
-    map->draw(*scene);
+    map->clear();
+    QString fileName_city ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/city_file_small.txt";
+    QString fileName_street ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/street_file_small.txt";
+    MapIo* file_reader = new MapIoFileinput(fileName_city, fileName_street);
+    file_reader -> fillMap(*map);
+    map->draw_street(*scene);
+    map->clear();
 }
 
 
 void MainWindow::on_check_test_clicked()
 {
     bool checked = ui->check_test->isChecked();
+
     ui->test->setVisible(checked);
     ui->test_draw_city->setVisible(checked);
     ui->draw_map->setVisible(checked);
     ui->draw_street->setVisible(checked);
-    ui->label_eingabe->setVisible(checked);
-    ui->lineEdit->setVisible(checked);
-    ui->fill_map->setVisible(checked);
+    //ui->fill_map->setVisible(checked);
 
 }
 
@@ -166,7 +253,7 @@ void MainWindow::on_add_city_clicked()
 
 void MainWindow::on_fill_map_clicked()
 {
-    mapIo->fillMap(*map);
+    //mapIo->fillMap(*map);
     map->draw(*scene);
 }
 
@@ -281,8 +368,8 @@ void MainWindow::on_read_document_clicked()
         return;
     }
 
-    //QString fileName_city ="D:/rwth_eclipse_workstation/Versuch9_gross_programm/txtFiles/city_file.txt";
-    //QString fileName_street ="D:/rwth_eclipse_workstation/Versuch9_gross_programm/txtFiles/street_file.txt";
+    //QString fileName_city ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/city_file.txt";
+    //QString fileName_street ="D:/rwth_eclipse_workstation/Versuch9/txtFiles/street_file.txt";
     MapIo* file_reader = new MapIoFileinput(file_city, file_street);
 
     file_reader -> fillMap(*map);
@@ -301,19 +388,24 @@ void MainWindow::on_add_street_clicked()
         {
             QString city_from = dialog.get_from_city();
             QString city_to = dialog.get_to_city();
-
+            QString steet_type = dialog.get_street_type();
             if (!check::check_street(map, city_from, city_to))
             {
                 QMessageBox::warning(this, "Invalid Input","Unknow City Name");
                 continue;
             }
-            Street* tmp_street = new Street(map->findCity(city_from),map->findCity(city_to));
-            if (tmp_street)
-            {
-                map->addStreet(tmp_street);
-                scene->clear();
-                map->draw(*scene);
+            Street *tmp_street = nullptr;
+            if (steet_type == "motorway"){
+                tmp_street = new Motorway(map->findCity(city_from),map->findCity(city_to));
+
             }
+            else{
+                tmp_street = new Stateroad(map->findCity(city_from),map->findCity(city_to));
+            }
+
+            map->addStreet(tmp_street);
+            scene->clear();
+            map->draw(*scene);
 
         }
         break;
